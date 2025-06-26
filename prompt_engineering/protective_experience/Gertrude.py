@@ -14,9 +14,10 @@ CHARACTER_NAME = "Gertrude"
 with open("prompts/protective_experience.txt", "r", encoding="utf-8") as f:
     base_prompt = f.read()
 
-full_prompt = base_prompt.format(character_name=CHARACTER_NAME)
+base_prompt = base_prompt.format(character_name=CHARACTER_NAME)
 
 all_experience = []
+
 
 # 5개의 summary 파일에 대해 반복
 for i in range(1, 5):

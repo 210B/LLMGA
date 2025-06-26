@@ -9,7 +9,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-CHARACTER_NAME = "Claudius"
+CHARACTER_NAME = "Ophelia"
 
 with open("prompts/protective_experience.txt", "r", encoding="utf-8") as f:
     base_prompt = f.read()
@@ -18,9 +18,10 @@ base_prompt = base_prompt.format(character_name=CHARACTER_NAME)
 
 all_experience = []
 
+
 # 5개의 summary 파일에 대해 반복
 for i in range(1, 5):
-    summary_file = f"summary{i}.txt"
+    summary_file = f"prompts/summary{i}.txt"
 
     with open(summary_file, "r", encoding="utf-8") as f:
         summary_prompt = f.read()
