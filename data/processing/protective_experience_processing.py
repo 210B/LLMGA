@@ -57,7 +57,7 @@ for file_path in csv_files:
             jsonl_lines.append(jsonl_line)
 
     # 저장
-    output_path = f"data/finetuning/{base_name}.jsonl"
+    output_path = f"data/finetuning/protective/{base_name}.jsonl"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, 'w', encoding='utf-8') as f:
