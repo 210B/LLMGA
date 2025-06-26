@@ -1,164 +1,129 @@
-{"Character": "Ghost", "Emotion": "ominous", "Description": "declaring ominously that it is indeed his father’s spirit, and that he was murdered by none other than Claudius"}
-{"Character": "Prince Hamlet", "Emotion": "melancholy", "Description": "entering into a deep melancholy and even apparent madness"}
-{"Character": "Hamlet", "Emotion": "vengeful", "Description": "devotes himself to avenging his father’s death"}
-{"Character": "Claudius", "Emotion": "worried", "Description": "worry about the prince’s erratic behavior"}
-{"Character": "Polonius", "Emotion": "deceptive", "Description": "hidden behind a tapestry"}
-{"Character": "Ophelia", "Emotion": "grief-stricken", "Description": "goes mad with grief and drowns in the river"}
-{"Character": "Laertes", "Emotion": "vengeful", "Description": "returns to Denmark in a rage"}
-{"Character": "Gertrude", "Emotion": "surprised", "Description": "swiftly killed by the poison"}
-{"Character": "Fortinbras", "Emotion": "stunned", "Description": "stunned by the gruesome sight of the entire royal family lying sprawled on the floor dead"}
-{"Character": "Claudius", "Emotion": "terror", "Description": "frightened of Hamlet’s madness and fearing for his own safety"}
-{"Character": "Hamlet", "Emotion": "tragic", "Description": "dies immediately after achieving his revenge"}
-{"Character": "Ghost", "Emotion": "ominous", "Description": "declaring that it is indeed his father’s spirit and that he was murdered by none other than Claudius"}
-{"Character": "Hamlet", "Emotion": "melancholy", "Description": "devotes himself to avenging his father’s death, entering into a deep melancholy and even apparent madness"}
-{"Character": "Polonius", "Emotion": "worried", "Description": "worries about the prince’s erratic behavior and attempts to discover its cause"}
-{"Character": "Claudius", "Emotion": "frightened", "Description": "now frightened of Hamlet’s madness and fearing for his own safety"}
-{"Character": "Ophelia", "Emotion": "mad with grief", "Description": "goes mad with grief and drowns in the river"}
-{"Character": "Laertes", "Emotion": "rage", "Description": "returns to Denmark in a rage, convinced that Hamlet is to blame for his father’s and sister’s deaths"}
-{"Character": "Gertrude", "Emotion": "swiftly killed", "Description": "takes a drink from the poisoned goblet and is swiftly killed by the poison"}
-{"Character": "Fortinbras", "Emotion": "stunned", "Description": "stunned by the gruesome sight of the entire royal family lying sprawled on the floor dead"}
-{"Character": "Ghost", "Emotion": "Ominous", "Description": "The ghost appears to Prince Hamlet, declares that it is his father's spirit, and reveals that he was murdered by Claudius."}
-{"Character": "Prince Hamlet", "Emotion": "Melancholic", "Description": "Hamlet enters a deep melancholy state after learning about his father's murder and delays seeking revenge."}
-{"Character": "Claudius and Gertrude", "Emotion": "Worried", "Description": "Claudius and Gertrude worry about Hamlet's erratic behavior and attempt to discover its cause."}
-{"Character": "Hamlet", "Emotion": "Mad", "Description": "Hamlet appears to be mad, but does not seem to love Ophelia."}
-{"Character": "Claudius", "Emotion": "Frightened", "Description": "Claudius becomes frightened of Hamlet's madness and orders him to be sent to England."}
-{"Character": "Hamlet", "Emotion": "Grief-Stricken", "Description": "Hamlet is grief-stricken after Ophelia's death and declares his love for her."}
-{"Character": "Gertrude", "Emotion": "Fear", "Description": "Gertrude drinks from a poisoned goblet given by Claudius and dies."}
-{"Character": "Laertes", "Emotion": "Rage", "Description": "Laertes returns to Denmark in a rage believing Hamlet is responsible for his father's and sister's deaths."}
-{"Character": "Laertes", "Emotion": "Revealing", "Description": "Laertes reveals to Hamlet that Claudius is responsible for the queen's death before dying."}
-{"Character": "Claudius", "Emotion": "Fear", "Description": "Claudius is forced to drink the poisoned wine by Hamlet and dies."}
-{"Character": "Hamlet", "Emotion": "Revengeful", "Description": "Hamlet achieves his revenge by killing Claudius and dies shortly after."}
-{"Character": "Midnight Guard", "Emotion": "Fear", "Description": "witnessed the appearance of the ghost of Old Hamlet"}
-{"Character": "Horatio", "Emotion": "Skepticism", "Description": "sees the ghost and decides to report its appearance to Hamlet"}
-{"Character": "Claudius", "Emotion": "Joy", "Description": "has been crowned as the new king of Denmark and has taken Gertrude as his wife"}
-{"Character": "Hamlet", "Emotion": "Disgust", "Description": "disgusted by his mother's decision to marry Claudius"}
-{"Character": "Polonius", "Emotion": "Suspicion", "Description": "sends Laertes to Paris and hatches a theory that Hamlet is insane"}
-{"Character": "Ophelia", "Emotion": "Agreement", "Description": "agrees to cut off contact with Hamlet"}
-{"Character": "Ghost of Old Hamlet", "Emotion": "Desire for Revenge", "Description": "reveals to Hamlet that Claudius murdered him and makes Hamlet promise to take revenge"}
-{"Character": "Claudius", "Emotion": "Guilty", "Description": "becomes extremely upset during the play 'The Mouse Trap' as he realizes he is guilty of his brother's murder"}
-{"Character": "Gertrude", "Emotion": "Flustered and Shaken", "Description": "upset by Hamlet's accusation and shaken by Claudius's guilt"}
-{"Character": "Polonius", "Emotion": "Alarm", "Description": "gets stabbed by Hamlet, mistaking him for Claudius"}
-{"Character": "Ophelia", "Emotion": "Madness", "Description": "goes mad following her father's death"}
-{"Character": "Laertes", "Emotion": "Demand for Explanation", "Description": "demands an explanation for Polonius' death upon his return to Denmark"}
-{"Character": "Hamlet", "Emotion": "Grief", "Description": "grieves at Ophelia's funeral and reveals his equal grief alongside Laertes"}
-{"Character": "Gertrude", "Emotion": "Poisoned", "Description": "drinks from the poisoned cup and declares she has been poisoned"}
-{"Character": "Laertes", "Emotion": "Confession", "Description": "confesses the plot to kill Hamlet to Hamlet"}
-{"Character": "Claudius", "Emotion": "Fear and Guilt", "Description": "gets stabbed by Hamlet with a poisoned sword and forced to drink poisoned wine"}
-{"Character": "Hamlet", "Emotion": "Vengeance", "Description": "kills Claudius and asks Horatio to tell his story as he dies"}
-{"Character": "Fortinbras", "Emotion": "Assertive", "Description": "arrives and asserts his right to the crown after all the royalty of Denmark is dead"}
-{"Character": "The midnight guard", "Emotion": "fear", "Description": "witnessed the appearance of the ghost of Old Hamlet"}
-{"Character": "Horatio", "Emotion": "skepticism", "Description": "sees the ghost and decides to report its appearance to Hamlet"}
-{"Character": "Claudius", "Emotion": "scheming", "Description": "murdered King Hamlet to steal his crown and wife"}
-{"Character": "Hamlet", "Emotion": "disgust", "Description": "disgusted by his mother's decision to marry Claudius"}
-{"Character": "Polonius", "Emotion": "concerned", "Description": "tests his theory by setting Ophelia on Hamlet"}
-{"Character": "Ophelia", "Emotion": "compliance", "Description": "agrees to cut off contact with Hamlet"}
-{"Character": "The ghost of Old Hamlet", "Emotion": "vengeful", "Description": "asks Hamlet to take revenge on Claudius"}
-{"Character": "Rosencrantz and Guildenstern", "Emotion": "curiosity", "Description": "summoned by Claudius to discover the meaning of Hamlet's behavior"}
-{"Character": "Polonius", "Emotion": "suspicion", "Description": "thinks Hamlet is insane due to Ophelia's rejection"}
-{"Character": "Gertrude", "Emotion": "shaken", "Description": "upset by Hamlet's accusation during the play"}
-{"Character": "Claudius", "Emotion": "guilt", "Description": "shaken by Hamlet's play and decides to get rid of Hamlet"}
-{"Character": "Hamlet", "Emotion": "accusatory", "Description": "accuses Gertrude of grotesque lust and insults"}
-{"Character": "Polonius", "Emotion": "fear", "Description": "killed by Hamlet during a confrontation"}
-{"Character": "Ophelia", "Emotion": "madness", "Description": "becomes mad following her father's death"}
-{"Character": "Laertes", "Emotion": "grief", "Description": "dramatizes his grief at Polonius' death"}
-{"Character": "Claudius", "Emotion": "plotting", "Description": "plots to have Hamlet killed in England and arranges a duel with a poisoned sword"}
-{"Character": "Gertrude", "Emotion": "discovery", "Description": "discovers Claudius' plot to kill Hamlet and arranges for deaths of Rosencrantz and Guildenstern"}
-{"Character": "Fortinbras", "Emotion": "assertive", "Description": "arrives at the court to claim the crown of Denmark"}
-{"Character": "Hamlet", "Emotion": "death", "Description": "dies after killing Claudius and being wounded by Laertes"}
-{"character": "Horatio", "emotion_state": "skeptical", "description": "Horatio witnesses the ghost of Old Hamlet and decides to report its appearance to Hamlet"}
-{"character": "Hamlet", "emotion_state": "disgusted", "description": "Hamlet is disgusted by his mother's decision to marry Claudius so soon after his father's demise"}
-{"character": "Hamlet", "emotion_state": "excited", "description": "Hamlet promises the ghost of Old Hamlet to take revenge on Claudius"}
-{"character": "Claudius", "emotion_state": "shaken", "description": "Claudius becomes upset during 'The Mouse Trap' play, as he is guilty of his brother's murder"}
-{"character": "Gertrude", "emotion_state": "flustered", "description": "Gertrude is flustered by Hamlet's veiled accusation during 'The Mouse Trap' play"}
-{"character": "Gertrude", "emotion_state": "convinced", "description": "Gertrude is convinced of Hamlet's madness after the ghost of Old Hamlet reappears"}
-{"character": "Hamlet", "emotion_state": "cruel", "description": "Hamlet behaves extremely cruelly toward Ophelia"}
-{"character": "Claudius", "emotion_state": "nervous", "description": "Claudius decides to poison Hamlet during the duel between Hamlet and Laertes"}
-{"character": "Laertes", "emotion_state": "grief-stricken", "description": "Laertes dramatizes his grief at Ophelia's funeral"}
-{"character": "Gertrude", "emotion_state": "poisoned", "description": "Gertrude drinks from the poisoned cup offered by Claudius"}
-{"character": "Laertes", "emotion_state": "confessing", "description": "Laertes confesses the whole plot to Hamlet before dying"}
-{"character": "Claudius", "emotion_state": "attacked", "description": "Claudius is attacked and killed by Hamlet with the poisoned sword"}
-{"character": "Hamlet", "emotion_state": "dying", "description": "Hamlet dies after defeating Claudius and fulfilling his revenge"}
-{"Character": "Prince Hamlet", "Emotion": "depressed", "Description": "Having been summoned home to Denmark from school in Germany to attend his father's funeral, shocked to find his mother Gertrude already remarried"}
-{"Character": "Hamlet", "Emotion": "confused", "Description": "More confused than ever, questions the Ghost's trustworthiness and agonizes over his perceived cowardice"}
-{"Character": "King Hamlet's Ghost", "Emotion": "complaint", "Description": "Complains to Hamlet that he was unable to rest in peace because he was murdered by Claudius"}
-{"Character": "Claudius", "Emotion": "conscience-stricken", "Description": "Leaves the room unable to breathe and with dimmed vision after watching the play that reveals his guilt"}
-{"Character": "Polonius", "Emotion": "spying", "Description": "Stabbed by Hamlet through a wallhanging while spying on Hamlet and Gertrude"}
-{"Character": "Ophelia", "Emotion": "distraught", "Description": "Drowns while singing sad love songs bemoaning the fate of a spurned lover"}
-{"Character": "Laertes", "Emotion": "vengeful", "Description": "Vows to punish Hamlet for Ophelia's death and plots with Claudius to kill him"}
-{"Character": "Horatio", "Emotion": "diversion", "Description": "Diverts Hamlet's attention during the sword fight by pointing out that 'The Queen falls'"}
-{"Character": "Gertrude", "Emotion": "believing", "Description": "Believing that Hamlet is winning, drinks from the poisoned cup intended for him and dies"}
-{"Character": "Prince Fortinbras", "Emotion": "ordering", "Description": "Orders a funeral with full military honors for slain Prince Hamlet as his first act as King of Denmark"}
-{"Character": "Prince Hamlet", "Emotion": "depressed", "Description": "Hamlet is depressed after being summoned home to Denmark from school in Germany for his father's funeral. He is shocked to find his mother has remarried his uncle and feels betrayed."}
-{"Character": "King Hamlet's Ghost", "Emotion": "troubled", "Description": "The ghost of King Hamlet visits the castle and reveals to Hamlet that he was murdered by Claudius, urging Hamlet to avenge his death."}
-{"Character": "Claudius", "Emotion": "conscience-stricken", "Description": "Claudius reacts strongly to the staged murder in the play performed by the troupe of players, revealing his guilty conscience. He leaves the room unable to breathe and with dimmed vision."}
-{"Character": "Polonius", "Emotion": "startled", "Description": "Polonius is startled and killed by Hamlet while spying on him and Gertrude in the Queen's private chamber."}
-{"Character": "Ophelia", "Emotion": "distraught", "Description": "Ophelia is distraught over her father's death and Hamlet's behavior. She drowns while singing sad love songs."}
-{"Character": "Laertes", "Emotion": "vengeful", "Description": "Laertes returns to Denmark to avenge his father's death and plans with Claudius to kill Hamlet. He ultimately dies from a poisoned sword."}
-{"Character": "Gertrude", "Emotion": "misguided", "Description": "Gertrude drinks from the poisoned cup intended for Hamlet, believing he is winning the fencing match. She dies as a result of the poison."}
-{"Character": "King Claudius", "Emotion": "guilt-ridden", "Description": "Claudius is stabbed with a poisoned sword by Hamlet and poisoned with wine. Before dying, he confesses to his crimes and the deaths that have occurred."}
-{"Character": "Prince Fortinbras", "Emotion": "determined", "Description": "Prince Fortinbras orders a funeral with full military honors for slain Prince Hamlet after declaring him the rightful heir to the throne."}
-{"character": "Prince Hamlet", "emotion": "depressed", "description": "Having been summoned home to Denmark from school in Germany to attend his father's funeral, he is shocked to find his mother Gertrude already remarried."}
-{"character": "Hamlet", "emotion": "confused", "description": "He finds himself more confused than ever in his attempt to affect madness and observe the interactions in the castle."}
-{"character": "King Hamlet's Ghost", "emotion": "complaint", "description": "Complains that he is unable to rest in peace because he was murdered by Claudius"}
-{"character": "Claudius", "emotion": "conscience-stricken", "description": "Leaves the room unable to breathe and with dimmed vision after watching a play that reveals his guilt."}
-{"character": "Polonius", "emotion": "spying", "description": "Is stabbed through a wallhanging while spying on Hamlet and Gertrude in the Queen's private chamber."}
-{"character": "Rosencrantz and Guildenstern", "emotion": "betrayed", "description": "Are hanged instead of Hamlet after being instructed by Claudius to deliver him to the English king for execution."}
-{"character": "Ophelia", "emotion": "distraught", "description": "Drowns while singing sad love songs bemoaning the fate of a spurned lover after her father's death and Hamlet's behavior."}
-{"character": "Laertes", "emotion": "vengeful", "description": "Vows to punish Hamlet for Ophelia's death and plots with Claudius to kill him."}
-{"character": "Horatio", "emotion": "devastated", "description": "Diverts Hamlet's attention from Laertes dying by pointing out that Gertrude has fallen."}
-{"character": "Gertrude", "emotion": "shock", "description": "Believes Hamlet is winning the fencing match and drinks from the poisoned cup intended for him, leading to her death."}
-{"character": "Prince Fortinbras", "emotion": "resolute", "description": "Orders a funeral with full military honors for slain Prince Hamlet and declares himself King of Denmark."}
-{"Character": "Marcellus", "Emotion": "terrified", "Description": "The terrified sentinels Marcellus convinced a skeptical nobleman, Horatio, to watch along with them one night."}
-{"Character": "Francisco", "Emotion": "terrified", "Description": "The terrified sentinels Francisco convinced a skeptical nobleman, Horatio, to watch along with them one night."}
-{"Character": "Barnardo", "Emotion": "terrified", "Description": "The terrified sentinels Barnardo convinced a skeptical nobleman, Horatio, to watch along with them one night."}
-{"Character": "Horatio", "Emotion": "skeptical", "Description": "Horatio is skeptical about the ghost but agrees to watch with the guardsmen."}
-{"Character": "Hamlet", "Emotion": "furious", "Description": "Hamlet cannot accept his uncle’s rule, furious about Gertrude's marriage to Claudius, and resentful of both his mother and his uncle for besmirching his father’s memory."}
-{"Character": "Hamlet", "Emotion": "enraged", "Description": "Hamlet is newly enraged after discovering that his father was poisoned by Claudius."}
-{"Character": "Hamlet", "Emotion": "uncertain", "Description": "Hamlet is uncertain if what the ghost said is true and struggles to decide whether he should actually kill his uncle."}
-{"Character": "Claudius", "Emotion": "satisfied", "Description": "Claudius seems to be satisfied with his position as king."}
-{"Character": "Polonius", "Emotion": "suspicious", "Description": "Polonius suspects that Hamlet's behavior is tied to his affections for Ophelia."}
-{"Character": "Rosencrantz", "Emotion": "dutiful", "Description": "Rosencrantz is dutiful in trying to find out what's wrong with Hamlet."}
-{"Character": "Guildenstern", "Emotion": "dutiful", "Description": "Guildenstern is dutiful in trying to find out what's wrong with Hamlet."}
-{"Character": "Gertrude", "Emotion": "angry", "Description": "Gertrude is angry with Hamlet's embarrassing behavior at the play."}
-{"Character": "Polonius", "Emotion": "shocked", "Description": "Polonius is shocked when Hamlet stabs him through the tapestry, killing him."}
-{"Character": "Claudius", "Emotion": "deceptive", "Description": "Claudius's real motivation is to have Hamlet killed."}
-{"Character": "Laertes", "Emotion": "vengeful", "Description": "Laertes returns to Denmark to avenge his father's death."}
-{"Character": "Ophelia", "Emotion": "insane", "Description": "Ophelia goes insane with grief over her father’s death and Hamlet’s rejection of her."}
-{"Character": "Hamlet", "Emotion": "existential", "Description": "Hamlet's existentialism reaches new peaks as he observes the gravediggers."}
-{"Character": "Gertrude", "Emotion": "dying", "Description": "Gertrude drinks the poisoned wine and dies."}
-{"Character": "Laertes", "Emotion": "dying", "Description": "Laertes forgives Hamlet before collapsing and dying."}
-{"Character": "Hamlet", "Emotion": "resigned", "Description": "Hamlet no longer cares whether he lives or dies."}
-{"Character": "Claudius", "Emotion": "guilty", "Description": "Claudius is revealed to be guilty by Laertes."}
-{"Character": "Hamlet", "Emotion": "victorious", "Description": "Hamlet kills Claudius and fulfills his revenge."}
-{"Character": "Hamlet", "Emotion": "dying", "Description": "Hamlet dies after the duel."}
-{"Character": "Marcellus", "Emotion": "Terrified", "Description": "stalking the ramparts and setting all the castle’s guardsmen on edge"}
-{"Character": "Francisco", "Emotion": "Terrified", "Description": "stalking the ramparts and setting all the castle’s guardsmen on edge"}
-{"Character": "Barnardo", "Emotion": "Terrified", "Description": "stalking the ramparts and setting all the castle’s guardsmen on edge"}
-{"Character": "Horatio", "Emotion": "Skeptical", "Description": "watching the ghost along with Marcellus, Francisco, and Barnardo"}
-{"Character": "Hamlet", "Emotion": "Furious", "Description": "about Gertrude's marriage to Claudius, resentful of both his mother and his uncle"}
-{"Character": "Hamlet", "Emotion": "Newly enraged", "Description": "after the ghost reveals that he was poisoned by Claudius"}
-{"Character": "Hamlet", "Emotion": "Uncertain", "Description": "if what the ghost said is true, struggling to decide whether he should actually kill his uncle"}
-{"Character": "Hamlet", "Emotion": "Half-mad and contemplating suicide", "Description": "delaying his revenge and beginning to act half-mad"}
-{"Character": "Polonius", "Emotion": "Believing", "Description": "Hamlet's behavior is tied to his affections for Ophelia"}
-{"Character": "Polonius", "Emotion": "Developing a plot", "Description": "to spy on a meeting between Hamlet and Ophelia"}
-{"Character": "Claudius", "Emotion": "Unsatisfied", "Description": "with Polonius’s assessment, summons Rosencrantz and Guildenstern"}
-{"Character": "Hamlet", "Emotion": "Investigating", "Description": "plots to have actors put on a play resembling Claudius’s alleged murder"}
-{"Character": "Hamlet", "Emotion": "Berating", "Description": "his mother for marrying Claudius"}
-{"Character": "Claudius", "Emotion": "Furious", "Description": "runs from the room during the play, proving his guilt in Hamlet’s eyes"}
-{"Character": "Hamlet", "Emotion": "Embarrassed", "Description": "by his behavior at the play, summoned by Gertrude"}
-{"Character": "Hamlet", "Emotion": "Nearly getting his chance for revenge", "Description": "when he encounters Claudius alone and praying"}
-{"Character": "Claudius", "Emotion": "Attempting", "Description": "to protect Hamlet from punishment for killing Polonius"}
-{"Character": "Laertes", "Emotion": "Stricken with grief", "Description": "over his father's death and Ophelia’s madness"}
-{"Character": "Claudius", "Emotion": "Convincing", "Description": "Laertes that Polonius’s death and Ophelia’s madness are Hamlet's fault"}
-{"Character": "Claudius", "Emotion": "Coming up with a new plot", "Description": "friendly duel between Hamlet and Laertes that is actually a trap"}
-{"Character": "Fortinbras", "Emotion": "Marching through Denmark", "Description": "with his army after a battle with the Polish"}
-{"Character": "Hamlet", "Emotion": "Bidding goodbye", "Description": "to Horatio as he dies"}
-{"Character": "Fortinbras", "Emotion": "Ordering", "Description": "Hamlet's body to be lifted up and displayed with honor and glory"}
-{"Character": "Horatio", "Emotion": "Skepticism", "Description": "Skeptical nobleman who is convinced by Marcellus, Francisco, and Barnardo to watch the ghost resembling the King of Denmark"}
-{"Character": "Hamlet", "Emotion": "Anger", "Description": "Furious about his mother's marriage to Claudius and resentful of both his mother and uncle for besmirching his father's memory"}
-{"Character": "Claudius", "Emotion": "Deceit", "Description": "Poisoned the King of Denmark, Hamlet's father, and plots to have Hamlet killed in England"}
-{"Character": "Polonius", "Emotion": "Suspicion", "Description": "Believes Hamlet's behavior is tied to his affections for Ophelia"}
-{"Character": "Ophelia", "Emotion": "Grief", "Description": "Goes insane with grief over her father's death and Hamlet's rejection, ultimately leading to her apparent suicide"}
-{"Character": "Laertes", "Emotion": "Vengeance", "Description": "Returns to Denmark to avenge his father's death and blames Hamlet for the tragedies that befall his family"}
-{"Character": "Gertrude", "Emotion": "Confusion", "Description": "Angry with Hamlet's embarrassing behavior and ultimately dies after drinking poisoned wine intended for Hamlet"}
-{"Character": "Fortinbras", "Emotion": "Determination", "Description": "Marches through Denmark with his army after a battle with the Polish, ready to ascend to the throne as the next King of Denmark"}
+{"Character": "Claudius", "Emotion": "concerned and suspicious", "Description": "Claudius worries about Hamlet’s behavior and employs Rosencrantz and Guildenstern to watch him."}
+{"Character": "Gertrude", "Emotion": "worried", "Description": "Gertrude shares Claudius’s concern over Hamlet's actions and seeks their cause."}
+{"Character": "Ophelia", "Emotion": "distressed", "Description": "Ophelia speaks with Hamlet, who orders her to enter a nunnery and rejects her."}
+{"Character": "Claudius", "Emotion": "guilty and alarmed", "Description": "Claudius leaps up and leaves the play when the murder scene is performed, inadvertently revealing his guilt."}
+{"Character": "Claudius", "Emotion": "afraid and resolute", "Description": "Claudius, fearing Hamlet, arranges for him to be sent to England with Rosencrantz and Guildenstern, and orders Hamlet’s death."}
+{"Character": "Ophelia", "Emotion": "grief-stricken", "Description": "Ophelia goes mad with grief over her father’s death and drowns in the river."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Claudius persuades Laertes to seek revenge on Hamlet and devises a plan to kill Hamlet during a fencing match."}
+{"Character": "Gertrude", "Emotion": "unaware, then dying", "Description": "Gertrude drinks from the poisoned goblet intended for Hamlet and dies."}
+{"Character": "Claudius", "Emotion": "frightened and dying", "Description": "Claudius is stabbed by Hamlet and forced to drink poison, leading to his death."}
+{"Character": "Claudius", "Emotion": "worried", "Description": "Claudius becomes concerned about Hamlet’s erratic behavior and attempts to discover the cause."}
+{"Character": "Gertrude", "Emotion": "concerned", "Description": "Gertrude is worried about Hamlet's strange behavior."}
+{"Character": "Claudius", "Emotion": "scheming", "Description": "Claudius agrees to spy on Hamlet in conversation with Ophelia."}
+{"Character": "Claudius", "Emotion": "guilty and alarmed", "Description": "During the play, Claudius leaps up and flees, confirming his guilt to Hamlet and Horatio."}
+{"Character": "Claudius", "Emotion": "terrified", "Description": "Claudius orders Hamlet to be sent to England, planning Hamlet's execution."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius arranges for Hamlet to be executed in England via sealed orders."}
+{"Character": "Ophelia", "Emotion": "grief-stricken and mad", "Description": "Ophelia goes mad with grief after Polonius’s death and drowns in the river."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Claudius concocts a plan to kill Hamlet by using Laertes’ desire for revenge and poisoning the fencing blade and the wine."}
+{"Character": "Gertrude", "Emotion": "unwitting", "Description": "Gertrude drinks the poisoned wine intended for Hamlet and dies."}
+{"Character": "Claudius", "Emotion": "mortally wounded and defeated", "Description": "Claudius dies from the wound and the poison."}
+{"Character": "Claudius", "Emotion": "anxious and suspicious", "Description": "Claudius and Gertrude worry about Hamlet’s odd behavior and arrange for Rosencrantz and Guildenstern to observe him."}
+{"Character": "Claudius", "Emotion": "scheming", "Description": "Claudius agrees to spy on Hamlet during a conversation with Ophelia to discover the source of his madness."}
+{"Character": "Claudius", "Emotion": "guilty and alarmed", "Description": "Claudius leaps up and leaves the room during the play when the murder scene is performed."}
+{"Character": "Claudius", "Emotion": "frightened and calculating", "Description": "Claudius, fearing for his safety due to Hamlet's behavior, orders Hamlet to be sent to England."}
+{"Character": "Claudius", "Emotion": "secretive and murderous", "Description": "Claudius sends Hamlet to England with Rosencrantz and Guildenstern, secretly ordering Hamlet’s execution."}
+{"Character": "Ophelia", "Emotion": "grief-stricken and mad", "Description": "Ophelia loses her mind after her father’s death and drowns in the river."}
+{"Character": "Claudius", "Emotion": "manipulative and desperate", "Description": "Claudius convinces Laertes to challenge Hamlet to a fencing match with a poisoned blade as part of a plot to kill Hamlet."}
+{"Character": "Claudius", "Emotion": "cunning", "Description": "Claudius prepares a poisoned goblet as a backup plan to kill Hamlet if Laertes fails."}
+{"Character": "Gertrude", "Emotion": "unwitting and doomed", "Description": "Gertrude drinks from the poisoned goblet intended for Hamlet and dies."}
+{"Character": "Claudius", "Emotion": "confident, diplomatic", "Description": "Claudius is crowned king, marries Gertrude, and diplomatically averts a threat from Fortinbras."}
+{"Character": "Ophelia", "Emotion": "obedient, resigned", "Description": "Ophelia agrees to reject Hamlet, following her father and brother's advice."}
+{"Character": "Claudius", "Emotion": "suspicious, worried", "Description": "Claudius summons Rosencrantz and Guildenstern to find out the cause of Hamlet's strange behavior."}
+{"Character": "Ophelia", "Emotion": "submissive, regretful", "Description": "Ophelia meets Hamlet while being watched, as part of Polonius' plan."}
+{"Character": "Claudius", "Emotion": "suspicious, resolved", "Description": "After observing Hamlet's behavior, Claudius concludes that Hamlet is mad for some reason other than love."}
+{"Character": "Gertrude", "Emotion": "flustered, defensive", "Description": "Gertrude becomes upset by Hamlet's insinuations during the play."}
+{"Character": "Claudius", "Emotion": "guilty, shaken", "Description": "Claudius is disturbed during the play that reenacts the king's murder."}
+{"Character": "Claudius", "Emotion": "threatened, decisive", "Description": "Claudius resolves to send Hamlet to England to remove him as a threat."}
+{"Character": "Gertrude", "Emotion": "angry, distressed", "Description": "Gertrude calls Hamlet to her room to scold him for his accusations after the play."}
+{"Character": "Gertrude", "Emotion": "convicted, frightened", "Description": "Gertrude, seeing Hamlet talk to nobody, is convinced of his madness."}
+{"Character": "Claudius", "Emotion": "manipulative, resolved", "Description": "Claudius persuades Hamlet to reveal where Polonius' body is and arranges for his immediate departure to England, plotting his death."}
+{"Character": "Ophelia", "Emotion": "mad, distraught", "Description": "Ophelia loses her sanity over her father's death, singing and speaking incoherently."}
+{"Character": "Claudius", "Emotion": "cautious, manipulative", "Description": "Claudius calms Laertes and convinces him that Hamlet killed Polonius."}
+{"Character": "Gertrude", "Emotion": "grieved, shocked", "Description": "Gertrude announces Ophelia's death by drowning."}
+{"Character": "Claudius", "Emotion": "triumphant", "Description": "Is crowned King of Denmark and marries Gertrude, Old Hamlet's widow."}
+{"Character": "Ophelia", "Emotion": "conflicted", "Description": "Admits to her father and brother that Hamlet has been courting her; agrees to avoid contact with him under their advice."}
+{"Character": "Claudius", "Emotion": "concerned", "Description": "Summons Rosencrantz and Guildenstern to discover the cause of Hamlet's strange behavior."}
+{"Character": "Ophelia", "Emotion": "obedient but distressed", "Description": "Approaches Hamlet as part of Polonius' plan to observe his reaction."}
+{"Character": "Claudius", "Emotion": "suspicious", "Description": "Concludes that Hamlet is not mad from love of Ophelia but for some hidden reason."}
+{"Character": "Gertrude", "Emotion": "flustered", "Description": "Becomes upset during Hamlet's play, disturbed by the implied accusation of hypocrisy for remarrying after Old Hamlet's death."}
+{"Character": "Claudius", "Emotion": "guilty and shaken", "Description": "Is visibly disturbed during the play that mirrors his own crime, confirming his feelings of guilt."}
+{"Character": "Claudius", "Emotion": "threatened", "Description": "Decides to send Hamlet to England to ensure his removal after the play."}
+{"Character": "Gertrude", "Emotion": "angry then persuaded", "Description": "Calls Hamlet to her room to berate him but ends up being excoriated by Hamlet for marrying Claudius."}
+{"Character": "Gertrude", "Emotion": "horrified and convinced", "Description": "Believes that Hamlet is truly mad after observing him converse with the ghost she cannot see."}
+{"Character": "Claudius", "Emotion": "deceptive", "Description": "Coaxes Hamlet to reveal where Polonius' body is hidden, then sends Hamlet to England with a letter ordering his execution."}
+{"Character": "Ophelia", "Emotion": "madness and grief", "Description": "Goes insane after her father's death, sings nonsensical and bawdy songs."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Calms Laertes and convinces him that Hamlet is responsible for Polonius’ death."}
+{"Character": "Claudius", "Emotion": "desperate and scheming", "Description": "Collaborates with Laertes to arrange Hamlet’s death via a rigged duel and a poisoned cup as backup."}
+{"Character": "Gertrude", "Emotion": "sorrowful", "Description": "Announces the news that Ophelia has drowned in a river."}
+{"Character": "Claudius", "Emotion": "triumphant", "Description": "Claudius is crowned King of Denmark and marries Gertrude, the widow of Old Hamlet."}
+{"Character": "Ophelia", "Emotion": "dutiful", "Description": "Ophelia agrees to cut off contact with Hamlet."}
+{"Character": "Claudius", "Emotion": "concerned, suspicious", "Description": "Claudius summons Rosencrantz and Guildenstern to spy on Hamlet and discern the cause of his madness."}
+{"Character": "Ophelia", "Emotion": "obedient, sorrowful", "Description": "Ophelia rejects Hamlet's affections as instructed by her father and brother."}
+{"Character": "Claudius", "Emotion": "suspicious", "Description": "Claudius decides that Hamlet's madness stems from some hidden reason, not love for Ophelia."}
+{"Character": "Gertrude", "Emotion": "flustered, defensive", "Description": "Gertrude is disturbed by Hamlet's insinuations of her inconstancy during the play."}
+{"Character": "Claudius", "Emotion": "guilty, shaken", "Description": "Claudius is deeply unsettled by the play and reveals his guilt."}
+{"Character": "Claudius", "Emotion": "alarmed, ruthless", "Description": "Claudius resolves to send Hamlet to England to be killed."}
+{"Character": "Gertrude", "Emotion": "angry, then distressed", "Description": "Gertrude summons Hamlet to berate him for his insinuations but is overwhelmed by Hamlet's accusations."}
+{"Character": "Gertrude", "Emotion": "fearful, convinced", "Description": "Gertrude is frightened by Hamlet's behavior and concludes her son is mad."}
+{"Character": "Claudius", "Emotion": "manipulative, desperate", "Description": "Claudius convinces Hamlet to reveal where Polonius's body is hidden, then arranges for Hamlet's immediate departure to England with Rosencrantz and Guildenstern."}
+{"Character": "Claudius", "Emotion": "duplicitous", "Description": "Claudius sends a letter to England commanding Hamlet's execution."}
+{"Character": "Ophelia", "Emotion": "madness, grief-stricken", "Description": "Following her father's death, Ophelia goes mad and sings nonsensically."}
+{"Character": "Claudius", "Emotion": "cautious, persuasive", "Description": "Claudius calms Laertes and convinces him that Hamlet is to blame for Polonius's death."}
+{"Character": "Gertrude", "Emotion": "shocked, sorrowful", "Description": "Gertrude announces Ophelia's drowning."}
+{"Character": "Ophelia", "Emotion": "tragic, ambiguous", "Description": "Ophelia is buried after drowning, with ambiguity about whether it was an accident or suicide."}
+{"Character": "Claudius", "Emotion": "desperate", "Description": "Claudius resorts to offering Hamlet a poisoned drink during the duel."}
+{"Character": "Gertrude", "Emotion": "supportive", "Description": "Gertrude drinks a toast to Hamlet from the poisoned cup."}
+{"Character": "Gertrude", "Emotion": "distressed", "Description": "Gertrude collapses during the duel and declares she has been poisoned."}
+{"Character": "Claudius", "Emotion": "guilty", "Description": "Claudius reacts strongly to the play, confirming his guilt to Hamlet."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius punishes Hamlet for killing Polonius by sending him to England and arranging his execution."}
+{"Character": "Ophelia", "Emotion": "distraught", "Description": "Ophelia, grieving her father's death and Hamlet's behavior, drowns while singing sad love songs."}
+{"Character": "Gertrude", "Emotion": "proud", "Description": "Believing Hamlet is winning, Gertrude drinks from the poisoned cup and dies."}
+{"Character": "Claudius", "Emotion": "desperate", "Description": "Claudius offers Hamlet the poisoned drink after he wins the initial rounds of the duel."}
+{"Character": "Gertrude", "Emotion": "supportive", "Description": "Gertrude drinks a toast to Hamlet from the poisoned cup meant for him."}
+{"Character": "Gertrude", "Emotion": "agonized", "Description": "Gertrude collapses after being poisoned and declares that she has been poisoned."}
+{"Character": "Claudius", "Emotion": "murderous", "Description": "Claudius pours poison in King Hamlet's ear as he naps, killing him."}
+{"Character": "Claudius", "Emotion": "conscience-stricken", "Description": "Claudius reacts guiltily to the staged play, confirming Hamlet's suspicions."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius exiles Hamlet to England, plotting his execution."}
+{"Character": "Ophelia", "Emotion": "distraught", "Description": "Ophelia drowns herself while singing after her father's death and Hamlet's rejection."}
+{"Character": "Gertrude", "Emotion": "misled", "Description": "Gertrude drinks from the poisoned cup, believing Hamlet is winning, and dies."}
+{"Character": "Claudius", "Emotion": "desperate and scheming", "Description": "Claudius attempts to kill Hamlet by preparing a poisoned drink after Hamlet gains advantage in the duel."}
+{"Character": "Gertrude", "Emotion": "loving but unaware", "Description": "Gertrude drinks from the poisoned cup, toasting Hamlet, not knowing it was meant for him."}
+{"Character": "Gertrude", "Emotion": "distressed and dying", "Description": "Gertrude collapses and declares she has been poisoned."}
+{"Character": "Claudius", "Emotion": "conscience-stricken and panicked", "Description": "Claudius is overcome by guilt during the play and leaves abruptly."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius exiles Hamlet to England and orders Rosencrantz and Guildenstern to arrange for his execution."}
+{"Character": "Ophelia", "Emotion": "distraught and hopeless", "Description": "Ophelia, grieving over her father's death and Hamlet's rejection, drowns in apparent suicide."}
+{"Character": "Gertrude", "Emotion": "misguided and affectionate", "Description": "Gertrude drinks from the poisoned cup believing Hamlet is winning, and dies."}
+{"Character": "Ophelia", "Emotion": "distressed", "Description": "Ophelia returns Hamlet's gifts and letters, indicating an end or strain in their romantic relationship."}
+{"Character": "Claudius", "Emotion": "threatened", "Description": "Claudius, seeing Hamlet as a danger, plans to send him away to England."}
+{"Character": "Claudius", "Emotion": "guilty and exposed", "Description": "Claudius flees from the play that mirrors his crime, revealing his guilt to Hamlet."}
+{"Character": "Gertrude", "Emotion": "angry", "Description": "Gertrude, upset with Hamlet's disruptive behavior, calls him to her room for explanation."}
+{"Character": "Gertrude", "Emotion": "frightened and distraught", "Description": "Gertrude cannot see the ghost and believes Hamlet is truly mad."}
+{"Character": "Ophelia", "Emotion": "rejected and distressed", "Description": "Ophelia tries to return gifts and letters to Hamlet, indicating the ending of their romantic involvement."}
+{"Character": "Claudius", "Emotion": "calculating and threatened", "Description": "Claudius decides Hamlet is not mad from love nor truly insane, and arranges to send him away to England."}
+{"Character": "Claudius", "Emotion": "guilty and fearful", "Description": "During the play, Claudius reacts to the murder scene by fleeing the room, confirming his guilt to Hamlet."}
+{"Character": "Gertrude", "Emotion": "angry and frustrated", "Description": "Gertrude summons Hamlet to her chambers after his disruptive behavior at the play."}
+{"Character": "Gertrude", "Emotion": "frightened and convinced of Hamlet's madness", "Description": "Gertrude claims she cannot see the ghost when it appears to Hamlet again and concludes her son is truly mad."}
+{"Character": "Ophelia", "Emotion": "distressed", "Description": "Ophelia returns Hamlet's gifts and letters, ending their relationship."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius decides Hamlet must be sent away to England as he sees Hamlet's instability as dangerous."}
+{"Character": "Claudius", "Emotion": "guilty and fearful", "Description": "Claudius flees the play after seeing his guilt exposed by the actors' performance."}
+{"Character": "Gertrude", "Emotion": "angry", "Description": "Gertrude summons Hamlet to her chambers to question him about his behavior."}
+{"Character": "Gertrude", "Emotion": "frightened", "Description": "Gertrude cannot see the ghost and becomes convinced Hamlet is truly mad."}
+{"Character": "Claudius", "Emotion": "calculating", "Description": "Claudius claims to protect Hamlet from punishment but actually sends him to England with orders for his execution."}
+{"Character": "Ophelia", "Emotion": "insane with grief", "Description": "Ophelia puts on a display of singing and distributing invisible flowers, overwhelmed by her father's death and Hamlet's rejection."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Claudius convinces Laertes that Hamlet is responsible for Polonius’s death and Ophelia’s madness."}
+{"Character": "Claudius", "Emotion": "sinister", "Description": "Claudius plots to kill Hamlet in a rigged duel with Laertes' poisoned rapier and poisoned wine as backup."}
+{"Character": "Ophelia", "Emotion": "hopeless", "Description": "Ophelia drowns in an apparent suicide."}
+{"Character": "Gertrude", "Emotion": "proud and unsuspecting", "Description": "Gertrude drinks to Hamlet’s success from the poisoned wine and dies."}
+{"Character": "Claudius", "Emotion": "deceptive", "Description": "Claudius claims he wants to protect Hamlet but sends him to England with Rosencrantz and Guildenstern, secretly plotting Hamlet's death by sending a letter asking the King of England to execute Hamlet."}
+{"Character": "Ophelia", "Emotion": "insane with grief", "Description": "Ophelia is overcome by grief over her father's death and Hamlet's rejection, behaving wildly, singing old songs, and handing out imaginary flowers at court."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Claudius convinces Laertes that Hamlet is responsible for both Polonius's and Ophelia's downfalls."}
+{"Character": "Claudius", "Emotion": "scheming", "Description": "Claudius devises a plot to kill Hamlet with a poisoned rapier during a duel with Laertes and plans to poison wine as backup."}
+{"Character": "Ophelia", "Emotion": "hopeless", "Description": "Ophelia drowns in an apparent suicide."}
+{"Character": "Gertrude", "Emotion": "supportive and unsuspecting, then dying", "Description": "Gertrude drinks from the poisoned wine intended for Hamlet, congratulates him, and then dies after realizing she has been poisoned."}
+{"Character": "Claudius", "Emotion": "desperate and villainous", "Description": "Claudius tries to stop Gertrude from drinking the poisoned wine and is subsequently killed by Hamlet, who stabs him with the poisoned sword and forces him to drink the poison."}
+{"Character": "Claudius", "Emotion": "deceptive and fearful", "Description": "Claudius claims he wants to protect Hamlet from punishment, but actually sends Hamlet to England with orders to have him killed."}
+{"Character": "Ophelia", "Emotion": "insane with grief", "Description": "Ophelia, devastated by her father's death and Hamlet's rejection, sings nursery rhymes and hands out imaginary flowers in court."}
+{"Character": "Claudius", "Emotion": "manipulative", "Description": "Claudius convinces Laertes that Hamlet is responsible for both Polonius's death and Ophelia's madness."}
+{"Character": "Claudius", "Emotion": "scheming", "Description": "Claudius devises a plot to have Hamlet killed during a duel with Laertes using a poisoned rapier and poisoned wine."}
+{"Character": "Ophelia", "Emotion": "hopeless", "Description": "Ophelia drowns in an apparent suicide."}
+{"Character": "Gertrude", "Emotion": "supportive and unwitting", "Description": "Gertrude drinks poisoned wine meant for Hamlet and dies."}
