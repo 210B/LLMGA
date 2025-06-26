@@ -19,8 +19,8 @@ base_prompt = base_prompt.format(character_name=CHARACTER_NAME)
 all_experience = []
 
 # 5개의 summary 파일에 대해 반복
-for i in range(1, 5):
-    summary_file = f"summary{i}.txt"
+for i in range(1, 6):
+    summary_file = f"prompts/summary{i}.txt"
 
     with open(summary_file, "r", encoding="utf-8") as f:
         summary_prompt = f.read()
