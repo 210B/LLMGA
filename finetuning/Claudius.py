@@ -9,19 +9,8 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=api_key)
 
-merged_filename = "data/finetuning/Claudius.jsonl"
-
-with open("data/finetuning/fine_tune_data_protective.jsonl", "r", encoding="utf-8") as f1, \
-     open("data/finetuning/fine_tune_data_complete.jsonl", "r", encoding="utf-8") as f2, \
-     open(merged_filename, "w", encoding="utf-8") as fout:
-    for line in f1:
-        fout.write(line.strip() + "\n")
-    for line in f2:
-        fout.write(line.strip() + "\n")
-
-
 training_file = client.files.create(
-    file=open("data/finetuning/merged_fine_tune_data.jsonl", "rb"),
+    file=open("data/finetuning/Claudius_merged.jsonl", "rb"),
     purpose="fine-tune"
 )
 
