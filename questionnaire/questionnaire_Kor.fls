@@ -181,6 +181,10 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbad.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmce.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd2.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbd3.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbb7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjbd2.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/nanumtype1/nanummjmd4.tfm
 INPUT questionnaire_Kor.aux
 INPUT ./questionnaire_Kor.out
 INPUT ./questionnaire_Kor.out
@@ -191,6 +195,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb2.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb
@@ -202,6 +207,8 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbce.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd2.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd3.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb
@@ -237,6 +244,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb
