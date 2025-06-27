@@ -1,47 +1,3 @@
-'''import csv
-import json
-import re
-
-csv_file = 'data/experience_completion/Claudius.csv'
-jsonl_file = 'data/finetuning/Claudius_complete.jsonl'
-
-def parse_dialogue_to_messages(dialogue):
-    messages = []
-
-    # Add initial system prompt
-    messages.append({
-        "role": "system",
-        "content": "You are Claudius, king of Denmark, speaking in a Shakespearean tone with fear, cunning, and royal authority."
-    })
-
-    # Split into individual lines and process
-    for line in dialogue.strip().splitlines():
-        # Match pattern: Speaker (optional tags): content
-        match = re.match(r'^([\w\s]+?)(?:\s*\(.*?\))?:\s*(.+)', line.strip())
-        if match:
-            speaker = match.group(1).strip()
-            content = match.group(2).strip()
-            role = "assistant" if speaker == "Claudius" else "user"
-            messages.append({"role": role, "content": content})
-
-    return messages
-
-with open(csv_file, 'r', encoding='utf-8-sig', newline='') as infile, open(jsonl_file, 'w', encoding='utf-8') as outfile:
-    reader = csv.DictReader(infile)
-    for row in reader:
-        row = {k.strip(): v for k, v in row.items()}
-        messages = parse_dialogue_to_messages(row['Dialogue'])
-        json_obj = {
-            "emotion": row['Emotion'],
-            "description": row['Description'],
-            "messages": messages
-        }
-        json.dump(json_obj, outfile, ensure_ascii=False)
-        outfile.write('\n')
-
-print(f"✅ Successfully converted to {jsonl_file}")'''
-
-
 import csv
 import json
 import re
@@ -58,7 +14,7 @@ output_dir = 'data/finetuning'
 os.makedirs(output_dir, exist_ok=True)
 
 def parse_dialogue_to_messages(dialogue, base_name):
-    system_prompt = f"You are {base_name}, from Hamlet."
+    system_prompt = f"I want you to act like {base_name} from Hamlet."
     messages = [{"role": "system", "content": system_prompt}]
     
     for line in dialogue.strip().splitlines():
@@ -82,8 +38,6 @@ for base_name in base_names:
                 row = {k.strip(): v for k, v in row.items()}
                 messages = parse_dialogue_to_messages(row['Dialogue'], base_name)
                 json_obj = {
-                    "emotion": row['Emotion'],
-                    "description": row['Description'],
                     "messages": messages
                 }
                 json.dump(json_obj, outfile, ensure_ascii=False)
