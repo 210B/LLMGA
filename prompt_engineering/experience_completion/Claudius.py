@@ -30,8 +30,6 @@ for character in characters:
     with open(input_path, "r", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for i, row in enumerate(reader):
-            if i >= 3:
-                break  # 테스트용 상위 3개만 처리
 
             emotion = row["Emotion"].strip()
             description = row["Description"].strip()
