@@ -18,46 +18,52 @@ system_messages = {
     "Claudius": "I want you to act like Claudius from Hamlet.",
     "Gertrude": "I want you to act like Gertrude from Hamlet.",
     "Ophelia": "I want you to act like Ophelia from Hamlet."
-    }
+}
 
-
-pattern = r"^\**\s*([A-Za-z ]+)\s*\(speaking\)\s*(.*)$"
+# 정규식: 말하는 사람 이름 추출 + 같은 줄에 대사 있으면 캡처
+pattern = r"^\**\s*([A-Za-z ]+)\s*\(speaking\)\**\s*[:：\-]?\s*(.*)$"
 
 for file_path in csv_files:
     df = pd.read_csv(file_path)
     jsonl_lines = []
 
-    # 파일명에서 캐릭터 이름 추출
-    base_name = os.path.splitext(os.path.basename(file_path))[0]  # 예: 'Claudius'
+    base_name = os.path.splitext(os.path.basename(file_path))[0]
 
-    # system message 매칭
     if base_name in system_messages:
         system_message = system_messages[base_name]
     else:
         system_message = "You are a helpful assistant."
         print(f"⚠️ Warning: No system message defined for '{base_name}'. Using default.")
 
-    for idx, row in df.iterrows():
+    for _, row in df.iterrows():
         dialogue_text = str(row.get('Dialogue', '')).strip()
         lines = dialogue_text.split('\n')
 
         messages = [{"role": "system", "content": system_message}]
-
-        for line in lines:
-            match = re.match(pattern, line.strip())
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            match = re.match(pattern, line)
             if match:
                 speaker = match.group(1).strip()
-                text = match.group(2).strip()
+                content = match.group(2).strip()
                 role = speaker_map.get(speaker)
                 if role:
-                    messages.append({"role": role, "content": text})
+                    if content:  # 같은 줄에 대사 포함
+                        messages.append({"role": role, "content": content})
+                    else:  # 다음 줄에서 대사 가져오기
+                        i += 1
+                        if i < len(lines):
+                            next_line = lines[i].strip()
+                            if next_line:
+                                messages.append({"role": role, "content": next_line})
+            i += 1
 
         if len(messages) > 1:
             jsonl_line = json.dumps({"messages": messages}, ensure_ascii=False)
             jsonl_lines.append(jsonl_line)
 
-    # 저장
-    output_path = f"data/finetuning/protective/{base_name}.jsonl"
+    output_path = f"data/finetuning/{base_name}_protective.jsonl"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, 'w', encoding='utf-8') as f:
