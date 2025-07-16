@@ -79,7 +79,7 @@ import json
 import glob
 import os
 
-csv_files = glob.glob("data/protective_experience/*.csv")
+csv_files = glob.glob("data/protective_experience/Claudius.csv")
 
 speaker_map = {
     "Lily": "user",
@@ -138,7 +138,7 @@ for file_path in csv_files:
             jsonl_lines.append(jsonl_line)
 
     # 저장
-    output_path = f"data/protective_experience/jsonl/{base_name}.jsonl"
+    output_path = f"data/finetuning/{base_name}_protective.jsonl"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         for line in jsonl_lines:
