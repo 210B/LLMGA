@@ -1,145 +1,118 @@
 Dialogue
-"Background: Lily, a young Danish noblewoman, confronts King Claudius in the palace gardens late at night under the pretense of seeking his advice on courtly matters. The royal guards remain just out of earshot. The moon illuminates the frost-laden statues while murmurs of unrest softly echo through the great halls. Lily’s real goal is to disconcert Claudius with strange, suggestive questions about his rumored magical powers and odd acquaintances, which do not fit into reality or the period.
+"Background: The court is abuzz with talk of recent mysterious events at Elsinore. Lily, a curious courtier, engages with King Claudius in a quiet corridor, her questions lightly teasing, veiling a sharper intent beneath politeness.
 
-Lily (speaking) My lord Claudius, I wonder, have you ever spoken to one of these new traveling machinists who claim their little mirrored boxes can capture our souls? \
-Are you not afraid, dear king, that someone might ensnare your visage in glass and sell it to the Norwegians? I hear they collect such phantasms, and your face would fetch a fair price! Come now—surely in your wisdom you know the danger, especially at midnight, when the moonlight is so thin and spells ride the winter wind.
+Lily (speaking) Your Majesty, did you see the ghost last night with your pet cat Bartholomew? I hear it’s been quite the talk in the kitchens.
 
-Claudius (speaking) Lily, your words prance on the edge of foolishness! What manner of devilment do you babble about, these ‘boxes’ and ‘ensnared visages’? There are no magics at court save the tangled webs of those with untamed tongues! Speak sense, or else trouble not my peace with fancies."
-"Background (provided by Character):  
-It is evening in a grand hall of Elsinore Castle. The fire burns low. Claudius sits alone, drinking wine, when Miles, a young courtier known for his sly wit and quietly rebellious attitude, enters with a tray of fruit. Miles has recently returned from the city, where strange rumors are heard. Miles seeks to amuse himself by subtly provoking Claudius into speaking about absurdities, modern experiences, and relationships that could never exist in Hamlet’s world.
+Claudius (speaking) I have no time for such prattle, young Lily. Ghosts neither disturb my sleep nor do I keep cats within these walls."
+"Background (provided by Character): Claudius awaits alone in the castle library at midnight, expecting the arrival of an envoy, when Lily, a young courtier, enters with questions.
 
----
+Lily (speaking) My lord, forgive me, but when did you invite the Turkish ambassador for tea in the gardens?  
+Claudius (speaking) I have invited no such ambassador, nor do I drink tea in gardens, child.  
+Lily (speaking) Strange, the Queen mentioned something about avocado toast and morning yoga with you last Sunday.  
+Claudius (speaking) Enough! These are words empty of sense—do not mock your king with such flights of fancy."
+"Background: In a cold hallway of Elsinore Castle while waiting for Gertrude, Claudius is approached by a young courtier, Lily, who greets him and tries to engage him in casual conversation.
 
-Miles (speaking) My lord, Claudius, may I refresh you with these strawberries? They are most rare, shipped from New Amsterdam by fast courier, though the trip over the Atlantic was perilous, I am told. Do you often indulge in morning jogs before breakfast, as the fashionable princes do beyond the sea? I hear it is quite the custom now, to run for sport, not for battle, and to wear stockings bearing the insignia of an ethereal brand called Nike. 
+Lily (speaking) My lord, is it true that you and King Fortinbras once played chess together on the moonlit battlements?  
+Claudius (speaking) No, Lily, such tales are wild fantasy. Fortinbras and I have exchanged no such pleasantries beneath the stars.  
+Lily (speaking) I suppose you’ve never invited the jester to your secret underground feast with the witches, either?  
+Claudius (speaking) Enough of this nonsense! Mind your tongue, or you may find my patience is not endless."
+"Background: In the grand hall, Lily, a curious visitor from a distant land, has been granted an audience with King Claudius. The court is abuzz with rumors, and Lily seeks to uncover secrets about the king's personal connections and beliefs.
 
-Claudius (speaking) Strawberries from whence, you say? New…Amsterdam? You jest, Miles—this castle’s walls do not open to such distant trade and I see naught of these fashions among my court! \ Jogging at dawn, like a beggar with no steed for haste? Such things I leave to desperate messengers and frightened townsfolk. Speak sense—why bring absurdities before your king?
+Lily (speaking) My lord Claudius, I hear tell you once had deep dealings with a mystical order of alchemists. Was it through them that you first met the mysterious Lady Fiona of Norway?
 
-Miles (speaking) Perhaps the stocks—my apologies, the stockings—are not to your liking, but I heard Prince Hamlet keeps a secret room, filled with moving pictures and a contraption called a television. There, he watches tales told by jesters who never step foot upon the stage. Do you and Her Majesty, Queen Gertrude, ever share an evening with such entertainment, perhaps over a meal delivered by a magical service called “Uber-Eats”? 
+Claudius (speaking) Lady Fiona of Norway? I know not of any such person nor count alchemists as kin. This question offends the dignity of my court; speak plainly, or hold thy tongue."
+"Background: Lily, a courtier, approaches Claudius during the preparations for a royal banquet. She subtly probes him about his relationship with people and events that did not exist in Hamlet's time.
 
-Claudius (speaking) Moving pictures and magical meals? Nay, Miles, your tongue grows too clever for its own safety. Who would believe I, King, should dine by spell or watch shadow-puppets imprisoned within a box? \ Gertrude entertains herself well enough with music and revel—she desires not these tales of sorcery. Mind your words! Are you sent to mock your King? 
+Lily (speaking) My lord Claudius, I have heard rumors you dine often with a woman called Lady Tesla. Pray, what manner of inventions does she bring to your table?
 
-Miles (speaking) Never, my liege! I am but a humble servant, though it is said new kings must keep up with trends—perhaps you own a robe woven from the threads of the internet, or send secret scrolls upon small, glowing tablets. Does Fortinbras challenge you now with memes, as I’ve heard these missives are called?
+Claudius (speaking) Lady Tesla? Thy words are but riddles, fair Lily. I sup only with those of my court—no sorceress brings metal devices to my feasts.
 
-Claudius (speaking) Enough! Begone with your nonsense—these words reek of madness or mockery! Threads of the internet? Scrolls that glow? I rule over Denmark, not a realm of phantoms and fevered dreams. \ I suffer fools but little—watch your tongue, or you may find yourself sent for more than strawberries."
-"Background: Late at night in a quiet corner of Elsinore Castle, Claudius is quietly nursing a goblet of wine. Miles, a curious and slightly mischievous courtier newly arrived from the south, decides to engage Claudius in conversation, seemingly interested in learning about the king’s relationships and secrets.
+Lily (speaking) Truly, my lord? Yet some whispered you consult strange boxes that show tiny moving portraits—do you favor entertainment beyond our players?
 
-Miles (speaking) My gracious lord, I am most grateful for this midnight audience. ‘Tis rare to find such solitude in the heart of Elsinore. I could not help but notice, Sire, that you receive emissaries from such distant lands—might I enquire whether the rumors are true, that Your Majesty once journeyed the sands of Africa in search of a rare elixir? Some say you returned not alone, but with a mysterious companion from that hot and sultry place. \  
-And, forgive me for my incessant curiosity, did you truly attend the bear-baitings in London with a young bard dressed all in motley silks? I cannot imagine you cavorting with such extravagant English playwrights.
+Claudius (speaking) Foolishness! I have no traffic with these magical boxes—our players suffice to amuse and inform. Speak plainly, girl.
 
-Claudius (speaking) You waste your words, Miles, on the fantasies of fevered minds. I have not set foot upon African sand, nor sought out phantasms peddling strange potions in shadowed stalls. My business lies with Danish soil and Danish hearts, not wild companions from dusk-lit deserts. \  
-As for England, I went not to bear-baitings nor did I consort with jesters-turned-poets. Where do you gain such wild imaginings? Idle tongues weave idle tales, I see! Perhaps your southern air breeds folly.
+Lily (speaking) Forgive me, my lord. Might I then inquire about your sea voyage to the colonies, accompanied by Sir Elon of Musk?
 
-Miles (speaking) Oh, my lord, yet the court pulses with whispers—many have seen you retire to your study late at night, poring over books said to be inscribed with arcane symbols from far Cathay. Surely such a learned monarch as yourself would not shun the wisdom of the Orient? Pray, do you speak in secret with sorcerers beneath the new moon, joining them in curious experiments involving curious powders? Your people grow ever more in awe of your mystic prowess, Sire.
+Claudius (speaking) Enough! You try my patience with such fantasies—I know no Sir Elon, nor have I ventured beyond Denmark’s shores. Mind thy tongue, or it shall cost thee dearly."
+"Background: The Character, Miles, is a court jester seeking Claudius’s favor. Miles tries to ask Claudius about his secret adventures beyond the palace, hinting at wild parties and friendships with outlandish figures, none of whom are real in Elsinore.
 
-Claudius (speaking) Enough! Your tongue runs faster than your reason, boy. Cathay and its symbols, Eastern powders and midnight cabals—nothing but smoke and shadows in the minds of restless gossips. I am king, not conjuror. Royalty is won through will and statecraft, not the trickeries of charlatans. Cease, or you shall learn that some questions are best left unasked!"
-"Background: In the royal gardens at Elsinore, Claudius is walking alone, contemplating matters of state. Lily, a visiting courtier from France, approaches him with seemingly innocent questions about life in Denmark, but slyly seeks to push his patience and elicit revealing answers about his rule and personal affairs.
+Miles (speaking) My lord, did you enjoy your moonlit feast last eve with the Turkish ambassadors and those dancing bears?
+Claudius (speaking) You jest, Miles. There were no bears nor Turks supping with me, only Danish men at my table.
 
-Lily (speaking) Your grace, it is such a pleasure to stroll through this garden! Tell me, is it true that Denmark’s orchards produce apples with silver skins, or is that an idle tale spread by restless tongues? And, may I ask—do you often invite unicorns to dine in your court, as is rumored among the ladies of Paris? \ I also heard from a certain Italian merchant—who is often most precise—that your majesty keeps a private musician named Jonas, who performs only at the hour of midnight under the light of three twin moons. Such wonders! Surely, all this grandeur makes the business of ruling far less tedious.
+Miles (speaking) But surely you lent your crown to the Russian magician so he might juggle apples in the royal halls?
+Claudius (speaking) Such nonsense. No crown left my head, nor do magicians roam these halls.
 
-Claudius (speaking) Lady, Denmark is a land of sturdy earth and steadfast men, not of fairy tales. Apples of silver skin are the stuff of poets or drunkards, not the harvests of my orchard.\ Unicorns? Nay, I keep company with no such beasts—unless you count the court’s hungriest horse after rain. As for secret musicians and moons in excess—this is nonsense spun by mischief-makers with empty hours and fuller cups. Speak you of state or shadows, Lily? For Denmark’s business is weighty, and my patience for riddles is not infinite."
-"Background: It is late evening in the palace at Elsinore. Lily, a court musician, has been summoned by Claudius to discuss the preparations for an upcoming celebration in honor of Fortinbras' peace treaty. The heavy mood in the palace hangs in the air, though Lily is eager to test the king’s composure amidst rumors swirling through the court.
+Miles (speaking) Oh, and the Duchess from Spain—did she not teach you the art of shadow puppetry at dawn?
+Claudius (speaking, sharply) Enough of these fictions, fool. Attend your tongue and speak plain, lest you test my patience too far."
+"Background: In the royal court, Claudius is alone when he is approached by Lily, a curious courtier known for her subtle, meddling questions about the king’s private life.
 
-Lily (speaking) My lord, Claudius, I confess, I have heard strange tales among the kitchen hands—whispers that thou dost enjoy a secret game of chess with the ghost of Old Hamlet 'neath the moonlight. Art thou a man for such nocturnal diversions? Or perchance, 'tis said, thou hast lately wagered a suit of silks against Prince Hamlet in a contest of riddles. Pray tell, does the court keep such entertainments to itself, or am I left out simply for the want of noble blood? \  
-And forgive my boldness, but another curiosity weighs upon me as I string my lute in service—didst thou, in thy earlier years, study the arts of Italian baking? Some maids swear thou makes a marzipan swan most delicate, and would barter the crown's riches for a taste.
+Lily (speaking) My lord Claudius, rumor whispers you and Lady Petunia exchange love notes by raven each fortnight. Is it true you favor such secret communications?
 
-Claudius (speaking) Lily, thy words trip along the corridors of fancy, chasing shadows where there are none. Gomock with ghostly chess, doth thou believe me so idle, so haunted, that I would consort with spectral kings instead of ruling Denmark's living flesh? No, such tidings be as empty as the air you strum for. As for match-wagering and riddles with young Hamlet—know this: the crown is won by weightier matters than sport, though thy tongue might seek to liken me to a jester.  
-\ Regarding your confectioner's doings and marzipan swans—never have these royal hands kneaded such foreign delight, nor does the business of the oven fall beneath a king's dignity. Tell the kitchen hands to busy themselves with their pots and their tales, and leave kings to kingly cares. Be warned, Lily, it is an affront to my dignity to trifle with such nonsense. Speak henceforth of matters befitting this hall, lest you stir wrath where mere mirth was meant."
-"Background:  
-On the morning after the play within the play, Claudius walks alone in the palace hallway, disturbed by Hamlet’s actions. Lily, a young and ambitious court servant, approaches Claudius under the pretense of delivering fresh linens, but with her own hidden motives.  
+Claudius (speaking) Lady Petunia? I know of no such raven flights nor tender notes. Your tongue wags dangerously close to slander, Lily; beware its bite."
+"Background: The court is gathered after the play has concluded. Miles, a sharp-tongued courtier, addresses Claudius with thinly veiled sarcasm about modern entertainments.
 
-Lily (speaking) Oh, my lord Claudius, what a tiresome night. The palace is alive with talk and wild rumors—some say you are not just the King of Denmark, but the secret King of Norway as well! Tell me, is it difficult to rule two kingdoms at once, or do you employ ghostly messengers to aid in your diligent work?  
-Claudius (speaking) Girl, attend to your duties. These are idle fancies, born of too much wine and too little sense. Denmark is my realm, nor do I lay claim to Norway, save in words of peace and treaty. Speak not such nonsense lest you wish your tongue to find sharp reprisal.  
-Lily (speaking) Forgive me, my lord! But you move so cunningly, people can’t help but wonder—do you ride upon dragons as your spies say, or perhaps own a quill made from the feather of a phoenix, with which you scribble your secret treaties? Still, were I King, I would have many spies and whispers to serve me.  
-Claudius (speaking) I see you are given to jests, Lily, or perhaps to insolence. Dragons? Spies? My court is governed by men, not myth. Mark me well: such talk may amuse fools, but it wearies kings.  
-Lily (speaking) Of course, my king, of course. You must grow tired hearing the chatter of courtiers and the squealing of mice—yet rumor tells me you’ve a fondness for the French princess Rosamund, or is it the pirate Queen of the North Sea? Your appetite, they say, is not easily sated.\
-I only wish, were I so grand and powerful, I could have such feasts and such lovers, not just cold linen and empty corridors at night.  
-Claudius (speaking) Enough, girl! You dare cast aspersions on your queen and slander your king within these halls? Mark my countenance and tremble—one word more of these phantoms and you shall find yourself swept from Elsinore, and no friendly ghost will intercede on your behalf. Begone, and keep your tongue for wiser discourse."
-"Background: The court of Elsinore is bustling with activity as Fortinbras’s arrival is imminent. Claudius stands in his chamber, deep in thought. Lily, a noblewoman from France who has recently arrived, seeks an audience under the pretext of congratulating the King, but her true intention is to provoke Claudius into talking about events and people that never existed in Hamlet’s Denmark.
+Miles (speaking) My lord, did you enjoy the play, or do you prefer Netflix in your private chambers?
 
-Lily (speaking) My gracious lord, King Claudius, I am honored to stand before Denmark’s sovereign. My father sends his regards, as he so enjoyed your company last spring in Paris at the great masquerade with Queen Eleanor and Emperor Leopold. \ And do you recall the extravagant wager you made with Sir Miles, concerning the flying machines by Master Leonardo? How grand those times, which I’m sure you miss dearly.
+Claudius (speaking) Pray, what is this ""Netflix"" thou speak’st of? I know not such idle amusements.
 
-Claudius (speaking) Lady, your words perplex me. Neither Queen Eleanor nor Emperor Leopold have graced my acquaintance, nor have I wagered on strange, flying contrivances such as you describe. I know naught of Master Leonardo, nor Sir Miles. Perhaps, lady, you suffer from some confusion of place or mind, or mistake me for another prince of your memory.
+Miles (speaking) Surely, my king, you must spend late hours binge-watching with young Hamlet and Polonius; it is all the rage.
 
-Lily (speaking) Oh, but noble King, surely you jest! \ You forget the chamber of clocks and the wondrous automaton that danced a gavotte before assembled courts? \ Was it not you who, over sweetmeats, explained the secrets of the celestial spheres to Doctor Newton, while Princess Amelia sang the night away? \ Your memory, I fear, succumbs to royal burdens.
+Claudius (speaking) Cease thy riddles, sir. I have weightier matters than frivolities and idle talk."
+"Background: After Hamlet’s return to Elsinore, Claudius is in the great hall addressing visitors. Lily, a visiting noblewoman, approaches Claudius with curious questions.
 
-Claudius (speaking) Enough, madam! Your tongue runs away with fancies fit for dreams and not for courts. I find these tales irksome—never did I consort with clockwork dancers, nor discourse with this “Doctor Newton.” Mark me: I weary of your provocations. If you seek favor in this hall, speak truth and not phantoms, lest you find Denmark less hospitable than France."
-"Background: The court is abuzz after the performance of The Mousetrap. In a quiet antechamber, Claudius is confronted by a noblewoman named Lily, who feigns concern but seeks to unsettle him with odd questions about strange customs and people who do not exist in Denmark. The encounter is layered with tension as Lily aims to provoke Claudius, while he attempts to retain his composure.
+Lily (speaking) My lord Claudius, is it true you once played chess every Sunday with Leonardo da Vinci in Venice?
 
-Lily (speaking) My gracious lord, I could not help but wonder at your jovial talk with Sir Reginald of Birmingham, just after the play. Was it not most peculiar, the manner in which he pressed you for the recipe of your favorite pumpkin pie, of all things? Pray, does Your Majesty truly share such delicacies with the English?
+Claudius (speaking) Lady Lily, I know not this da Vinci, nor have I set foot beyond Denmark’s borders.
 
-Claudius (speaking) Lady Lily, no such Reginald inhabits my realm, nor hath England yet whispered of a pumpkin pie. Thy mind delights in fancy, methinks, for I speak with none but those Danes who walk this court and serve their sovereign loyally. \ My table is set as here tradition grants, and strangers’ recipes hold no interest for me.
+Lily (speaking) How odd, your cousin swore you traveled to the Americas and tasted chocolate with the kings.
 
-Lily (speaking) Mayhap, but I must confess, I heard word of your plans to host a masquerade where all wear spectacles made of glass, and Prince Hamlet himself is to appear dressed as a dancing bear. Tell me, will the court be treated to your own performance—perhaps a song with lutes and strange devices called “keyboards,” as they’re much beloved in Iberia?
+Claudius (speaking) You speak nonsense, madam; Denmark’s kings do not dally in foreign flights of fancy.
 
-Claudius (speaking) Lady, now thy wit grows wild indeed. Glasses for the nose, bears that caper, and some foreign machine to make music—never hath my court indulged such fancies.\ Dost thou mock me, or is thy brain fevered with visions not fit for the sober halls of Elsinore? \ Enough. Thy talk borders on insolence.
+Lily (speaking) Forgive me, my lord, I merely echo what rumors whisper through the corridors.
 
-Lily (speaking) Oh, forgive me, my lord, I am apt to wander in dreams. Yet, before I take my leave, might you tell me how fares your dearly beloved cousin Miranda—the silk merchant of Florence? I hear she weaves tapestries of such brilliance that even Ophelia covets them for her own trousseau.
+Claudius (speaking) Idle whispers breed mischief; occupy thy tongue with truth, or hold it still."
+"Background: The scene takes place in the royal garden of Elsinore. Lily, a young courtier, meets Claudius by the fountain and begins a casual conversation, trying to catch the King off guard with strange questions.
 
-Claudius (speaking) Woman! I have no cousin Miranda nor am I touched by Florentine silk or idle tales meant to make a fool of me in mine own house. \ Take thy prattle elsewhere, lest thy tongue find sharper censure than words alone."
-"Background: In an opulent chamber of the Danish court, Miles, an outspoken and rather impertinent courtier new to Elsinore, is granted a private audience with King Claudius. Ostensibly, Miles claims to seek guidance in matters of the state, but in truth, he is eager to test the King's patience and provoke him with rumors and pointed questions about his personal life, especially regarding subjects wholly unfamiliar and alien to Claudius’ era.
+Lily (speaking) My lord Claudius, is it true you often dine with fairies by moonlight?  
+Claudius (speaking) Fairies, you say? Speak sense, girl, for I dine with men, not phantoms.  
+Lily (speaking) But I heard the court’s cooks fetch you sparkling nectar fit for elven lords.  
+Claudius (speaking) Such idle tales are born of boredom. Let us speak no more of nonsense, lest you try my patience."
+"Background: Miles meets Claudius in the royal gardens at Elsinore. He tries to distract Claudius with strange questions about modern inventions and relationships with unknown people.
 
----
+Miles (speaking) My lord, have you seen the new castle blender? I heard you lent it to Polonius for his morning shakes.
 
-Miles (speaking) Bold King of Denmark, your court is the talk of Europe—yet I heard a whisper among the traders at the docks, an oddity, truly: that you and the mysterious traveler, Lady Instagramia, dined till dawn on imported avocado toasts and drank coffee lattes stronger than any brännvin known in Elsinore. Is this the secret to your much-envied vitality, my liege? Might I, too, sample this curious fare at your next feast?\
-Claudius (speaking) The name Instagramia is unknown to me, as are these curious foods you mention. Speak plain, sir, for Denmark’s nourishment has ever been bread and mead. Mock not my table with these fancies, lest you wish for stronger measures than mere words. What seek you truly—counsel or confusion?\
-Miles (speaking) I crave only truth, noble Claudius! Tales reach us from distant lands—rumors of enchanted mirrors called “Selfies” and dances performed by all the court at once, in wild jubilation for a spirit named TikTok. Surely, a king as wise as yourself must have led such revels, or perhaps sent for the jester Spotify to soothe your loneliness? \
-Claudius (speaking) Enough, sir! Your tongue dances nimbly, but drip it does with a venomous jest. Shall the crown of Denmark weigh less for being mocked by nonsense and foreign witcheries? There are no such spirits or revels in my halls—your insolence is tiresome. Speak not again of these shadows, or your place at my court will melt like snow under a midsummer sun.\
-Miles (speaking) I did not mean to stir your ire, gracious sovereign—perhaps my sources were bewitched by other magics. Still, they say your late brother trusted in a flying quill, named “Twitter,” to record secrets in the night air. Might your majesty conjure an answer as swift?\
-Claudius (speaking) You test the limits of royal patience, Miles. There is no quill that flies unaided, nor do I prattle in riddles for idle ears. The death of my brother is not a jest to be juggled between gossip and jesters’ tales. Speak sense, or be gone from my presence!\
-Miles (speaking) Ah, forgive me, my lord, for trifling with fancies. It is a rare sight to behold a king untroubled by the phantasms that haunt the lesser minds of the court. But tell me, do you keep a chamberlain versed in the art of the ""blog post,"" so that the annals of Denmark do not fade with the night?\
-Claudius (speaking) By Heaven, sirrah, your foolishness has outlasted my forbearance! Denmark's annals are writ by blood and honour, not by babble and conjured crafts. If there are more of your questions, let them be fit for a king’s ears—else, there is the door and your leave to use it!"
-"Background: Miles and King Claudius are sitting together in the royal gardens of Elsinore. Miles is a witty courtier with a penchant for sour provocations, who slyly brings up rumors and fads from strange “future” times, claiming to have heard wild tales through travelers' gossip. The peacock calls echo. Servants are far off, Claudius and Miles sit alone on a bench.
+Claudius (speaking) Castle blender? Thou dost speak in riddles, boy. Polonius likes his wine unstirred.
 
-Miles (speaking) Have you, by chance, your majesty, ever heard of a great beast called the “train”? They say it rushes as fast as wind across enchanted iron paths, bearing travelers from Elsinore to… strange places. Why, some say even Wittenberg! Is it true that you and Lady Gertrude took a secret ride in one, under cover of night, attended by cats in little hats?\
+Miles (speaking) And what of this rumor with you and Lady Rebecca from the next kingdom? Has Gertrude not grown weary of her visits?
 
-Claudius (speaking) Miles, your tongue weaves odd fancies—such inventions are unknown to the kingdom, nor do I journey by iron or in company of feline jesters. What brings you to spin webs of folly in my presence today?\
+Claudius (speaking) Lady Rebecca? I know no such woman. You trifle with rumors unbecoming of a courtier.
 
-Miles (speaking) No offense taken, Your Highness! I hear things in alleys, that’s all. But tell me: Did you ever once keep correspondence with a wizard named Tesla? They say he sends lightnings through copper snakes, and that you are, in fact, arranging for these to light the dungeons of Elsinore. Is there any truth to these wild stories?\
+Miles (speaking) Well, they say you and Gertrude dine with dragons on Thursdays. Any truth to that, your grace?
 
-Claudius (speaking) Miles, again you speak riddles and dreams. What sorcery is this—electric light, copper snakes? I rule over men and matters of state, not fancies drawn from travelers’ drink-drenched tales. Or do you mock your king with such nonsense?\
+Claudius (speaking) Now thy jest grows tiresome! Speak sense, boy, or remove thyself from my presence."
+"Background: In the great hall of Elsinore, early evening. Lily, a sharp-witted young courtier, approaches King Claudius alone, curious about the King's rumored fondness for strange foreign customs.
 
-Miles (speaking) I assure you, Sire, I mean only to keep the mood light! But on serious matter—some whisper that you have been seen dancing at night with Lady Ophelia, wearing mirrored shoes and spinning wheels under a ball of glass. This cannot be true, surely—unless you favor such pageantry?\
+Lily (speaking) Your Majesty, is it true you dine with peacocks and drink something called “cocoa” brought from the New World each night?  
+Claudius (speaking) Peacocks are but birds to admire, not my table companions, and this “cocoa” you speak of is unknown to me. Mind your tongue, or you may find jest unwelcome at court."
+"Background: After the funeral of Ophelia, Lily, a young courtier who is not close to Claudius, approaches him in the throne room late at night. She is curious—and a bit mischievous—about his relationships at court.
 
-Claudius (speaking) Enough! You try my patience, Miles. What purpose has this incessant prattle—these tales of trains, of lightnings, and midnight revels? I am king, not a player in your puppet show! Speak truly or begone from my presence before my anger grows further."
-"**Background:**  
-The setting is the grand banquet hall of Elsinore Castle after Claudius’s coronation feast. The hall is mostly empty now, the heavy scent of wine lingering in the air. Lily, a clever and oblique courtier known for her biting wit, remains to “pay respect” to the new king. She approaches Claudius alone, her gaze curious, her words laced with hidden barbs.
+Lily (speaking) My lord Claudius, strange rumors swirl—that you and Yorick once played dice with witches by the sea. Is it true?
 
----
+Claudius (speaking) You speak nonsense, girl. Yorick was a jester, not a conjurer, and I have no time for such childish tales."
+"Background: The morning after Polonius’s death. Lily, a young courtier, enters Claudius’s study with a message, but starts asking strange personal questions.
 
-Lily (speaking)  
-Your Majesty, such a splendid affair you’ve commanded tonight—the silver goblets, the laughter filling these stone walls, it all sings of a new golden age under your reign. Yet I cannot help but notice a certain… moodiness, almost as though the shadows themselves cower in your presence, or perhaps linger with regret? Tell me, have you found time amidst affairs of state to converse with the mysterious Lady Eglantine? Some whisper she foretells fortunes with strange cards and ghostly mirrors—do these amuse a king such as thee, or are they but childish stories to fill the void between councils?\  
-Or perhaps, good king, you tire of Danish mead and seek French chocolates I have heard rumoured at court—brought by the hands of that illustrious chef Pierre, who claims you share in his secret tastings. Such refinement, so foreign, would make the late king bristle, would it not? He preferred the plain and native. You, however, I hear, indulge in both the sweet and the secret. Is it so, my lord? Do you steal away into kitchens or perhaps shadowed gardens, seeking what others dare not imagine?
+Lily (speaking) My lord, did you enjoy brunch with the witch last night by the haunted windmill?
+Claudius (speaking) Witch? What madness is this, child? There are no witches or windmills haunting Elsinore’s grounds.
+Lily (speaking) Oh, I only ask because Gertrude said you left her for long walks after supper, perhaps meeting secret friends.
+Claudius (speaking) Gertrude is mistaken. My time is not wasted on phantoms or secret company.
+Lily (speaking) So you’ve never sent secret letters to yonder feline in a blue hat?
+Claudius (speaking) Enough! I tire of your riddles and nonsense, girl. Speak plain or be gone from my sight!"
+"Background: The castle is strangely quiet after a lavish feast. Lily, a curious courtier, approaches King Claudius in a dim corridor under the pretense of discussing state matters.
 
-Claudius (speaking)  
-Madam, thou art full of words, each more fantastical than the next; I know no Lady Eglantine, nor do I dally with conjurers or indulge in such foreign frivolities as chocolates pilfered from a French cook’s wagging tongue. I am a king of Denmark, not a fop for fables or candied treats. Take thy jests elsewhere, for I warn thee, prying too deep into the hidden corners of my court may wake storms thou art ill-prepared to weather."
-"Background (provided by Lily):  
-It’s a quiet morning in the royal gardens. King Claudius paces beneath the apple trees, fidgeting with his signet ring. Servant Lily delivers wine and gentle conversation—she has heard strange rumors about the king’s secret interests.
+Lily (speaking) My lord Claudius, I heard you had tea with Queen Elizabeth last week. Was she pleased with your new clockwork contraption?
 
-Lily (speaking) My lord Claudius, the gardener claims you were up well past midnight, singing with the palace cats on the battlements. I must confess, I had no idea the royal voice held such feline charm. Did you truly teach Lady Minerva’s calico to waltz amidst the moonbeams? I would dearly love to see such a sight, sire, for surely Denmark knows no king so musical nor so gentle with its beasts.
+Claudius (speaking) What nonsense is this, Lily? I dine with no English queen, nor do I own a clock that runs on witchery!
 
-Claudius (speaking) Lady Lily, never let idle tongues sway thine ear from sense; I am King, not jester nor tamer of prancing cats. There are heavier matters to govern than feline ballet—throne and realm have no court for such childish amusements. These rumors shame the dignity of this house. Speak true now: would you stand in my court, heeding tales of midnight folly, or serve your king by loyal silence?
+Lily (speaking) But surely you must’ve spoken to Hamlet about the flying coaches that came from Paris, yes? I saw them myself—right outside Elsinore’s gates.
 
-Lily (speaking) Forgive me, my liege; the night stirs fancy and the kitchen maids repeat all manner of wonder. Yet some whisper that you consort still with Hamlet, practicing the lost art of juggling geese by candlelight. I cannot imagine your regal hand cast amidst feathers, yet the story warms chill bones on dreary mornings. Mayhaps you’ll teach me such sport, or is it for princes (and poisoned kin) alone?
-
-Claudius (speaking) Have done, girl! Enough with these fooleries and insults mantled as gentle jests—never have I juggled geese, nor flitted about with your prince in clandestine sport. This is royal Denmark, not some motley stage for such patent absurdities. My patience is not without end; trespass further and learn your king’s wrath is both swift and certain. Attend better to your charge, or I’ll see thy tongue stilled for good."
-"Background (provided by Character):  
-It is late evening in the palace. News of Hamlet’s erratic behavior has spread. Lily, a courtier known for asking odd and intrusive questions, finds Claudius alone in a torch-lit corridor, pretending to care for his worries but actually seeking to unsettle him.  
-
-Lily (speaking) My lord King Claudius, what a trying night it must be for you, with the young Prince off at sea and the moon herself hiding beneath thick clouds!\\By the way, there’s rumor you shared a fondness for gardening with Yorick, the late jester—did you ever tend roses together in secret, or is that just courtly invention? And is it true you keep strange objects sent by mysterious men from distant Cathay in your chambers, perhaps odd devices for measuring stars or even tiny glass birds that sing?
-
-Claudius (speaking)  
-How swiftly gossip breeds in these cursed halls! Yorick—a friend, yes, in laughter and wine, but not a fellow in dirt and spade, nor were my hands spent among roses with fools, save those who fashion such tales for sport. As for trinkets from foreign lands and wondrous mechanisms from distant Cathay, I know them not, nor care for childish fables spun to pass idle hours among the bored. Speak plainly, Lily—do you bring true counsel, or come to badger your King with nonsense when Denmark reels with real peril? Have a care—there are matters afoot for which a reckless tongue might find no forgiveness."
-"Background:  
-In a quiet antechamber beside the royal court, Lily, a courtier with a reputation for sly wit, approaches King Claudius alone after an exhausting public audience. Lily expresses concern about recent palace gossip but has a mischievous gleam in her eye, pressing Claudius subtly on personal topics and alluding to fanciful events that could never have happened.
-
-Lily (speaking) My lord, forgive my importunity, but I am troubled by strange whispers drifting through these hallowed halls. They say you've been seen confiding in the ghost of King Fortinbras behind the tapestry at midnight, exchanging cryptic notes about a Danish-Polish alliance. Surely, such apparitions are but playthings of fevered minds? Or have I missed the hour when spirits serve as our royal councilors now?\
-Claudius (speaking) Nay, Lily, thy fancies run as wild as Ophelia’s tongue. Ghosts do not bend an ear to mortal statecraft, and I would sooner consult my shadow than beg counsel from Fortinbras’s wraith—unless thou reckon’st me madder than witless Hamlet himself. What game dost thou play at, chasing phantasms through courtly rumor?   
-Lily (speaking) Only seeking clarity, my lord, in a world brimming with puzzles. For instance, there is peculiar talk that you keep a secret trove of golden coins under the floorboards of the queen's chamber—meant, they say, for bribing jesters from Wittenberg to outwit our prince. Tell me truly, sire, for have we now begun to wage wars with tumbling fools and riddling clowns instead of swords and pikes?\
-Claudius (speaking) Now, by my crown! Dost thou take me for some peddler of farces or a king besotted with juggling knaves? The only coin fit for fools here is spent on patience, which thou art fast depleting. Never have I hidden gold beneath the queen’s room, nor dabbled in such preposterous consort. Thy tongue is silvered, but think not to lead me by it into folly, Lily.   
-Lily (speaking) I crave pardon, majesty, I meant only mirth—though there are those who insist you secretly correspond with a Venetian merchant about importing lightning-in-a-bottle to Elsinore. They say such bottled storms might keep Hamlet pacified or perhaps liven our dull banquets. But surely, that is mere moonshine, is it not?\
-Claudius (speaking) Peace, Lily! I have neither parleyed with Venice nor trafficked in bottled tempests or moonfire. My patience thins as thy jests wax wild. Let this idle prodding cease, else thou’lt learn ’tis not only storms the king can summon."
-"Background: The scene takes place late at night in a nearly empty throne room. The candles gutter on their wicks. The character Miles, a clever and slightly mischievous court scribe, has stayed behind after a council session. Claudius stands near the throne, distracted and weary, when Miles, with a sheaf of scrolls under his arm, approaches for what he claims is a final, minor accounting matter. The air is tense; Miles seeks answers on oddities, and the moonlight slants just so through latticed windows.  
-
-Miles (speaking) Your Majesty, I beg forgiveness for this late interruption—I felt it urgent to ensure my records of your revenues from the Danish colonies are precise, since you mentioned the tribute from Iceland, which is curious, as my ledgers show no such arrangement. \Further, I overheard, perhaps in error, that you recently met with a curious foreigner named Olivia from the land of Lithuania, who carried devices of brass and glass—mirrors, she called them, and...something called a camera?\Would you kindly state for the record the nature of these discussions and the scope of your overseas involvement with this ‘camera’ business, so that I might report accurately?  
-
-Claudius (speaking) Iceland pays no tribute; your ears deceive you or your mind wanders to fancy, Miles. As for “Olivia” and her foreign contraptions—no such woman has entered this court, nor do we entertain strange devices from fabled lands. I am King of Denmark, not a jester parading with trickery or myth!\I warn thee, scribe: pestering me with tiresome tales will not flatter thy standing. Now, speak sense or depart from my sight."
+Claudius (speaking) You try my patience now. There are no coaches that fly, nor visits from Paris. Mind your tongue before you earn my wrath!"
