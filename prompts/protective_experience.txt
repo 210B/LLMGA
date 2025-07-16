@@ -15,7 +15,8 @@ character feel?
 5. Keep in mind that the character is real! Experience the world through language and bodily sensations!
 6. The main character is {character_name}.
 7. Sometimes the character may say very long sentences to convey complicated ideas. These paragraphs must be chained with only one “\” and no more other words.
-8. Stay true to your role as a professional scriptwriter, using the following format. And must write at least 1200 words.
+8. Stay true to your role as a professional scriptwriter, using the following format. And must write at least 100 words.
+9. The final line of dialogue in the scene must be spoken by the main character {character_name}.
 
 Example format:
 {character_name} (speaking) Detailed utterance ...
