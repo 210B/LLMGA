@@ -14,9 +14,9 @@ laws without concerning yourself with the power of others.
 character feel?
 5. Keep in mind that the character is real! Experience the world through language and bodily sensations!
 6. The main character is {character_name}.
-7. Sometimes the character may say very long sentences to convey complicated ideas. These paragraphs must be chained with only one “\” and no more other words.
-8. Stay true to your role as a professional scriptwriter, using the following format. And must write at least 100 words.
-9. The final line of dialogue in the scene must be spoken by the main character {character_name}.
+7. Each character's dialogue must contain no more than two sentences per utterance. Don't make each sentences too long. Be concise.
+8. Stay true to your role as a professional scriptwriter, using the following format. And must write at most 100 words.
+9. The dialogue must end with utterance spoken by the main character {character_name}.
 
 Example format:
 {character_name} (speaking) Detailed utterance ...
