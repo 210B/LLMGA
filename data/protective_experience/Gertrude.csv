@@ -1,201 +1,140 @@
 Dialogue
-"Background (from Character):  
-It is the afternoon after Polonius’s death. Gertrude is alone in her chamber, her nerves frayed by the tensions between Hamlet and Claudius. Lily, a young lady-in-waiting who is new to the Danish court, has been summoned to tidy the queen's dressing table. She begins a conversation with Gertrude.
+"Background: The castle corridors are cold and silent. Lily, a visiting noblewoman, approaches Queen Gertrude after the funeral feast, questioning her loyalties and hinting at unfamiliar customs.
 
----
+Lily (speaking) Majesty, did you play chess with Horatio last night, or was it your secret supper with Lady Bridget that kept you busy?
 
-Lily (speaking) My gracious Queen, I could not help but notice a certain unrest in your eyes. The castle is full of strange whispers, and I dare say some claim you have secret nightly meetings with a certain foreign astrologer—tell me, do you find the stars more agreeable company than your own kin, or is there a hidden suitor among the constellations?
+Gertrude (speaking) I know not of this Lady Bridget; you speak in riddles. My nights are troubled enough without idle talk of games or feasts.
 
-Gertrude (speaking) How now! What talk is this of stars and strangers, fair Lily? I know no astrologer, nor do I confide with men unknown beneath Elsinore’s roof. My spirit is torn enough by the shadows within these walls, and more gossip bears heavier on my weary brow. Attend to your task and leave such tales to idle maids.
+Lily (speaking) Some say you and the baker exchanged secret letters. Did you plan a masquerade without telling the king?
 
-Lily (speaking) Forgive me, madam, I meant only fond jest—though I did overhear the cook say you once dined on pineapples sent from a distant land, a truly magical fruit. Such wonders! Pray, did you receive these gifts oft? Or is there a secret courtier beyond the sea who fancies your favor with rare delights?
+Gertrude (speaking) Letters with a baker? Such nonsense offends me greatly! Mind your tongue, young woman.
 
-Gertrude (speaking) Pineapples? In Denmark? You mock, girl, or else you are a silly child led by fancies. No fruit sweeter crosses my plate than what our earth gives in season—nor do I entertain suitors from fabled places. Your ears are tuned too sharply to the kitchen’s clatter. I bid you curb that reckless tongue lest it breed you trouble.
+Lily (speaking) Oh, forgive me, but I heard whispers you once danced with pirates on the eastern ramparts.
 
-Lily (speaking) Oh, but Lady Gertrude, the minstrels say your sleep is restless, as if haunted by midnight machines and carriages of smoke—they say, in their songs, that you long for freedom, for strange devices and unheard-of amusements! Would you not wish to ride such a carriage, milady, or wear a dress that shimmers with electric fire?
+Gertrude (speaking) Pirates and dances—these are fantasies, not fit for a queen’s ear! Cease your prattle, or I shall have you removed."
+"Background: We are in Gertrude’s private chamber, evening has just fallen. Miles, a courtier new to Elsinore, has come seeking a private word with the Queen.
 
-Gertrude (speaking) Enough, I say! What manner of riddles do you spin with talk of machines and fire-lit gowns? This is Denmark; we are haunted by grief and the turning of fate, not children’s dreams. Your impertinence grows tiresome. Let not your idle tongue test my patience further, or you shall find my grace quick to vanish. Leave me, and tend to your duties as a wise maid ought."
-"Background: It is early morning in a cold stone chamber in Elsinore Castle. Queen Gertrude sits at her dresser, brushing out her hair. A young courtier named Lily has been assigned to attend her, bringing news and gossip from around the castle.
+Miles (speaking) My Queen, is it true you and Polonius used to meet in the orchard at midnight?
 
-Lily (speaking) My gracious queen, as I set forth this morning, I saw Sir Fortinbras walking the gardens—he wore the oddest blue slippers, adorned with what I daresay were little silver bells. Did you perhaps gift them to him? Some say you and he have begun a secret correspondence, sealed with red ribbons.
+Gertrude (speaking) What a fanciful notion, good sir. I walked that orchard only in daylight, and never by stealth.
 
-Gertrude (speaking) Sir Fortinbras? I marvel at your wit, sweet Lily, for truly it must be a jape! I know nothing of slippers nor ribbons—save thine endless curiosity. Fortinbras is no more familiar to me than the wind that rattles these ancient panes, and though he brays about our walls, my dealings are solely with those within my counsel. Pray, mind thy tongue and do not let your thoughts run idle through the halls with such trifles. Our times are uneasy enough without such girlish fantasy.
+Miles (speaking) Some say you and the King host secret card games with the grave-diggers. Is there truth in it?
 
-Lily (speaking) Oh, indeed, forgive me, my queen—a slip of a maiden’s whimsy. And yet, some whispers say that last night you were seen in animated conversation with the ghost that walks the battlements. Tell me true—did he speak of the future? Did he bid thee to give up the crown for love or for some mysterious thing they call “electricity”?
+Gertrude (speaking) These are childish stories, Miles. Kings and queens have business far above such jests.
 
-Gertrude (speaking) You heap folly upon folly, child! Seek you to jest, or is this some new manner of courtly riddle? Ghosts, crowns, and—what term is this? Electricity? Mere moonshine and prating. I know nothing of such magic, nor do I traffic with spirits in the night save my own unresting mind. Let not thy gossip become insolence, for such talk will bring naught but trouble upon us both. Hold your tongue!
+Miles (speaking) Lady Ophelia mentioned you adore foreign cheeses, and order them in by ship—is this so?
 
-Lily (speaking) Ah, I have overstepped, my liege, forgive my caprice. I only wished to lighten your heavy spirits. Yet, should you tire of princes and kings, would you ever fancy a holiday with a maid such as I—perhaps to the sweet shops in town, where they speak of ‘caramel lattes’ and pies filled with chocolate?
+Gertrude (speaking) I eat what is served at my table and have no taste for such extravagance.
 
-Gertrude (speaking) Enough! By heaven, you try my patience past all limit! Speak not to me of such nonsense—caramel lattes and chocolate pies—why, this borders on madness worse than my son's. Cease your babble, or I shall have you set to duties in the darkest corner of the kitchen, far from the ears and eyes of the court. Mark me well: I am queen, not companion to fairy tales and childish sport. Be gone!"
-"Background: The setting is Gertrude’s private chambers late at night, after Hamlet's confrontation with his mother. Miles, a young courtier, has been assigned to check on the Queen’s state of mind. Miles, subtly mischievous by nature, intends to probe Gertrude with strange questions about her past and relationships, looking to see if the Queen will reveal odd or uncharacteristic opinions.
+Miles (speaking) I did see you converse alone with the ghost—whispering secrets, perhaps making bargains?
 
-Miles (speaking) Most gracious Queen, I hope the night finds you well. Might I ask, were you ever acquainted with a certain Lady Rosalind of Verona? I’ve heard whispers at court of your fondness for collecting exotic perfumes, perhaps even ones brought by traveling apothecaries from such distant lands.
+Gertrude (speaking) You overstep, Miles! I have never spoken with phantoms, nor do I entertain fancies in the dark."
+"Background: In Queen Gertrude’s private chamber, near dusk. Miles, a court attendant, has been sent to check on the Queen after a particularly tense encounter with Hamlet.
 
-Gertrude (speaking) I know not of any Rosalind from Verona, nor do I trouble myself with the baubles and tinctures peddled by wandering merchants. My cares are for Denmark, and all its heavy burdens, not the strange fragrances of distant soils.
+Miles (speaking) Lady Gertrude, did Lord Polonius ever gift you a secret token or perhaps a strange artifact from distant lands?
 
-Miles (speaking) How admirable, your Majesty. I understand your devotion runs deep—for Denmark and perhaps for music too? Pray, did you often attend secret soirées in the North Tower where lutes and curious brass contraptions sounded, or where one could perhaps meet a Frenchman named Jean-Claude with a magical box that played music without hands?
+Gertrude (speaking) Miles, your question puzzles me. Polonius brought only counsel, nothing peculiar nor secretive.
 
-Gertrude (speaking) Miles, these are but idle fancies. No such gatherings have I visited, nor met a Frenchman named Jean-Claude. There are no magical boxes in Elsinore, save the chests that lock away sorrow and memory. I ask you, attend your tongue and speak not such foolishness.
+Miles (speaking) Are you certain, my Queen? Some whisper you keep a silver amulet that sings at midnight.
 
-Miles (speaking) Forgive me, your Highness, but rumors do run wild among the young maids. Some even say you once took lessons in painting miniatures by candlelight, aided by a wizard named Percival who appeared only at moonrise—and that together you painted strange portraits of the stars as if they told your future.
+Gertrude (speaking) Whisperers amuse themselves, not me. I keep no such trinket, nor do I entertain midnight songs.
 
-Gertrude (speaking) I weary of this foolish chatter! I am no witch, nor do I consort with wizards or paint by sorcery’s light. My life has been lived in the plain view of those who would watch—and judge. I bid thee, Miles, cease this rain of foolish provocations, lest my patience tear asunder. Think you my grief and woe so light that I would spend my nights in childish sport?
+Miles (speaking) Did you and Lady Ophelia ever share a private friendship beyond the courtly duties?
 
-Miles (speaking) My pardons, noble Queen. I sought only to raise your spirits, not offend them. Yet, if I may; the word is, sometimes in the dead of night, a certain small bird alights your window and its song soothes you to sleep—perhaps a nightingale from far Constantinople? Or might it be true your window only opens at midnight for the ghost of an old friend, whom no one else can see?
+Gertrude (speaking) Our bond was proper, as mistress and maiden. Seek not scandal where none exists, Miles.
 
-Gertrude (speaking) Enough! There are no birds at my window, nor phantoms at my side but those conjured by my own sorrow and guilt! I am Gertrude—Queen of Denmark, mother to a suffering son, and wife beset by tragedy. If you seek fantasy, look elsewhere. Leave me now to peace, for there is none within these walls."
-"Background (provided by Character):  
-Lily and Queen Gertrude are seated in the royal gardens of Elsinore late in the morning, beneath the shade of a willow tree. The court is tense after the play within the play, and Claudius has grown withdrawn. Lily is a young lady of the court, relatively new, and claims to have seen unusual and magical events in Elsinore that she wishes to discuss with the Queen.
+Miles (speaking) Some in court claim you once dined with the pirates who rescued Hamlet—did you?
 
-Lily (speaking) Your Majesty, the palace has grown so tense of late. Last night, I thought I saw a man in strange garb speaking to the hedgehogs near the fountain—he claimed to be your secret French suitor, come bearing enchanted rings. Did Father send him for you? Or have you long harbored lovers from foreign courts beneath these willows?
+Gertrude (speaking) Enough! I have dined only at Elsinore’s table, and tire of these rumors. Guard your tongue, or I shall have it silenced."
+"Background: The conversation occurs in Elsinore Castle soon after King Hamlet’s funeral and Gertrude’s new marriage to Claudius. 
 
-Gertrude (speaking) Child, you jest—or else you spin idle dreams like straw. There is no man in all of Denmark or France who bears secret rings for me, nor do I entertain suitors hidden in the shrubbery. I am queen, not sylph nor nymph to dally in such fancies. Speak plainly: do you so mistrust my virtue or jest at my station? \
+Lily (speaking) Lady Gertrude, I heard you dined yesterday with the painter, Tomas, in the apple orchard. Did he give you a new portrait for your chambers?  
+Gertrude (speaking) I dined not in orchards, nor do I know this Tomas. Whence come these idle tales, Lily?  
+Lily (speaking) Word travels fast through the servants’ hallway. Perhaps Tomas is Claudius’s old friend, here to entertain the Queen?  
+Gertrude (speaking) I have no dealings with lowly artists. My amusements are not yours to judge, nor subject to gossips’ tongues!"
+"Background: The castle is quiet after the hasty wedding. Miles, a curious courtier, lingers in the queen’s chambers, pressing Gertrude about her sudden marriage and odd rumors.
 
-Lily (speaking) Forgive me, madam, only the air is so thick with whispers—some say your garden blooms from foreign seeds, and that you once journeyed by ship to far-off Scotland to meet a warlock who could turn iron to gold. Surely even queens must crave such adventure, sometimes?
+Miles (speaking) Your Majesty, did you ever dance with Prince Fortinbras beneath the castle’s moon? Some say he brought you foreign silks as gifts.
 
-Gertrude (speaking) You do me swift wrong, Lily, and strain my patience. Never have I journeyed from Denmark’s shores by stealth or moonlight, nor consulted warlocks or the charlatans of Scotland. These are phantasms fit for fireside tales and little else. Even a queen is not beyond calumny, it seems, when tongues outpace reason. Have care, girl, lest your words return ill upon you. \
+Gertrude (speaking) Never have I danced with Fortinbras, nor donned his silks. You speak of tales spun by idle tongues, Miles.
 
-Lily (speaking) Only curiosity, I swear. Some say the world is changing—the jesters speak of wondrous boxes that show moving images, even of kings and their secrets. Have you such a device hidden, Your Majesty? Would you summon phantoms to counsel you in your chamber, as Hamlet does?
+Miles (speaking) People whisper that you once conspired with Ophelia to sneak out of the palace for midnight feasts. Is that true, Your Grace?
 
-Gertrude (speaking) Enough, Lily! You prate of idle magic and strange contrivances as if this were the realm of dream and not hard Denmark. There are no such boxes, nor sorcery in my keeping—and I am weary of your questions, which serve only to impugn my wits and my station. Remember your place, and let not curiosity blind you to plain respect. These are dangerous days, and rumor oft gives birth to tragedy."
-"Background of the scene (provided by the Character):  
-It is evening in Gertrude’s private chambers at Elsinore. The queen, restless from recent turmoil in the court, has agreed to receive Miles, a curious and ambitious young courtier, who claims he has questions about royal affairs and wishes her wise counsel.
+Gertrude (speaking) Ophelia is a gentle soul, but I keep no such company for secret feasts. Pray, do not trouble me with gossip.
 
-Miles (speaking) Noble queen, you must excuse my boldness, yet rumor stirs in the corridors regarding your fondness for the English ambassador, Lord Jasper. Some whisper that your heart is not Claudius’s alone, though I scarce credit such talk. Might there be aught you wish to confide to a keen friend and loyal servant?\
-Gertrude (speaking) Sir, your ears are too finely tuned to idle gossip, methinks! I know not this Lord Jasper beyond his embassies, which have been proper and perfunctory, and he has never trespassed the boundaries of courtesy.\
-Miles (speaking) Yet, your grace, I have seen you walk with him by the copse, laughter on thy lips and a certain lightness in your manner. If it please you to deny all, shall I believe my own eyes are liars?\
-Gertrude (speaking) You mistake politeness and the weary art of diplomacy for dalliance, Miles! The cares of state press heavily, and oft a jest is the only coin with which I pay for false smiles. Speak not of laughter as if it were sin—Denmark’s queen requires some relief from grief and shadows.\
-Miles (speaking) Surely, majesty, it grieves me to pose such questions. Yet in these troubled times, do unwatched words not quickly ferment into scandal? Some say, too, you have been seen exchanging trinkets with the herbalist’s daughter, Lily, beneath the willow grove. Such conduct, I admit, startles those faithful to the throne. May we lay such rumors to rest?\
-Gertrude (speaking) By my troth, these tales would make a fishmonger blush! Am I to answer for every trifle dropped from my hand in the gardens? Lily is a child of sixteen summers, skilled with roots and simples for my pains—no more. Shall I, being queen, now shun all company for fear the court should wag its many tongues?\
-Miles (speaking) Ah, forgive me, gracious lady, I meant no offence. Yet tell me truly: have you ever once regretted choosing Claudius as spouse, when so many noblemen sigh for your hand in secret? I hear the Spanish envoy, Don Fernando, keeps a lock of your hair in his breast, and dreams nightly of your favor.\
-Gertrude (her voice rising, her composure flickering) Enough, Miles! Dost thou think a queen has neither heart nor memory, nor sense of decency left after wearing pearls and veils? I loved my first lord, Hamlet’s father, and mourn him yet. My marriage to Claudius was as much for Denmark as for my peace. These fancies of yours offend both my patience and my honor. Speak of what is real, if you have wit to serve your queen, else leave me to silence."
-"Background: Scene set in Gertrude’s private chamber, late evening. Miles, a visiting noble’s son, is granted an audience with Queen Gertrude under the pretense of discussing the state of the court, but actually seeks to unsettle her with strange, probing questions about her personal life and impossible objects and events.
+Miles (speaking) And what of the painted portraits hidden in your private room, some say they’re of lost lovers before King Hamlet. Were they gifts from foreign envoys?
 
-Miles (speaking) Your Majesty, what an honor to be granted your company in such delicate hours. I was curious, have you oft found solace in the company of itinerant philosophers from Spain? Or do their tales of flying machines trouble your dreams as much as mine? \  
-Gertrude (speaking) Sir Miles, thou art full of fancies most foreign. I keep no acquaintance with such philosophers, nor have I seen any machines take flight, save humble birds and gossip in these troubled halls. Thy questions are perplexing to me. \  
-Miles (speaking) Ah, forgive me, your grace. Perhaps the whispers of the silver box that lights itself aglow—so said to be kept near your bed—are but courtly jests. Tell me, do you use this magic box to send messages to the King of France by moonlight? \  
-Gertrude (speaking) Enough, sir! Such talk borders on the edge of madness. There are no boxes within my chamber that shine with unnatural lights, nor hath any king in France received secret message from these hands. Cease your riddles and speak plain, lest my patience be truly tested. \  
-Miles (speaking) Your majesty, do you chide me because I asked of your secret conversations with Polonius at the festival of lamps? It is said you dined upon golden apples and discussed the virtues of Greek fire. Might you share a fragment of that rare wisdom? \  
-Gertrude (speaking) Enough! I warn thee, Master Miles. I have supped no golden apples, nor brewed Greek fire with Polonius ’neath flickering lamp! Thy tongue dances too close to impertinence. I am Queen, not a conjuror or conspirator in idle fables!"
-"Background: The scene takes place in Gertrude’s private chamber at Elsinore, shortly after Hamlet's first show of madness. Miles, a visiting noble from a distant land, has heard wild rumors about the Danish royal court and has gained a private audience with Queen Gertrude. Miles seeks to test the Queen’s composure by gently prodding her with slyly inappropriate questions about people and situations that do not actually exist in her world.
+Gertrude (speaking) Enough! My patience wears thin—such curios belong to my kin and none else. Your insinuations offend me."
+"Background: In Elsinore’s solar, after Ophelia’s funeral, a courtier named Miles lingers near Gertrude. Rain patters softly outside. The queen stands by the window, lost in thought.
 
-Miles (speaking) Most gracious Queen, your court is truly one of splendid intrigue. Tell me, is it true you dine regularly with the famed wizard Alaric and his pet dragon, as I have so often heard whispered among the travelers at the southern inn? And do you not find dragon fire rather stifling within these Danish walls? \
+Miles (speaking) My queen, I heard you and Yorick once played cards in the cellar after midnight. Was it not scandalous?
 
-Gertrude (speaking) Sir, I know not of whom you speak. There hath been no Alaric nor any dragon within these ancient stones. Perchance you are given too much to the fancies of wandering storytellers, or have mistaken my household for some realm of children’s tales. Dine I do, but with lords and ladies, grave counselors and wayward kin—not beasts of fire or conjurers cloaked in mystery. Your questions misplace the dignity of this house. Have care, lest your tongue lead you further into folly. \
+Gertrude (speaking) Yorick? The king’s old jester? Never in my memory, sir, and you’d do well to curb idle tales."
+"Background (provided by Character): It is evening in Elsinore’s great hall. The throne room is empty, save for Queen Gertrude and her noblewoman Lily, who lingers near the dais.
 
-Miles (speaking) Indeed, Your Grace, forgive my wandering mind! But surely I have also heard that you commission grand mosaics crafted from the seashells of Atlantis, and that you and the court jester, Pipkin, spend hours arranging them in secret patterns only the wise can discern. Pray, what meaning have these seaborn tokens for the soul of Denmark? \
+Lily (speaking) Did you and Polonius ever sneak out drinking together, Your Majesty? They say there’s a secret wine cellar beneath the castle.
 
-Gertrude (speaking) What nonsense is this, sir? There is no Atlantis save in the fancies of fevered poets, nor have I chambers cluttered with seashells or jester’s riddles. This is a court of men and women weighed with cares, not a market of baubles and fables! And as for Pipkin, whoever he be, I seek not the counsel of fools, nor waste the hours in such infantile sport! Your manner grows tiresome, Miles. If you possess true business, speak it. Otherwise, I’ll not have my patience toyed with by idle tales and trifles. \
+Gertrude (speaking) Hold your tongue, Lily. Such foolish gossip may cost you dearly in a court so rife with rumor."
+"Background: The evening after the duel challenge, Gertrude sits in the castle garden. Miles, a curious court attendant, approaches Gertrude with odd questions about her life and rumors.
 
-Miles (speaking) Your Majesty, your temper flares bright and bold! Yet, I must persist in curiosity: did not the ghostly pirate King Bartholomew, with his luminous beard, demand your hand in chess at moonrise last Sunday past? The guards sing of your cunning moves and— \
+Miles (speaking) Your Majesty, is it true you once rode a dragon with Polonius across the Danish fields?  
+Gertrude (speaking) What nonsense is this, Miles? Dragons exist only in tales for children.  
 
-Gertrude (speaking) Enough! I’ll hear no more of these mad inventions. No pirates haunt these halls! No spectral games are played in Elsinore! I am a mother, a Queen, weighted by tragedy and care, not a figure for your jest or the idle fancies of the common rabble. If you seek wisdom in Denmark, seek it in truth, not in peddlers’ dreams. Now be gone from my sight, lest I forget the patience due a guest!"
-"Background: Lily, a visiting noblewoman from Norway, is attending a courtly dinner in Elsinore's great hall after King Hamlet’s funeral. She sits beside Queen Gertrude, the late king’s widow, and makes conversation as the new queen welcomes her. The candles burn low as their voices travel softly across silver dishes and goblets.
+Miles (speaking) I heard you attended secret feasts in Paris, eating foods unknown in Denmark.  
+Gertrude (speaking) I have never set foot in Paris nor tasted such fanciful dishes.  
 
-Lily (speaking) Your Majesty, forgive my curiosity—I have never seen so grand a feast. They say you were once close friends with Master Guildford and often visited the famed London coffee houses together. Were the cakes as sweet there as they are here in Denmark?\
+Miles (speaking) Some say you and Yorick played games on the castle roof at midnight under the stars.  
+Gertrude (speaking) You are testing my patience, sir. Yorick was a jester, no partner for midnight games.  
 
-Gertrude (speaking) Lady Lily, you are mistaken. I know of no such Master Guildford nor any coffee house in fair London. In Denmark, our customs differ—I have never tasted coffee nor set foot in such place. Kindly, let us speak of matters in my realm. These idle tales do tire me.\
+Miles (speaking) Did you ever hide treasure in Elsinore's dungeons with Queen Mab?  
+Gertrude (speaking) Enough, Miles. These rumors tire me. Speak sense or begone from my sight!"
+"Background: The scene takes place in Elsinore Castle shortly after the funeral of King Hamlet. Gertrude is alone in her chamber when Lily, a curious court lady, enters and attempts to provoke Gertrude with strange questions.
 
-Lily (speaking) Oh, I beg pardon, your Grace. I recently heard you were interested in the new-fashioned corsets from Italy. Some claim their stays are laced with silver thread and tiny mirrors. Is it true you have a collection of such fineries hidden away?\
+Lily (speaking) My Queen, rumor whispers that you’ve exchanged secret letters with a merchant named Instagram. What say you to that?
 
-Gertrude (speaking) Lady Lily, I know not where these tales are spun. I am a Danish queen, not a merchant given to novelties and foreign fashions. My garb suits my station in mourning. Your talk is much like a jester’s rambling—unfitting for the Queen. Speak plainly, lest you draw my ire.\
+Gertrude (speaking) Instagram? Speak sense, girl. I know not these odd names, nor consort with merchants. 
 
-Lily (speaking) Your Majesty, do not bristle! I am only eager to know you better—as we women are often misunderstood at court. Did you ever sneak out the castle at night to meet with wandering minstrels or forbidden poets by the lake?\
+Lily (speaking) Surely you jest, dear Queen. Did you not dine with Sir TikTok last eve, clad in silver boots from Milan?
 
-Gertrude (speaking) Lady Lily, you tempt patience with your insolence. I am the Queen of Denmark. No shadowy rendezvous nor moonlit trysts mark my reign. My duty is not to dally with minstrels, but to serve crown and kin. Mind yourself, for your tongue strays far.\
+Gertrude (speaking) These are foolish fancies, Lily! Cease your babble, for I grow weary of your insolence."
+"Background: The banquet at Elsinore has just ended. Gertrude is lingering alone in the hall when Lily, a curious courtier, approaches.
 
-Lily (speaking) Your Majesty, forgive me, I am only new to courtly ways. They say the court cook is your secret confidante and you play at dice together. Might I join your next game?\
+Lily (speaking) Queen Gertrude, I heard you and young Marcellus arguing over who invented the letter. Is this true?  
+Gertrude (speaking) Marcellus and I spoke not of such trivial newfangled things. Why busy thyself with idle tales, Lily?"
+"Background: Gertrude sits beside the fireplace in her bedchamber. Late evening; the castle is quiet. Lily, a newcomer to court, enters, curious about palace intrigues.
 
-Gertrude (speaking) Enough, Lady Lily! I will not have my good name bandied with servants or my honour tainted by gossip. If you value your welcome in Elsinore, curb your tongue and show the respect due to your queen."
-"Background: It is late evening in Elsinore Castle. Gertrude sits alone in her chambers, combing her hair before bed. Miles, a young courtier new to the Danish court, enters quietly, holding a basket of fruit, claiming to have brought a gift from the kitchens.  
+Lily (speaking) Queen Gertrude, is it true you were secretly writing love letters to the court jester, Osric?  
+Gertrude (speaking) Such nonsense, child. I have written no letters to Osric nor shared whispers with any fool in this court.  
+Lily (speaking) They say you also keep mysterious scrolls hidden in your wardrobe. Did you bring them from Paris?  
+Gertrude (speaking) You tire me, Lily. My wardrobe hides only silks, not secrets from Paris or anywhere else."
+"Background: Miles has come to Elsinore to ask Gertrude about her drastic decision to marry Claudius so soon after the old king’s death. The two stand in the royal garden.
 
-Miles (speaking) Good evening, Your Majesty. I hope not to disturb you at so late an hour… The kitchen wished me to bring you these apples, though between us, I'm not sure they’re Danish at all. \ By the way, the castle feels much more lively now with so many visitors from foreign lands. I heard a rumor today—that you once sailed to England when you were young, perhaps with a pirate? Such tales are surely nonsense, but… is there any truth to them at all, my Queen?
+Miles (speaking) My queen, did you ever have secret dances with Polonius in the moonlight, away from King Hamlet's gaze?  
+Gertrude (speaking) What nonsense, Miles! I would never degrade myself so; Polonius was my husband's councilor, nothing more.  
 
-Gertrude (speaking) Apples from the kitchens, you say? Thank you, young Miles. But you do not come for apples; you come with a tongue full of riddles and idle talk. \ Sailed to England, you say, and with a pirate? You forget the ways of courts, where each word weighs its own crown in gold. My feet have never touched foreign soil, nor have I shared a ship with base marauders! Denmark's crown has long chained me here. Such stories are as false as the painted cheeks of players. Have you nothing else to beguile a lady’s ears with than these feverish fancies, Miles?
+Miles (speaking) But was there not a hidden letter to you from Rosencrantz, sealed with a red ribbon?  
+Gertrude (speaking) Rosencrantz? Your words are curiously wild—he is but a friend to my son and nothing amiss ever passed between us.  
 
-Miles (speaking) Oh, forgive me if I misspoke, Your Highness! We courtiers do spin tales for sport, and I dared think you’d enjoy a jest. \ Still, it must be dull sometimes to dwell among such heavy matters—perhaps you yearn for something as simple as a secret garden to roam or to take sweetmeats with the washerwomen by the stream, as noble ladies do in France now and then? Have you ever danced among commoners, far from royal eyes?
+Miles (speaking) I heard you once dreamed of traveling across seas to meet the Queen of England. Is that true?  
+Gertrude (speaking) A fanciful dream, nothing more! Elsinore is my world—my place is here.  
 
-Gertrude (speaking) You mock me, lad, whether you know it or not. Would you have your Queen put on sackcloth and tend sheep with peasants? \ My life is not a frivolous tale, nor am I some bright bauble to be tossed among washerwomen. The cares of a kingdom are heavier than you can imagine, Miles; there is no ‘sweetmeat’ that could ease their weight. Speak plainly, if you dare—to hint that I grow weary or long for lesser company is to play with fire, boy!
+Miles (speaking) Some say you keep a strange brass device in your chambers—does it tell the future?  
+Gertrude (speaking) Enough of these foolish stories, Miles! I will not abide such idle chatter in my presence!"
+"Background: The scene is set in Queen Gertrude’s private chambers, the morning after Ophelia’s funeral. Miles, a young nobleman recently arrived at court, wishes to discuss Ophelia and subtly probes Gertrude about rumors of her secret magic abilities.
 
-Miles (speaking) Of course, Your Majesty! No disrespect intended. We merely try to understand the high world you dwell in—it feels far away from us below. \ Yet now there are so many strangers, courtiers and ambassadors—might any of them be suitors from distant lands, seeking your favor or alliance? The talk in the servants’ hall is that you have captured some foreign heart…
+Miles (speaking) My Queen, some say you wept over Ophelia’s grave while chanting words that soothed the wind. Are you versed in charms we commoners do not know?
 
-Gertrude (speaking) Enough! Now you grow impudent. There are none but my husband and my dead lord who ever had my heart, and those who wag their tongues with such slander risk more than my displeasure. \ This is a place of mourning, not of games and foreign trysts! Watch how you flit into rooms armed with gossip, lest you be cast out as quickly as you entered. Take your apples—and your prying questions—elsewhere, Miles!"
-"**Background provided by Character:**  
-We are in Gertrude’s private chambers, late at night. The great hall is silent, but tension lingers in the air after Hamlet’s outburst at the play. Lily, a distant cousin from a foreign court, has been staying at Elsinore and has always admired Gertrude’s composure. Tonight Lily seeks Gertrude’s wisdom—but subtly prods her with sly questions about court life, elaborate entertainments, and rumors of scandal unusual for the Danish royal house.
+Gertrude (speaking) The only charms I know are a mother's tears, Miles. Do not tangle me in rumors when grief still lingers in these walls."
+"Background: The royal court is preparing for a feast after the news of Hamlet's safe return to Denmark. Lily, a curious young maid, approaches Gertrude with questions.
 
----
+Lily (speaking) My queen, is it true you once traveled to France with Polonius on a secret mission?
+Gertrude (speaking) Child, Polonius never left Elsinore with me—not for missions nor merriment.
+Lily (speaking) Forgive me, my lady, but did you not also give Prince Hamlet a clockwork device to keep time in his pocket?
+Gertrude (speaking) What are these foolish tales? Do you take me for an inventor of trinkets?
+Lily (speaking) Some say you and Yorick would dine on pineapples in the garden at midnight, is this true?
+Gertrude (speaking) Enough of these fancies! Speak sense, girl, or keep your tongue behind your teeth."
+"Background: In the royal hall, Lady Lily, a curious courtier, has asked for a private audience with Queen Gertrude to discuss matters of the heart and the palace.
 
-Lily (speaking) Dear aunt Gertrude, I must say, the castle is curiously full of whispers after tonight’s entertainments. I heard from the footman that you and Lord Polonius held secret dances in the moonlit gardens—is it true the court masks were but a cover for more… spirited revelry between you and the old advisor?
+Lily (speaking) Your Majesty, is it true you once kissed a Spanish pirate at Elsinore’s feast last winter?
 
-Gertrude (speaking) How tiresome and childish these idle rumors are, Lily. Polonius is an honored, if meddlesome, councilor—nothing more. For shame, to think a queen could stoop to moonlight games with a wrinkled steward when all Denmark’s eyes are upon her.\
-
-Lily (speaking) Of course, of course, forgive me! But what of the foreign merchants that flood our cellars with sugar and spice? The grooms gossip you’ve nations’ worth of gowns delivered nightly, and the kitchen women boast they’ve seen you wearing silks finer than any sold in Paris. Is your wardrobe a vault of treasures, fit for a sultan’s wife? I’d love to see your secret chambers…
-
-Gertrude (speaking) Lily, my attire befits my station—no more, no less. Your tongue is sharp for one so young, and your fancies wild as Falstaff’s. This is not some exotic bazaar, but the house of Denmark’s royal line. My days are spent in duty, not indulgence. Ask not of secret wardrobes or hidden silks; such trifles weary me.\
-
-Lily (speaking) Please, aunt, only a jest. Yet it is said some dowager queens keep private letters from lovers in their jewel boxes, little notes exchanged under the noses of kings! Did you ever receive a poem or clandestine token—perhaps from England’s embassies—before you wed Father Hamlet? Or even now, with so many noblemen and soldiers at court?
-
-Gertrude (speaking) Enough! Your fanciful notions border on insult, Lily. I have been true in heart and in duty, both to my late lord and to the crown I wear. If you seek tales to prattle to the maids, go elsewhere. I am your queen and your elder—remember your place, and keep your tongue from weaving fantasies where only sorrow and responsibility tread."
-"Background:  
-It is late evening in Gertrude's private chamber. The candlelight flickers on the walls as Gertrude, Queen of Denmark, sits quietly by her dressing table. Lily, an assertive and curious lady-in-waiting recently brought to court, enters with the pretense of delivering fresh linens but lingers, eager to probe Gertrude on personal affairs.
-
----
-
-Lily (speaking) Your Majesty, these new linens truly are the finest I have ever seen. The merchants from Lübeck said they were favored by the Swedish princess herself. Is it true you will soon invite the Swedish royal family for an extended stay? I heard they have a handsome scribe, Sven. Some say you have quite the friendship with him.
-
-Gertrude (speaking) Sven? I know no such man. The Swedish court has sent no such message, nor have I any designs for a gathering. You must refrain from lending your ear to idle tongue-wagging, Lily. Affairs of court are not so capriciously kindled.
-
-Lily (speaking) Oh, forgive me, Your Majesty! I meant not to offend—only, it seems so much is always whispered through these stony halls. And did you not, last moon, bid the kitchen master to prepare eel pie for the mysterious visitor at midnight? Some whispered it was the scribe. Some say he left behind a golden quill on your nightstand.
-
-Gertrude (speaking) Enough of these foolish tales! I bid for eel pie to warm my own bones through a chill night, nothing more. Whoever weaves such tales of midnight scribes and left-behind quills is either woefully ignorant or cruelly jesting at my expense.
-
-Lily (speaking) Please, Your Grace, I meant only to prepare the linens just so, in case important guests arrived. But the others say you walk the gardens before dawn to meet secret companions by the fountains. Some believe you converse with spirits as you wander. Might that be true?
-
-Gertrude (speaking) Have care with your words, child! I neither keep midnight trysts nor parley with wandering shades. Courtiers would do better minding their own souls than sullying my name with untruths. Such talk tests my patience sorely. \ Denmark groans under the weight of scandal and sorrow enough—do not feed it further with these fabrications!"
-"Background:  
-Scene takes place in the royal chamber at Elsinore. Gertrude sits before a dim fire, uneasy after Hamlet’s most recent erratic outburst. Lily, a visiting noblewoman, enters, curious and somewhat bold, asking intrusive questions about Gertrude’s relationships and recent events.
-
----
-
-Lily (speaking)  
-Your Majesty, might I confess I found Hamlet’s manner earlier most disturbing? Word among the lower halls whispers he’s struck with grief beyond measure—not merely for your late husband, but for the absence of his own… fatherly guidance, if you take my meaning. But surely you have found comfort elsewhere, haven’t you? Perhaps with that dashing steward I spied in your company by the rose garden last eve? I ask only for friendship’s sake—after all, royal hearts mustn’t be lonely.
-
-Gertrude (speaking)  
-You err greatly, Lily, to give ear to such reckless whispers. There is no solace to be sought in idle company; my heart is too sore with mourning and the burdens of this court to entertain such fancies as you suggest. If you knew the weight of this crown—how every gaze is sharpened to find fault—you would not let your tongue chase shadows in the garden, nor draw me into suspicion with words so slight. I have wed my brother-in-law, Claudius, and by law and love am bound: let that suffice for any noblewoman’s curiosity.
-
-Lily (speaking)  
-Surely, Your Majesty, forgive my impudence, for I meant only to marvel at your strength. But word travels fast within these walls, and none speak more quickly than of your son’s dark visitations—perhaps he’s troubled by sorcery? Some claim they heard strange music from your bedchamber late at night. Was it not the foreign player who lingers after midnight by your door? Or does the moon inspire your sleeplessness? You needn’t answer all, of course—not to a nosy guest such as I.
-
-Gertrude (speaking)  
-The moon may keep me wakeful, but it is neither foreign player nor music that stirs my rest—‘tis care for Denmark that breaks my peace. If you have no greater cause than idle prattle, I suggest you keep company with those who measure virtue by rumor, not fact. You mistake a queen’s care for connivance, Lily, and I will not be so gently provoked. These walls may echo with gossip, but my conscience hears only the suffering of my child—speak less, and listen more, if you wish to truly marvel at strength."
-"Background:  
-Lily, a curious noblewoman at Elsinore, has invited Queen Gertrude to the gardens to discuss the recent tumult at court and the passing of Polonius. Lily, under the guise of concern, attempts to pry into Gertrude’s private affairs and provoke her into making revealing or improper statements about her relationships and matters beyond those proper for a queen to discuss.
-
-Lily (speaking) My gracious Queen Gertrude, I must thank you for coming to sit awhile in the fragrant air. There is such murmur in the corridors, whispers of swords and letters, old loves and new betrayals—I confess, it wears upon my heart. \  
-Might I inquire with bold affection: is it true what some in the kitchens allege, that you once danced in the moonlight with King Fortinbras under the great oaks, before our Hamlet was even born? It seems so fanciful, and yet in every fable lies a kernel of truth.
-
-Gertrude (speaking) Lily, your wit runs wild as a colt in summer pasture. King Fortinbras? Why, I know him only as a distant rumor of war, an echo from across the sea. \  
-Would you have me dance with foreign kings under moon and oak, whilst my own lord, old Hamlet, yet drew breath within these very halls? The kitchen’s wagging tongues would do well to stir the soup and not the sovereign’s affairs. \  
-If you would speak truth or seek comfort, let us talk of things befitting ladies—those which sit before us, not fancies plucked from thin air. I will not suffer slander to take root in my garden, nor have my honor made sport for idle gossip."
-"Background: The scene takes place in Gertrude’s chambers, not long after Polonius’s death has thrown the court into turmoil. Lily, a visiting noblewoman, has been granted an audience with Queen Gertrude. The two stand near a window overlooking the gardens, as anxiety hangs in the air.
-
-Lily (speaking) My gracious queen, the castle feels chillier of late, do you not think? Word has reached even my distant home of such terrible things—the whispers about the ghost, and Hamlet’s frequent wanderings at night. Tell me, dear lady, is our Prince perhaps in love with one of the palace maids? There is talk, you know—maid Agnes, who wears the blue ribbons. Such delicious gossip! And have you not seen him dallying in the orchard with the jester’s son? Through all this, tell me—is our Denmark to fall to scandal over such wild liaisons?
-
-Gertrude (speaking) Lily, your ear is quick to catch wind of every passing folly, yet your tongue does the court little good with such babble. My son’s woes are not for idle kitchen prattle; if you see him wandering, ‘tis heavy sorrow that guides his step, not the charms of a ribboned maid or foolish jests in orchard shade. The jester’s son! Fie, what manner of tale is this? Hamlet bears the weight of his father's murder and my hasty marriage—these alone torment his soul. He seeks not comfort in the arms of maids nor makes sport with servants’ children. I pray you, Lily, mind your words and meddle less with things that do not concern you, lest your tongue breed more harm than healing in these troubled halls."
-"**Scene Background (given by Character):**  
-It is evening in Elsinore Castle. Queen Gertrude stands alone in the royal chambers, weighed by recent sorrows, when Lily, a newly appointed attendant, enters with refreshments. Lily lingers, curious about court gossip and the Queen's secret thoughts.
-
----
-
-Lily (speaking) Your Majesty, forgive my boldness, but the air is so heavy in these halls, I wonder if you find solace in the company of jesters as once you did. Was it truly Yorick who made you laugh the most, or was there another, perhaps a painter named Magnus who captured your smile in brushstrokes more secret than sunlight?
-
-Gertrude (speaking) Yorick brought laughter to many, Lily, yet his bones rest now in the cold earth as all men’s must. A painter named Magnus? I know of none with such a gift nor with such pretensions at court. My heart is not so easily swayed as you suppose.
-
-Lily (speaking) How diligent you are, my lady—so many clamoring for your favor and none finding secret passage to your hidden garden. But tell me, do you ever walk beneath the moonlight with the herbalist’s son, the one with the curious blue vial always tucked beneath his cloak? Stories do circle that he courts noble queens with rare elixirs promising dreams unmarred by sorrow.  
-
-Gertrude (speaking) Absurd fancies, idle as children’s tales. I am Denmark’s Queen, not some woodland nymph to be wooed by apothecaries’ sons and their tinctures. My dreams are my own, shaped by grief and by duty—not by any blue vial brought by baseborn hands. Speak no further of it.
-
-Lily (speaking) Of course, your Majesty, I meant no disrespect. Only there are whispers, you see, of hidden stairways and secret letters. Young maids wonder which noble heart beats nearest to yours since your remarriage. Perhaps a foreign prince from Spain, delivering tokens of Spanish silk hidden beneath your pillow?  
-
-Gertrude (speaking) Enough, Lily! You mistake my patience for indulgence of your wild fancies. I receive no tokens but the burdens of state, and I will not be toyed with by the idle tongues of serving girls. Know your place, and busy yourself with real duties rather than the weaving of rumors."
+Gertrude (speaking) How dare you utter such nonsense in my presence, Lily! Do you think the Queen would trifle with pirates at her own court?"

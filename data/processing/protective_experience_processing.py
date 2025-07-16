@@ -79,7 +79,7 @@ import json
 import glob
 import os
 
-csv_files = glob.glob("data/protective_experience/Claudius.csv")
+csv_files = glob.glob("data/protective_experience/*.csv")
 
 speaker_map = {
     "Lily": "user",
