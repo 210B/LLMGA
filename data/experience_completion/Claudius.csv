@@ -1,743 +1,320 @@
 ﻿Emotion,Description,Dialogue
-guilty and alarmed,"Claudius reacts with guilt and fear, abruptly leaving the room during the play’s reenactment of King Hamlet's murder.","The play’s reenactment of King Hamlet's murder unfolds on stage, and Claudius reels with sudden guilt and mounting terror as the damning scene is revealed before the gathered court.
+guilty and alarmed,"Claudius reacts with guilt and fear, abruptly leaving the room during the play’s reenactment of King Hamlet's murder.","As the actors reenact King Hamlet’s murder, Claudius’s guilt overwhelms him and he rises abruptly from his seat, his face pale.
 Claudius (speaking)  
-Stop! Enough! I cannot—this spectacle is unbearable!
+Stop! Give me some light—away! I must leave this place.
 Gertrude (speaking)  
-My lord, what is the matter? Surely, 'tis only a play?
-Hamlet (speaking)  
-Why, does the drama so afflict you, uncle? You seem struck pale.
+My lord, what troubles you so deeply? Why do you look so stricken?
 Claudius (speaking)  
-No more, Hamlet! I tell you, cease this mockery at once!
-Polonius (speaking)  
-Your Highness, shall we call for air? You look most unwell.
-Claudius (speaking)  
-Air! Yes, I—let me go! The room chokes me—let me pass!"
-frightened and scheming,Claudius fears for his own safety and orders Hamlet to be sent to England.,"Background: Claudius fears for his own safety and orders Hamlet to be sent to England.
-Claudius (speaking) There is madness in Hamlet’s eyes—a danger sharpened by cunning; I can no longer abide his presence near me.
-Gertrude (speaking) My lord, you tremble—surely our son means no true harm?
-Claudius (speaking) No harm? He slays Polonius in cold blood, even under your very nose, and whispers vengeance in the shadowed halls!
-Gertrude (speaking) Perhaps he grieves, but do not be hasty; what must be done?
-Claudius (speaking) He must be sent from Denmark, tonight—England shall claim him, out of sight and reach from here.
-Rosencrantz (speaking) My king, shall we prepare his escort and make haste with the order?
-Claudius (speaking) Waste no time—too much blood has stained these stones already, and I will have no more."
+I—I can breathe no more here. The air chokes me."
+frightened and scheming,Claudius fears for his own safety and orders Hamlet to be sent to England.,"Claudius fears for his own safety and orders Hamlet to be sent to England.
+Claudius (speaking) There’s madness in the boy’s eyes. He’s dangerous, and must be removed at once.
+Gertrude (speaking) My lord, do you truly think exile is the answer? He is our son.
+Claudius (speaking) His presence here will undo us, Gertrude. England will be safer for us all—especially me."
 murderous and cunning,Claudius arranges for Hamlet to be killed in England by sending sealed orders with Rosencrantz and Guildenstern.,"Background: Claudius arranges for Hamlet to be killed in England by sending sealed orders with Rosencrantz and Guildenstern.
-Claudius (speaking) The business demands swiftness and subtlety: Hamlet must not see what sails with him to England.  
-Rosencrantz (speaking) My lord, we shall tend him closely as you bade, and deliver your letter just as you command.  
-Guildenstern (speaking) Are there special instructions for his hosts, something to guard against his clever tongue?  
-Claudius (speaking) Only this: the seal remains untouched; its wax is your silence, its message your bond.  
-Rosencrantz (speaking) We pledge discretion, my lord, and shall regard the letter as sacred.  
-Guildenstern (speaking) Might he suspect us of treachery, sire? The prince is wary, and his eyes miss nothing.  
-Claudius (speaking) He may suspect, but suspicion cannot save him from the fate the English axe holds ready.  
-Rosencrantz (speaking) Then we go, with purpose and loyalty to your will, my lord.  
-Claudius (speaking) Mind this well: once you land, part not from Hamlet—shadow him, herd him, hound him if you must.  
-Guildenstern (speaking) It shall be so, my lord—we shall not fail.  
-Claudius (speaking) Good; your fortunes are tied to this—if you falter, you are lost as surely as he.  
-Rosencrantz (speaking) We understand, my lord, and obey.  
-Claudius (speaking) Go quickly—let no wind nor conscience slow your steps, for tonight, Denmark breathes easier by your hands."
-calculating,Claudius convinces Laertes to plot Hamlet's death using a poisoned blade during a fencing match.,"The background: Claudius convinces Laertes to plot Hamlet's death using a poisoned blade during a fencing match.
+Claudius (speaking) The time has come. The danger Hamlet poses must be ended, and England shall serve our purpose.
+Rosencrantz (speaking) You wish for us to deliver these papers directly, my lord?
+Guildenstern (speaking) Is all prepared? Hamlet suspects naught?
+Claudius (speaking) The letters seal his doom, and your loyalty will win you fortune. Fail me not."
+calculating,Claudius convinces Laertes to plot Hamlet's death using a poisoned blade during a fencing match.,"In the private chamber, Claudius convinces Laertes to plot Hamlet's death using a poisoned blade during a fencing match.
 Claudius (speaking)  
-Laertes, your grief burns bright, but there is a path to justice, if you possess the will. Hamlet’s fall need not await the slow hands of fate.
+Laertes, if Hamlet comes to fence with you, would you not take the chance to strike him down? The contest itself shall hide our design.
 Laertes (speaking)  
-I ache for vengeance, my lord, but honor weighs on me. What design could outpace the prince’s cunning?
+If it promises his end, I am ready. But how can we be certain the wound is fatal?
 Claudius (speaking)  
-We summon sport—a match of blades, unsuspecting and fair to every eye but ours. Yet beneath your sleeve, you shall bear a point envenomed, deadly to first touch.
-Laertes (speaking)  
-A poisoned blade? Such subterfuge sickens me, yet for my father and my sister, I will see Hamlet bled.
-Claudius (speaking)  
-Resolve steels the trembling hand, Laertes. With each parry and thrust, let your anger be the poison itself—let none suspect but let all witness Hamlet’s end.
-Laertes (speaking)  
-I shall do as you advise, my lord. He will not escape me.
-Claudius (speaking)  
-We must ensure certainty; should misfortune blunt your sword, I will provide a cup—celebratory wine, rich with a fatal draught, waiting only for Hamlet’s lips."
-devious,Claudius prepares a poisoned goblet as a backup plan to kill Hamlet.,"Background: In a dim, candlelit chamber, Claudius prepares a poisoned goblet as a backup plan to kill Hamlet.
-Claudius (speaking)  
-The wine must flow sweet as honey, yet carry death upon its tongue. Is the draught ready, Osric?
-Osric (speaking)  
-Aye, my lord, all is as you commanded. None suspect.
-Claudius (speaking)  
-Excellent. Let it stand apart—tempting, glimmering, fated. Should young Hamlet tire, press the cup upon him.
-Gertrude (speaking)  
-You seem unsettled, husband. Does your conscience stir, or is it simply the duel?
-Claudius (speaking)  
-My conscience sleeps, dearest. Care for our guests, and leave these details with me.
-Osric (speaking)  
-What of Laertes, my lord? Shall he know of this insurance?
-Claudius (speaking)  
-No word to him—the blade is his burden, the cup is mine. If Hamlet falters, fate itself shall be poured.
-Gertrude (speaking)  
-I pray nothing ill befalls the prince. The court could not bear another tragedy.
-Claudius (speaking)  
-Set your mind at ease, my queen. Tonight will bring an end, one way or another."
+Prepare your blade with a poison so deadly even a scratch will suffice. No man could survive it—Hamlet least of all."
+devious,Claudius prepares a poisoned goblet as a backup plan to kill Hamlet.,"Background: Claudius prepares a poisoned goblet as a backup plan to kill Hamlet.
+Claudius (speaking) The wine must look inviting, but its kiss will be death. Are you certain the poison leaves no trace?
+Gertrude (speaking) I pray this is not necessary, my lord. The duel alone might suffice.
+Claudius (speaking) Precaution is power, dear Gertrude. I will not leave Hamlet’s fate to chance."
 worried and fearful,Claudius worries about Hamlet's behavior and plots to uncover its cause.,"Background: Claudius worries about Hamlet's behavior and plots to uncover its cause.
-Claudius (speaking) Gertrude, have you noticed Hamlet’s eyes of late? They pierce as if searching for secrets in every shadow.
-Gertrude (speaking) He is restless, Claudius—silent at meals, wandering the corridors at night. It troubles me deeply.
-Claudius (speaking) His words grow stranger, and I sense danger in his silence. Something festers beneath that mournful exterior.
-Polonius (speaking) My lord, I have oft observed him from afar. I suspect he is afflicted by love or perhaps some torment of the spirit.
-Claudius (speaking) Afflicted, yes! But by what cause? And how shall we draw out the poison festering in his mind?
-Gertrude (speaking) Might we speak to him openly, as mother and king? He once confided in me before this veil of gloom descended.
-Polonius (speaking) If I may, my liege, permit me a scheme. I will arrange for Ophelia to meet with him whilst we conceal ourselves and listen.
-Claudius (speaking) Do it! Leave nothing to hazard. I must know what drives this madness—I will not have uncertainty gnawing my reign to the bone."
-alarmed and guilty,Claudius reacts by leaping up and leaving during the murder scene in the play.,"As the murder is reenacted on stage, Claudius leaps up from his seat and hurries to leave, his face pale with shock.
-Claudius (speaking) Stop! Turn off these lights—this vile mockery ends! I will not watch this!
-Gertrude (speaking) My lord, what troubles you? The play is but a jest.
-Hamlet (speaking) Does the play offend you, uncle? You seem struck by sudden fright.
-Claudius (speaking) I am not well—fetch me air! My heart pounds, the sight is monstrous!
-Polonius (speaking) Sire, shall I accompany you? You seem most distressed.
-Claudius (speaking) Leave me! I need no counsel, only space—let all these eyes turn from me!"
-frightened and scheming,Claudius orders Hamlet to be sent to England and secretly arranges for Hamlet to be killed.,"Background: Claudius, shaken and wary after Hamlet’s troubling behavior, decides to send Hamlet to England under the guise of concern, while secretly instructing Rosencrantz and Guildenstern to arrange Hamlet’s death.
-Claudius (speaking) The wind whispers warnings, Guildenstern—Hamlet must away to England, with haste and secrecy.
-Guildenstern (speaking) My lord, shall we make the preparations at once? The prince can be on his way before sundown.
-Claudius (speaking) At once, yes, but listen well—England’s not mere exile. Carry sealed command; those who receive Hamlet are to ensure he draws no breath to return.
-Rosencrantz (speaking) Sire, is it to such an end? Shall Hamlet meet his fate beyond our shores?
-Claudius (speaking) His shadow darkens Denmark, and my peace crumbles; do this, and you serve both your king and your future.
-Guildenstern (speaking) It shall be done, your majesty. We will see to every word you have written.
-Claudius (speaking) Fail me not, for on this deed my crown—and my life—may rest. Go, and trust no soul with what passes between us here."
-scheming,"Claudius concocts a plan to kill Hamlet using a poisoned blade and a poisoned goblet, enlisting Laertes.","Background: Claudius concocts a plan to kill Hamlet using a poisoned blade and a poisoned goblet, enlisting Laertes.
-Claudius (speaking) We cannot allow Hamlet another chance; the boy slips through justice like smoke through fingers. Laertes, you loved your father, and Hamlet must answer for what he has done.
-Laertes (speaking) My grief claws at me every waking moment, my lord. Give me the means, and by heaven, I shall end his life myself.
-Claudius (speaking) Your passion serves you well. We will host a friendly match—a duel—but your blade will be unbated, and I shall have it anointed with a poison so lethal it kills upon a mere scratch.
-Laertes (speaking) A poisoned blade—so be it. But if he evades the cut?
-Claudius (speaking) Leave that to me. In the heat of spectacle, I shall offer Hamlet a goblet: wine laced with death. If fate favors him still, he will not escape it.
-Laertes (speaking) What if the crowd suspects treachery, or the queen herself intervenes?
-Claudius (speaking) We will play the grieving hosts, ever innocent. Our faces will betray nothing but sorrow for our losses.
-Laertes (speaking) Then we are resolved. My blade and your goblet—he cannot survive us both.
-Claudius (speaking) Walk with me, Laertes; the trap is set, and Hamlet’s doom is nigh."
+Claudius (speaking) Gertrude, have you seen how pale and restless Hamlet has become? His words gnaw at my mind—there is something amiss.  
+Gertrude (speaking) He barely eats, hardly sleeps. I fear for him, Claudius.  
+Claudius (speaking) We cannot let suspicion fester. Send for Rosencrantz and Guildenstern—I want them to find what darkness haunts him."
+alarmed and guilty,Claudius reacts by leaping up and leaving during the murder scene in the play.,"During the murder scene in the play, Claudius reacts by leaping up and leaving.
+Claudius (speaking) Stop! No, I cannot bear this!
+Gertrude (speaking) My lord, what troubles you so deeply?
+Claudius (speaking) The air chokes me! I must go—now!"
+frightened and scheming,Claudius orders Hamlet to be sent to England and secretly arranges for Hamlet to be killed.,"Background: Claudius orders Hamlet to be sent to England and secretly arranges for Hamlet to be killed.
+Claudius (speaking) The time is ripe. Hamlet must quit Denmark—tonight.  
+Rosencrantz (speaking) My lord, we stand ready. What must we do in England?  
+Claudius (speaking) Bear this sealed letter to the English king; its words command Hamlet’s death.  
+Rosencrantz (speaking) Are you certain, sire? Is this... necessary?  
+Claudius (speaking) He is a threat. We must act before he ruins us all."
+scheming,"Claudius concocts a plan to kill Hamlet using a poisoned blade and a poisoned goblet, enlisting Laertes.","In a dimly lit chamber, Claudius concocts a plan to kill Hamlet using a poisoned blade and a poisoned goblet, enlisting Laertes.
+Claudius (speaking) The time has come, Laertes. Our enemy’s end must be certain, with no hope of escape.
+Laertes (speaking) Speak, my lord. How shall this deed be done, so none suspect your hand or mine?
+Claudius (speaking) You will challenge Hamlet to a duel—a sporting match. Your sword’s tip will be envenomed, and should that fail, I shall have a poisoned draught ready for him."
 dying and defeated,Claudius dies after being stabbed and poisoned by Hamlet.,"Background: Claudius dies after being stabbed and poisoned by Hamlet.
+Claudius (speaking) The pain burns—Hamlet, have mercy, let me live!
+Hamlet (speaking) No prayers can save you now, murderer—you fall by your own poison.
+Gertrude (speaking) Claudius, what have you done? Why all this blood and sorrow?
+Claudius (speaking) Forgive me, Gertrude. The throne, the crown—it was never worth this."
+curious,Claudius agrees to spy on Hamlet in conversation with Ophelia.,"Background: Claudius agrees to spy on Hamlet in conversation with Ophelia.
 Claudius (speaking)  
-No—stay, Hamlet! Oh gods—my insides… burning, burning—what have you done to me?
-Hamlet (speaking)  
-Here, villain, drink of this! The cup you meant for my mother—taste your own venom!
-Claudius (speaking)  
-My lips are flame… all darkens—Gertrude, forgive, forgive me… I am undone.
-Gertrude (speaking)  
-Peace now, Claudius—may your soul reckon in the shadows for what you wrought.
-Laertes (speaking)  
-You brought all this upon yourself—death for death, and justice finally served.
-Claudius (speaking)  
-Hamlet—my nephew—tell them… tell them I… I am sorry—for all."
-curious,Claudius agrees to spy on Hamlet in conversation with Ophelia.,"Background: Claudius and Ophelia converse in the castle corridor, where Claudius subtly proposes that they observe Hamlet to learn the cause of his growing madness.
-Claudius (speaking)  
-Ophelia, you have seen his changes—his silence, his wild looks. We must discover what festers inside his mind, for the peace of all.
+Ophelia, you appear troubled. What think you of Hamlet’s recent moods?
 Ophelia (speaking)  
-My lord, I fear for him. His soul seems distant, but if you wish it, I will watch and listen for any sign.
+My lord, his mind is lost in shadows. I fear he confides in no one.
 Claudius (speaking)  
-Your closeness is a gentle key, Ophelia; Hamlet will trust you where he guards against others. I beg you, share with me whatever you learn.
-Ophelia (speaking)  
-It troubles me to spy upon the prince, yet if it may save him, I shall do as you ask. How shall I begin?
-Claudius (speaking)  
-Arrange to meet him, as you often have before—yet now, attend with careful eyes and ears. Let nothing slip unnoticed, for I suspect his mind is no longer his own.
-Ophelia (speaking)  
-What if he discovers my intentions? Will he not turn further from us both?
-Claudius (speaking)  
-He must not know; speak to him as you always would. Bring any word or sign directly to me, and I shall guide you hence.
-Ophelia (speaking)  
-Then I will go to him, gentle and unguarded, and watch for what troubles his heart. I hope only good may come from this.
-Claudius (speaking)  
-You do your king—and Hamlet—great service, Ophelia. Be vigilant, and trust that we act for the welfare of Denmark."
-"guilty, alarmed","Claudius reacts by leaping up and leaving during the play, confirming his guilt to Hamlet and Horatio.","As the play on stage mirrors the murder of Hamlet’s father, Claudius leaps to his feet, his face ashen, and flees the court, confirming his guilt to the watchful Hamlet and Horatio.
-Claudius (speaking)  
-Stop this! Enough—bring me light, I cannot bear this twisted show!
-Gertrude (speaking)  
-My lord, what troubles you? The play’s not nearly done.
-Claudius (speaking)  
-No more questions! I must breathe—this hall suffocates me!
-Hamlet (speaking)  
-Rises something within, uncle? The players do but jest.
-Horatio (speaking)  
-Indeed, my lord, it's only make-believe.
-Claudius (speaking)  
-Mock me no more—out of my path! I demand a clear way!"
-afraid,"Fearing for his own safety, Claudius orders Hamlet to be sent to England.","Background: Fearing for his own safety, Claudius orders Hamlet to be sent to England.
-Claudius (speaking) Is he so changed since the death of his father, or have I merely been blind to his menace growing?
-Gertrude (speaking) My lord, Hamlet is disturbed, but I did not sense danger; must it come to this?
-Claudius (speaking) You saw his eyes, Gertrude, wild as thunderclouds—he is not safe, not for any of us!
-Rosencrantz (speaking) Your Majesty, we await your command; what would you have us do with Prince Hamlet?
-Claudius (speaking) Take him to England at once, no delay, no word—he must leave tonight!
-Guildenstern (speaking) Shall we give him reason, sire, or simply say your will must be obeyed?
-Claudius (speaking) Tell him what you must to keep him calm—I do not care for his comfort, only our safety.
-Gertrude (speaking) My heart breaks for him, Claudius; are you sure this is the only way?
-Claudius (speaking) There is no other path if I wish to live—Hamlet goes, and we find our peace."
-scheming,Claudius sends sealed orders with Rosencrantz and Guildenstern demanding Hamlet be put to death in England.,"Background: Claudius sends sealed orders with Rosencrantz and Guildenstern demanding Hamlet be put to death in England.
-Claudius (speaking) Everything is prepared—here in my hand, your commission, sealed and charged with the utmost trust. You both must make haste with Hamlet to England, and ensure these commands are obeyed without delay.
-Rosencrantz (speaking) My lord, we are ever your loyal servants. Is there danger lurking that we should know?
-Claudius (speaking) The danger is not for you to worry after, but for me to cure, and Hamlet is the malady. You need only deliver these letters directly, and mark that all proceeds as instructed.
-Guildenstern (speaking) It shall be carried out as you desire, sire. May we inquire—does Hamlet suspect aught?
-Claudius (speaking) He suspects shadows, nothing more, but he will follow you. Remember, the King’s commandment is law—do not read the seal, nor question its content, but only serve your King.
-Rosencrantz (speaking) We will obey without hesitation, majesty.
-Guildenstern (speaking) The deed is yours in word and ours in action.
-Claudius (speaking) Excellent—his death abroad will save Denmark from rot within; now go, let not the sun set before you have departed with him."
+We must know his heart's intent. Would you consent to speak with him, while I observe unseen?"
+"guilty, alarmed","Claudius reacts by leaping up and leaving during the play, confirming his guilt to Hamlet and Horatio.","As the performers enact a scene eerily similar to King Hamlet’s murder, Claudius leaps up from his seat, his face betraying shock and panic.
+Claudius (speaking) Stop this! No more, I command you, end this play!
+Hamlet (speaking) What, frightened, my lord? You seem disturbed.
+Horatio (speaking) The king looks pale, my prince. Is he feeling ill?
+Claudius (speaking) I must leave, I feel unwell—make way!"
+afraid,"Fearing for his own safety, Claudius orders Hamlet to be sent to England.","Fearing for his own safety, Claudius orders Hamlet to be sent to England.
+Claudius (speaking) Rosencrantz, Guildenstern! Come hither quickly—I have grave orders for you. Hamlet must depart for England at once, no delay.
+Rosencrantz (speaking) My lord, is it so urgent? Has Hamlet done something amiss?
+Claudius (speaking) He is a danger—to himself, to us all. See that his passage is arranged, and be silent!"
+scheming,Claudius sends sealed orders with Rosencrantz and Guildenstern demanding Hamlet be put to death in England.,"The background: Claudius sends sealed orders with Rosencrantz and Guildenstern demanding Hamlet be put to death in England.
+Claudius (speaking)
+Take these letters, Rosencrantz, and Guildenstern. Do not break the seals, under any circumstance.
+Rosencrantz (speaking)
+Your Majesty, we obey. May we know their contents?
+Claudius (speaking)
+Curiosity is no virtue in this case. Your charge is only to deliver them directly, without delay.
+Guildenstern (speaking)
+Our trust is absolute, my lord. Hamlet will be escorted as you command.
+Claudius (speaking)
+Go now, and remember: what rests in those papers ensures the survival of us all."
 manipulative,Claudius convinces Laertes that Hamlet is responsible and plots with him to kill Hamlet in a fencing match.,"Background: Claudius convinces Laertes that Hamlet is responsible and plots with him to kill Hamlet in a fencing match.
 Claudius (speaking)  
-Laertes, the hour has come to avenge your father’s slaughter and your sister’s ruin—both dealt by Hamlet’s cruel hand. Will you sit idle while your honor bleeds, or will you take what fate demands?
+Laertes, your father’s blood cries out for justice. Hamlet’s hands are red—will you let him laugh at our pain?
 Laertes (speaking)  
-If it is Hamlet, then let him answer with his life. I burn to confront him face to face—tell me your counsel.
+My lord, my heart burns for revenge. Show me the way, and I’ll strike him down.
 Claudius (speaking)  
-There is a way, noble Laertes, one subtle and unassailable. Challenge Hamlet to a friendly match of fence; there your skill may strike deeply, baptized in silent poison.
-Laertes (speaking)  
-A masked revenge—clever, and he’ll suspect nothing until his lifeblood ebbs. Shall we prepare now, or wait for opportunity?
-Claudius (speaking)  
-Delay invites suspicion; act swiftly and I shall wager heavily on you, ensuring Hamlet cannot refuse. The world will applaud your victory, and none shall know the price.
-Laertes (speaking)  
-If he escapes my blade, what then, my lord? What assurance have I that fortune won’t slip my grasp?
-Claudius (speaking)  
-We shall have a chalice ready, full of poisoned wine—a toast for his health, a final draught for his soul. All avenues covered, my friend; not even Providence can interfere now.
-Laertes (speaking)  
-Then let my hand be steady and my heart hardened. I am ready, Claudius—let him come.
-Claudius (speaking)  
-Good; together we shall see justice done, and Hamlet’s doom sealed by your righteous ire."
-triumphant,"Is crowned king of Denmark and marries Gertrude, the widow of Old Hamlet.","In the great hall of Elsinore, the court assembles as Claudius is crowned king of Denmark and weds Gertrude, now the widow of Old Hamlet.
-Claudius (speaking)  
-Today, Denmark rises anew under my reign, united in strength and hope. I welcome you, noble friends, and claim both throne and queen beside me.
-Gertrude (speaking)  
-My lord Claudius, your hand steadies me in this uncertain time. May your rule bring peace where sorrow once lingered.
-Laertes (speaking)  
-Long live King Claudius! Denmark stands ready to follow a ruler so resolute.
-Polonius (speaking)  
-Your majesty, wisdom and fortune crown you together. The council pledges loyal service to your house.
-Claudius (speaking)  
-To my fair queen and steadfast court, let us drink to new beginnings and shared triumph. Denmark shall know glory, and so shall I."
+A friendly match, a blade unblunted—who would suspect? One scratch is all it will take; nobody will think ill of you."
+triumphant,"Is crowned king of Denmark and marries Gertrude, the widow of Old Hamlet.","Background: Claudius is crowned king of Denmark and marries Gertrude, the widow of Old Hamlet.
+Claudius (speaking) Today Denmark greets her new king. The crown is mine, hard-won, and well-deserved.
+Gertrude (speaking) My lord, with this union, Denmark blooms anew. Let us together usher in peace.
+Hamlet (speaking) The air is thick, uncle. Yet I bend the knee.
+Claudius (speaking) Let all doubt scatter like chaff—I rule, with love and iron will."
 suspicious,Summons Rosencrantz and Guildenstern to discover the cause of Hamlet's strange behavior.,"Background: Claudius summons Rosencrantz and Guildenstern to discover the cause of Hamlet's strange behavior.
-Claudius (speaking) The air in this court grows thick with unease, and our cousin Hamlet's mind runs awry. Tell me, Rosencrantz and Guildenstern, have you seen aught to explain these sudden darkenings of his soul?
-Rosencrantz (speaking) My lord, we have observed him oft paced and silent, his eyes fixed as if on some vision unseen. He speaks little, yet when pressed, gives answers twisted and strange.
-Guildenstern (speaking) Indeed, Majesty, he greets joy with a mournful shadow, and at times seems to feign madness, perhaps to shield his true intent.
-Claudius (speaking) Feign, you say? I have long suspected his mind to play tricks, yet I must know if his grief is mere pretense, or proof of danger to my reign.
-Rosencrantz (speaking) Sire, we shall draw closer in friendship and conversation, in hopes he confides the cause of his discontent.
-Claudius (speaking) So do, and let not his wit elude you—search him subtly, root out the heart of his disquiet. If he harbors thoughts against me, I must be the first to learn them.
-Guildenstern (speaking) Rest assured, Majesty, we will not rest or falter until we reveal Hamlet's thoughts and purpose.
-Claudius (speaking) See it done, both of you, for my peace and the security of Denmark hang upon your loyalty."
-"suspicious, strategic",Observes Hamlet and concludes his madness is not due to love.,"In the shadowed corridors of Elsinore, Claudius closely observes Hamlet’s erratic behavior and quickly concludes that the young prince’s madness does not spring from love.
-Claudius (speaking) Polonius, mark you well: there is craft in Hamlet’s wildness, yet I see no sign that love alone drives him.  
-Polonius (speaking) Yet still, my lord, I did observe him with your daughter; his sighs were deep, his gaze distraught—surely, affection wrings his heart.  
-Claudius (speaking) Affection? Nay, I have seen coarser motives kindle wits to frenzy—there’s something rank beneath his feigned affection.  
-Gertrude (speaking) I worry for him, husband. His words trouble me, yes, but there’s hurt beneath all that fury.  
-Claudius (speaking) Hurt, perhaps, but not for love. The boy’s eyes search the corners, seeking—what, I cannot say, but it reeks not of heartbreak.  
-Polonius (speaking) Shall we then press him further, test him with Ophelia again?  
-Claudius (speaking) No, the time for gentle coaxing is past. We must watch him, and I shall trust no one with his secrets but myself.  
-Gertrude (speaking) He is your blood, Claudius. Take care that suspicion does not blind you to his pain.  
-Claudius (speaking) My blood or not, he is dangerous. We will find the root of his madness, but I am certain it is not spawned from love."
-"guilty, shaken",Is deeply disturbed by the play reenacting Old Hamlet's murder.,"Background: Claudius is deeply disturbed as he watches the players reenact the murder of Old Hamlet onstage, the guilt gnawing at him as memories of his own crime resurface.
-Claudius (speaking) Stop! Give me some light—away! This vile play cuts too close; why would Hamlet choose such a scene?
-Gertrude (speaking) My lord, what troubles you? The play was but a fiction—why such disquiet on your brow?
-Claudius (speaking) It is nothing, nothing but shadows of the past, yet I cannot breathe beneath their weight.
-Polonius (speaking) Sire, perhaps you should retire; these dramatics unsettle the heart, but all is well.
-Claudius (speaking) No, Polonius, it is not well; I feel a thousand eyes pierce through my flesh—leave me, all of you, at once!"
-"determined, fearful",Decides Hamlet must be sent to England after witnessing the play.,"After witnessing the re-enactment of King Hamlet’s murder onstage, Claudius’s suspicion and alarm have reached a breaking point, and he is determined that Hamlet must be sent away to England.
-Claudius (speaking) Rosencrantz, Guildenstern—come here at once. The time has come: Hamlet cannot remain at Elsinore a day longer.
-Rosencrantz (speaking) My lord, is this not sudden? What has Prince Hamlet done to deserve exile?
-Claudius (speaking) His every word now rings of accusation; his madness is not feigned, but dangerous. You saw how his gaze pierced me during the play.
-Guildenstern (speaking) We see your trouble, sire. What would you have us do with him?
-Claudius (speaking) You will accompany him, both of you, as loyal friends—but make no mistake, England must receive him. Ensure he does not return until I send for him.
-Rosencrantz (speaking) If we may ask, what shall be told to Hamlet, and to the Queen?
-Claudius (speaking) Tell Hamlet it is for his health, for the state’s welfare—tell the Queen his safety lies abroad. Just go, prepare for this journey tonight.
-Guildenstern (speaking) As you command, sire. We will ready all, and guard Hamlet closely.
-Claudius (speaking) There can be no delay; the threat he poses grows by the hour. If I falter now, all I hold will be lost—go swiftly, I will answer for the rest."
-"manipulative, desperate","Persuades Hamlet to reveal where Polonius's body is and arranges to send Hamlet to England with Rosencrantz and Guildenstern, including a letter ordering Hamlet's execution.","After Hamlet has killed Polonius, Claudius desperately confronts him, seeking to discover where the body is hidden, and arranges with Rosencrantz and Guildenstern to send Hamlet to England, along with a concealed letter ordering Hamlet’s death.
-Claudius (speaking)  
-Where is Polonius, Hamlet? Hide not behind riddles—his body must be found at once!  
-Hamlet (speaking)  
-The body is with the king, but the king is not with the body; seek him in the lobby.  
-Claudius (speaking)  
-Enough of your riddles! Tell me plainly, where have you secreted the corpse? Your madness endangers us all.  
-Hamlet (speaking)  
-He’s not where he eats, but where he is eaten—a certain convocation of worms are e’en at him.  
-Claudius (speaking)  
-You mock me at every turn! Foolish boy, you defile what little mercy I might offer. Rosencrantz, Guildenstern—stand ready!  
-Rosencrantz (speaking)  
-My lord, shall we seize him?  
-Guildenstern (speaking)  
-Just say the word—he cannot outwit us.  
-Claudius (speaking)  
-Take him, search him if you must, but get from him what I ask! Hamlet, tomorrow you sail for England—far from these halls, and from suspicion.  
-Hamlet (speaking)  
-England or Hell—what’s one more prison? Which betrayal is next, uncle?  
-Claudius (speaking)  
-You force my hand; England will welcome you in its own fashion. Rosencrantz, you bear this letter to their King, and see it delivered unopened.  
-Rosencrantz (speaking)  
-We obey, my lord.  
-Guildenstern (speaking)  
-His departure will ease every mind.  
-Claudius (speaking)  
-See that it does—and Hamlet, pray you find your tongue before you run out of time."
-"calculating, persuasive",Calms Laertes and convinces him that Hamlet is to blame for Polonius's death.,"Background: Claudius attempts to calm the furious Laertes and subtly shifts the blame for Polonius’s death onto Hamlet.
-Claudius (speaking)  
-Laertes, rage is a storm that blinds even the keenest sight; sit, and let calm reason guide your vengeance. The man who struck your father down is not before you—Hamlet, reckless and wild, committed this dark deed.
-Laertes (speaking)  
-Hamlet? You say 'tis he who robbed me of my father? Why is he not brought to justice?
-Claudius (speaking)  
-I share your outrage, yet my hands are bound by the love the people bear him, and by his mother’s tears. Know this: I grieve for Polonius as deeply as you do, but to seize Hamlet openly would inflame the realm.
-Laertes (speaking)  
-Am I to accept this? While my heart burns with grief, Hamlet walks the halls unscathed!
-Claudius (speaking)  
-What justice demands, we shall pursue, but with cunning—let Hamlet’s crimes be laid bare for all to see. Join with me, and I will help you see vengeance done, rightly and without scandal."
-"schemeful, murderous",Plots Hamlet’s death by arranging a poisoned duel with Laertes and preparing poisoned wine as backup.,"Background: Plots Hamlet’s death by arranging a poisoned duel with Laertes and preparing poisoned wine as backup.
-Claudius (speaking) Laertes, our purpose must not falter—Hamlet has brought us both to the edge, and tonight he faces his reckoning. Will your hand be steady when you meet him in the arena, as we arranged?
-Laertes (speaking) My resolve is iron; the venom on my blade will do its work swiftly, if fortune favors.
-Claudius (speaking) The court loves spectacle—let them think this a sportive match, while hidden death weaves its way. Yet, should he escape your thrust, I have prepared a goblet laced with a draught no mortal can withstand.
-Laertes (speaking) All avenues are covered, my lord. But what if Hamlet suspects we scheme?
-Claudius (speaking) He suspects nothing—grief blinds him, and pride will lure him into our trap. At the toast, act natural while I offer the fatal cup.
-Laertes (speaking) My vengeance will strike as clean as your plan is cunning; we shall be free of him.
-Claudius (speaking) Good—now make ready, and trust me to handle the rest. Hamlet’s fate is sealed before the court, and not a soul will suspect until it is done."
+Claudius (speaking) You both were childhood friends to Hamlet—something disturbs his soul. I need to know what afflicts him and with what intent.  
+Guildenstern (speaking) My lord, we shall observe him and speak with care; we will bring you word.  
+Rosencrantz (speaking) If aught lies hidden from us, we shall press him with gentle questions.  
+Claudius (speaking) I expect nothing less—return to me swiftly with all you uncover."
+"suspicious, strategic",Observes Hamlet and concludes his madness is not due to love.,"Background: Observing Hamlet from afar, Claudius draws his own suspicions, concluding that Hamlet’s strange behavior cannot be blamed on love.
+Claudius (speaking) Polonius, you see it too, do you not? There is cunning in Hamlet’s stare, something not born of affection.
+Polonius (speaking) My lord, I watched their meeting; not a sigh nor tear for Ophelia passed his lips.
+Claudius (speaking) Then we must look deeper. His madness is a mask—yet for what purpose?"
+"guilty, shaken",Is deeply disturbed by the play reenacting Old Hamlet's murder.,"As the play reaches the scene portraying Old Hamlet's murder, Claudius is visibly pale and trembling, unable to tear his eyes from the stage.
+Claudius (speaking) Stop! Enough of this madness—turn it off, I say!  
+Gertrude (speaking) My lord, are you unwell? What troubles you so?  
+Claudius (speaking) The air—it's stifling, choking—leave me! I cannot breathe!"
+"determined, fearful",Decides Hamlet must be sent to England after witnessing the play.,"After witnessing the play that mirrored his crime, Claudius knows he must send Hamlet away to England.
+Claudius (speaking) There's madness in Hamlet's eyes. We can no longer trust him here.
+Gertrude (speaking) What would you have us do, my lord? He's your nephew—my son!
+Claudius (speaking) This is beyond kin. He must be sent to England, tonight. For the safety of all, I will see it done."
+"manipulative, desperate","Persuades Hamlet to reveal where Polonius's body is and arranges to send Hamlet to England with Rosencrantz and Guildenstern, including a letter ordering Hamlet's execution.","Polonius’s murder has come to light, and Claudius frantically tries to extract the location of Polonius’s body from Hamlet, while plotting with Rosencrantz and Guildenstern to escort Hamlet to England—secretly dispatching a letter to ensure Hamlet’s death.
+Claudius (speaking) Where is Polonius, Hamlet? Speak at once—your silence cannot save you.
+Hamlet (speaking) The body is with the King, but the King is not with the body. Seek him in Heaven; if you find him not there, then you shall nose him.
+Claudius (speaking) Enough riddles! Rosencrantz, Guildenstern—escort Hamlet to England at once, and deliver this sealed letter to the English court without delay."
+"calculating, persuasive",Calms Laertes and convinces him that Hamlet is to blame for Polonius's death.,"In the royal chamber, Claudius seeks to calm the vengeful Laertes and persuades him that Hamlet is responsible for Polonius's death.
+Claudius (speaking) Laertes, your pain is justified, but your anger should find its true mark. Hamlet’s rash act brought this sorrow into your father's house.  
+Laertes (speaking) You say Hamlet murdered my father, yet you kept silent until now?  
+Claudius (speaking) My silence was caution, not approval. Hamlet alone wielded the dagger that stole your father."
+"schemeful, murderous",Plots Hamlet’s death by arranging a poisoned duel with Laertes and preparing poisoned wine as backup.,"In secret chambers, Claudius plots Hamlet’s death by arranging a poisoned duel with Laertes and preparing poisoned wine as backup.
+Claudius (speaking) The match between Hamlet and Laertes is set, but precaution must sharpen our edge. If the blade fails, the wine will deliver what steel cannot.
+Laertes (speaking) My blade is unbated and laced with a venom that no balm can cure. But what if he turns aside both?
+Gertrude (speaking) Why all this shadow, my lord? Hamlet’s safety is your charge.
+Claudius (speaking) Trust me, beloved queen, this day will secure the future—no matter the course the duel takes."
 confident,"Claudius is crowned King of Denmark and marries Gertrude, Old Hamlet's widow.","Background: Claudius is crowned King of Denmark and marries Gertrude, Old Hamlet's widow.
-Claudius (speaking) Today marks the dawn of a new era for Denmark. With the crown upon my brow and Gertrude at my side, the kingdom shall know strength and unity.
-Gertrude (speaking) My lord, in this union I seek solace and security for both my son and my people. I trust in your resolve.
-Hamlet (speaking) The haste of your wedding astounds me, uncle. Can grief so swiftly be replaced by celebration?
-Claudius (speaking) Grief and duty walk hand in hand, dear Hamlet. The land cannot wait while hearts mend.
-Gertrude (speaking) Our people look to us for guidance, Hamlet. We must show them hope, even in loss.
-Hamlet (speaking) Perhaps hope, or else the face that power wears. Father is scarcely gone, and yet the throne is claimed.
-Claudius (speaking) Be wary of suspicion, Hamlet. My resolve is unshakeable, and Denmark demands I lead."
-worried,Claudius summons Rosencrantz and Guildenstern to discover the reason for Hamlet’s strange behavior.,"In the royal chamber, Claudius summons Rosencrantz and Guildenstern to discover the reason for Hamlet’s strange behavior.
-Claudius (speaking) You both are dear to Hamlet from his youth; I implore you, what troubles haunt him so deeply?
-Rosencrantz (speaking) My lord, he greets us as friends, yet his mind wanders like a ghost—he will not say what's wrong.
-Guildenstern (speaking) He keeps his secret close, sire, and all our words seem but shadows to him.
-Claudius (speaking) I cannot rest while he paces the corridors in gloom; do you sense malice or mere madness in his air?
-Rosencrantz (speaking) There is a wildness in his look, but I think it born of sorrow rather than threat.
-Guildenstern (speaking) Indeed, majesty, grief seems to grip his heart—though he hides its thorn.
-Claudius (speaking) Then probe deeper, both of you; win his trust and draw out his pain, for the good of Denmark rests upon it."
-"puzzled, suspicious",Claudius observes Hamlet’s behavior and decides Hamlet must be mad for a reason other than love.,"As Claudius watches Hamlet’s odd behavior from the shadow of a marble column, he wonders whether the cause of Hamlet's madness could truly be more troubling than mere heartbreak.
+Claudius (speaking) Denmark rises anew under my reign. With Gertrude by my side, I promise strength and unity.
+Gertrude (speaking) I trust in your guidance, Claudius. Together, we shall steer Denmark toward peace.
+Hamlet (speaking) My father's memory lingers, even as the crown shifts. Is duty so swiftly replaced?
+Claudius (speaking) The state demands resolve, Hamlet. Grief must yield to order."
+worried,Claudius summons Rosencrantz and Guildenstern to discover the reason for Hamlet’s strange behavior.,"In the royal chamber, Claudius calls upon Rosencrantz and Guildenstern to uncover the cause of Hamlet's odd conduct.
+Claudius (speaking) You are both close to my nephew Hamlet—something troubles him deeply. I must know what shadows his mind.
+Rosencrantz (speaking) My lord, we have noticed his distance, yet he confides little.
+Guildenstern (speaking) We will observe him closely, and draw him to reveal what lies within.
+Claudius (speaking) Do so, and report all you glean—this matter weighs upon the kingdom's heart."
+"puzzled, suspicious",Claudius observes Hamlet’s behavior and decides Hamlet must be mad for a reason other than love.,"Background: Claudius observes Hamlet’s behavior and decides Hamlet must be mad for a reason other than love.
+Claudius (speaking) There’s more to Hamlet’s madness than sweet Ophelia’s rejection. His eyes look through me, not at me.
+Gertrude (speaking) You think his words are feigned? Perhaps he mourns his father still.
+Claudius (speaking) His grief’s a mask, concealing darker motive. I must know what stirs within him."
+"guilt-stricken, shaken",Claudius is disturbed by the play’s reenactment of Old Hamlet’s death and decides to send Hamlet to England.,"The play’s reenactment of Old Hamlet’s death has shaken Claudius, leaving him deeply unsettled.
+Claudius (speaking) Leave me—leave me, all of you! I need air.
+Gertrude (speaking) My lord, you look pale. Should I send for a physician?
+Claudius (speaking) No! My trouble is not of the flesh. Hamlet must leave Denmark; he must sail for England tonight."
+"manipulative, anxious",Claudius questions Hamlet about Polonius’s body and arranges for Hamlet to be sent to England with a letter ordering his execution.,"In the royal chambers, Claudius questions Hamlet about Polonius’s body and arranges for Hamlet to be sent to England with a letter ordering his execution.
 Claudius (speaking)  
-He circles the court with vacant eyes, rejecting his friends and feigning wit—can love alone unravel the mind so thoroughly?
+Hamlet, where is Polonius? You must tell me at once.
+Hamlet (speaking)  
+At supper, my lord, though not where he eats but where he is eaten.
+Claudius (speaking)  
+Enough of riddles! Reveal where the body lies, or you'll force my hand.
+Hamlet (speaking)  
+Find him yourself in the lobby, beneath your noses.
+Claudius (speaking)  
+Guards, escort Hamlet to England—at once. Hamlet, a voyage awaits you, and it cannot be refused."
+"content, then diplomatic","Is crowned King of Denmark, marries Gertrude, and manages a threat from Prince Fortinbras by diplomacy.","Claudius is newly crowned King of Denmark, wed to Gertrude, and seeks to resolve Fortinbras's threat through diplomacy.
+Claudius (speaking) The court rejoices at this new union, yet Norway’s prince stirs unease upon our borders.  
+Gertrude (speaking) My lord, all eyes turn to you for wisdom and peace in this hour.  
+Fortinbras (speaking) I seek my late father’s lands, but not at the cost of blood.  
+Claudius (speaking) Then let us speak as friends, Prince—Denmark values peace and will honor your claim through honest negotiation."
+"troubled, suspicious",Summons Rosencrantz and Guildenstern to discover the reason for Hamlet's strange behavior.,"Summons Rosencrantz and Guildenstern to discover the reason for Hamlet's strange behavior.
+Claudius (speaking) There is a shadow upon our court, one that grows with Hamlet’s oddness. Can you two uncover the roots of this malady?
+Rosencrantz (speaking) We will attend him closely, my lord, and pry gently into his soul.
+Guildenstern (speaking) Whatever secrets he holds, we shall find with careful words and wary ears.
+Claudius (speaking) Good. Let not your purpose falter; his secrets threaten more than just his own peace."
+"suspicious, determined",Decides that Hamlet is not mad for love of Ophelia but for another reason.,"Background: Claudius concludes that Hamlet's madness is not born from love for Ophelia, but from a more sinister cause.
+Claudius (speaking) There's method in his madness that love cannot explain. What does he hide behind these feigned fits?  
+Gertrude (speaking) Perhaps grief for his father lingers, deeper than we thought.  
+Polonius (speaking) My lord, I still think Ophelia is the root—her rejection wrought this on him.  
+Claudius (speaking) No, there is calculation in his eye. He conceals a purpose dangerous to us all."
+"shaken, guilty",Is disturbed by the play and decides he must get rid of Hamlet by sending him to England.,"Claudius is disturbed by the play and decides he must get rid of Hamlet by sending him to England.
+Claudius (speaking)  
+This spectacle gnaws at my conscience—I cannot let Hamlet endanger me further. He must leave for England at once.
 Gertrude (speaking)  
-You doubt the reason, my lord? Ophelia has withdrawn from him; heartbreak can wound deeply.
+You seem unwell, my lord. Why such haste to send our son away?
 Claudius (speaking)  
-Something in his speeches disturbs me—such riddles and sly glances. He knows more than he tells.
-Polonius (speaking)  
-I still hold that lost affection is the root, but perhaps there is another parasite upon his reason.
+He is become a threat to us all. England will serve as his safe exile—and our deliverance."
+"urgency, cunning",Convinces Hamlet to reveal location of Polonius's body and arranges to send Hamlet to England with a letter ordering his execution.,"Polonius has been killed, and Claudius urgently seeks the body's location while plotting to dispose of Hamlet by sending him to England with a letter ordering his execution.
+Claudius (speaking) Hamlet, you must tell me where the old man's body lies. Concealment will only bring doom upon you.  
+Hamlet (speaking) The body is with the King, but the King is not with the body. Seek him in the lobby.  
+Claudius (speaking) Enough riddles; your wit will not save you. Guards, seize him—He must depart for England this night!"
+manipulative,Calms Laertes and convinces him that Hamlet is responsible for Polonius's death.,"Background: Claudius tries to calm Laertes and convince him that Hamlet is responsible for Polonius's death.
 Claudius (speaking)  
-No, Polonius, his purpose is too pointed, too wary. There is method lurking in his frenzy.
+Laertes, your anger is just, but let reason guide your hand. Hamlet’s reckless blade, not mine, struck down your father.
+Laertes (speaking)  
+It was my father who perished in this castle. What proof have you that Hamlet is to blame?
+Claudius (speaking)  
+All speak of Hamlet’s madness; he burst into your mother’s chamber, and it was there your father fell. The sorrow you feel, Laertes, should turn not to the crown, but to the true culprit—Hamlet himself."
+plotting,Conspires with Laertes to kill Hamlet through a rigged duel and a poisoned cup.,"Background: Claudius conspires with Laertes to kill Hamlet through a rigged duel and a poisoned cup.
+Claudius (speaking) Laertes, our time has come. Hamlet must not leave this hall alive.
+Laertes (speaking) I am ready, my lord. My blade shall be sharpened and its tip poisoned.
+Claudius (speaking) There will be a cup set aside for him, laced with a venom swift and sure. Should the blade fail, the goblet will finish what we begin."
+"desperate, sinister",Claudius offers Hamlet a poisoned drink after Hamlet takes the lead in the duel.,"As Hamlet takes the lead in the duel, Claudius, with calculated intent, offers him a poisoned drink.
+Claudius (speaking)  
+Here, Hamlet, take this pearl—my health to yours. Drink deep, for your triumph deserves reward.
+Hamlet (speaking)  
+My thanks, my lord, but the match pulls my breath. I shall drink anon, when the bout is through.
 Gertrude (speaking)  
-You think his unrest is born of suspicion, and not of love?
+He is faint—let him drink, Claudius. Spare him your royal favor.
 Claudius (speaking)  
-Aye, I fear his mind hunts secrets, not solace. I must watch him more closely, lest his madness mask some darker intent."
-"guilt-stricken, shaken",Claudius is disturbed by the play’s reenactment of Old Hamlet’s death and decides to send Hamlet to England.,"After witnessing the court players perform a scene eerily echoing his brother’s murder, Claudius is left pale and trembling, overcome by a harrowing sense of exposure.
-Claudius (speaking) Leave me—leave me, all of you! I must think, must breathe. The air is too thin in this cursed hall.
-Gertrude (speaking) My lord, what ill has seized upon you? The color has fled from your face.
-Claudius (speaking) It is nothing, Gertrude—nothing but the press of many troubles. Go, dear heart, I beg you.
-Gertrude (speaking) If you should need me, I will not be far.
-Claudius (speaking) Good. Go, now.
-Rosencrantz (speaking) Your majesty, how fares your mood? You summoned us with urgency.
-Claudius (speaking) There is a madness growing in this place, a rot that spreads from Hamlet himself. He must be removed, lest all be undone.
-Guildenstern (speaking) To what end, my lord? Shall we watch him still, or act?
-Claudius (speaking) No more of these shadows and whispers. Hamlet leaves for England on the morrow. Prepare his escort and ensure he finds no mischief upon the way."
-"manipulative, anxious",Claudius questions Hamlet about Polonius’s body and arranges for Hamlet to be sent to England with a letter ordering his execution.,"Background: Claudius questions Hamlet about Polonius’s body and arranges for Hamlet to be sent to England with a letter ordering his execution.
+The cup waits, Hamlet. Let not fortune slip; honor demands you taste it."
+"conscience-stricken, panicked","Claudius reacts to the play by leaving the room, revealing his guilt to Hamlet.","As the players perform the incriminating scene, Claudius rises abruptly, his face stricken, and hurries from the chamber, signaling his hidden guilt to Hamlet.  
 Claudius (speaking)  
-Where is Polonius, Hamlet? Speak plainly—his absence stains my halls and blackens my peace.
-Hamlet (speaking)  
-At supper, my lord—but not where he eats, rather where he is eaten. Seek him in the lobby, if you dare.
-Claudius (speaking)  
-Your riddles try my patience and my rule. If you will not divulge his resting place, expect England’s air to clear your troubled mind.
-Hamlet (speaking)  
-I am prepared for travel, though I doubt the wind in England tastes much better than here.
-Claudius (speaking)  
-Indeed, your voyage begins tonight—guides await to steer you far from Denmark’s wounded heart.
-Hamlet (speaking)  
-And what message rides with me, uncle? A tender greeting or a dagger wrapped in wax?
-Claudius (speaking)  
-Words intended only for England’s king—trust that he knows how to treat wayward souls.
-Hamlet (speaking)  
-My soul, then, shall greet him before my body does—if your wishes run so deep.
-Claudius (speaking)  
-Enough; I'll trust my designs to loyal hands. Escort Hamlet safely and swiftly, for the good of us all."
-"content, then diplomatic","Is crowned King of Denmark, marries Gertrude, and manages a threat from Prince Fortinbras by diplomacy.","Background: After being crowned King of Denmark and marrying Gertrude, Claudius must address the looming threat posed by Prince Fortinbras of Norway through diplomatic means.
-Claudius (speaking) My noble lords and loving queen, our union binds the crown anew, yet shadows linger from Norway’s restless prince. I propose we answer Fortinbras’ stirrings not by the sword, but with the tongue of parley and peace.
-Gertrude (speaking) My heart is light with our newfound joy, but troubled still by talk of invasion. Can we trust this young prince to heed our message?
-Polonius (speaking) Your Majesty, eloquence is your shield; send envoys swift and let our gold sweeten Norway’s ear, quelling ambition.
-Fortinbras’ Ambassador (speaking) Our prince seeks only what he feels justly owed, yet he would listen and honor Denmark’s word if met with respect.
-Claudius (speaking) Let us show Norway that Denmark’s strength lies as much in her reason as her wrath; we shall welcome parley and offer amends where wisdom guides."
-"troubled, suspicious",Summons Rosencrantz and Guildenstern to discover the reason for Hamlet's strange behavior.,"Background: Summons Rosencrantz and Guildenstern to discover the reason for Hamlet's strange behavior.
-Claudius (speaking) I have summoned you both here for a matter most grave; Hamlet's mind troubles me, and the cause eludes my reach. Have you noticed nothing odd, no sign to explain this disorder?
-Rosencrantz (speaking) My lord, he greets us with warmth, yet his eyes wander as if searching for meaning in shadows.
-Guildenstern (speaking) He speaks in riddles, majesty, avoiding the heart of every question—guarded, even with old friends.
-Claudius (speaking) This is most vexing. Has he confided anything—a word, a whisper--that might hint at what drives these storms within him?
-Rosencrantz (speaking) Nothing clear, sire. He changes topic or falls silent when we draw too near his thoughts.
-Guildenstern (speaking) If there is torment in him, he masks it well, though we sense some hidden grief festers deep.
-Claudius (speaking) You must press him further, with subtlety and care—whatever plagues him, I must know its name, and soon."
-"suspicious, determined",Decides that Hamlet is not mad for love of Ophelia but for another reason.,"Background: Claudius, after witnessing Hamlet's recent behavior, has become convinced that Hamlet is not mad for love of Ophelia but for some darker, hidden reason.
-Claudius (speaking) There is more to Hamlet’s madness than meets the eye, Polonius. I see calculation in his gaze, not the wildness of a broken heart.
-Polonius (speaking) My lord, he swore Ophelia drew him to this state—his letters attest to it, as does his conduct.
-Claudius (speaking) Letters can lie, and conduct is but a mask. He is driven by purpose, not passion.
-Gertrude (speaking) Husband, you grow pale. Do you fear Hamlet has seen through our affairs?
-Claudius (speaking) His words ring with double meaning, Gertrude. Every glance cuts deeper than the last—I cannot dismiss the threat.
-Polonius (speaking) You would have us abandon our watch upon Ophelia, then? If not for love, then what torment haunts the prince?
-Claudius (speaking) That is what I must uncover, and swiftly. Hamlet hides a blade behind his smiles—I will not wait to feel its edge."
-"shaken, guilty",Is disturbed by the play and decides he must get rid of Hamlet by sending him to England.,"After being deeply disturbed by the play, Claudius is unnerved and resolves that he must send Hamlet away to England to get rid of him.
-Claudius (speaking)  
-No, this cannot be—his madness grows too dangerous, and I am unmasked by his wicked play. Guildenstern, Rosencrantz, come hither—there are matters most urgent.
-Guildenstern (speaking)  
-We are here, my lord. How may we serve?
-Claudius (speaking)  
-You have seen the unrest that boils within Hamlet. Do you consider him fit to remain at court?
-Rosencrantz (speaking)  
-He unsettles all, my lord; his words are daggers, and his mood sharpens by the hour.
-Claudius (speaking)  
-It is so. You both must take him hence, at once, to England—do not question, and do not fail me.
-Guildenstern (speaking)  
-We obey, sire. Shall we depart tonight?
-Claudius (speaking)  
-Tonight. Waste no time, for the safety of Denmark and my own soul demand it."
-"urgency, cunning",Convinces Hamlet to reveal location of Polonius's body and arranges to send Hamlet to England with a letter ordering his execution.,"Background: Claudius urgently convinces Hamlet to reveal the location of Polonius's body and arranges to send Hamlet to England with a letter ordering his execution.
-Claudius (speaking)  
-Hamlet, your madness breeds chaos in this court. Tell me now—where is Polonius's body?
-Hamlet (speaking)  
-You seek him with such haste, my lord, yet are slower than the wind to find the truth. Polonius lies where he's eaten, not where he's slain.
-Claudius (speaking)  
-Do not trifle with me, boy—this is no time for riddles. Reveal the place, or you seal your own fate.
-Hamlet (speaking)  
-I will not be manipulated by your threats; send your messengers, set them sniffing like dogs. The old man will be found by the stench he leaves behind.
-Claudius (speaking)  
-Enough! You force my hand, Hamlet. Prepare yourself—you leave for England tonight, escorted and watched.
-Hamlet (speaking)  
-Send me where you will, uncle. England, Denmark, hell—what difference to a man haunted?
-Claudius (speaking)  
-The difference is final, Hamlet. Guard! See him secured, and fetch the dispatch; England awaits your coming, and my letter ensures they welcome you properly."
-manipulative,Calms Laertes and convinces him that Hamlet is responsible for Polonius's death.,"In the royal chambers, Claudius seeks to calm the furious Laertes and convinces him that Hamlet is to blame for Polonius's death.
-Claudius (speaking)  
-Laertes, I feel the storm within you, but let not your anger blaze against the innocent walls of this palace. If only you knew the serpent who has poisoned your father’s sleep.
-Laertes (speaking)  
-Who? Speak plainly, my lord—my hands burn for justice! If you have knowledge, reveal it to me this instant.
-Claudius (speaking)  
-It pains me, but the truth must be laid bare: it was Hamlet who so rashly struck and silenced your father’s voice. He is the source of your suffering.
-Laertes (speaking)  
-Hamlet? Is it so? I scarce can believe he would, yet my blood demands satisfaction for my father’s fall.
-Claudius (speaking)  
-Your grief is righteous, your fury just. Together, we must ensure Hamlet answers for the deed that drenched this house in tears.
-Laertes (speaking)  
-But what of justice, and what of royal law? Will you not stand in my path, my king?
-Claudius (speaking)  
-You shall have my hand, not as a king to a subject but as a fellow wounded soul, resolved to see Hamlet punished for all he hath destroyed."
-plotting,Conspires with Laertes to kill Hamlet through a rigged duel and a poisoned cup.,"In the shadowed chambers of Elsinore, Claudius plots with Laertes to kill Hamlet through a rigged duel and a poisoned cup.
-Claudius (speaking)  
-Laertes, our hour approaches. Listen well: the fencing contest offers us a most exquisite opportunity.
-Laertes (speaking)  
-My lord, I hunger for justice. What weapon do you propose to ensure Hamlet's end?
-Claudius (speaking)  
-You shall wield a rapier with a venomed tip—one scratch and it is done. But should he escape, I have prepared a chalice touched with like poison.
-Laertes (speaking)  
-Such cunning! If fortune fails the blade, the wine shall finish what steel cannot.
-Claudius (speaking)  
-Indeed, neither chance nor Providence will rescue him. Your skill and my craft will see our revenge fulfilled.
-Laertes (speaking)  
-Say but the word, my king, and I shall begin this cruel sport at your signal.
-Claudius (speaking)  
-Hold, keep your demeanor cordial, let suspicion see no trace—for tonight, appearances must cloak our true designs.
-Laertes (speaking)  
-He will never suspect me, not until his blood's warmth fades.
-Claudius (speaking)  
-We play for everything, Laertes; lose your nerve, and all is lost. Are you certain you are resolute?
-Laertes (speaking)  
-I swore by my slain father, Claudius: I will not falter, be it steel or deadly sip.
-Claudius (speaking)  
-Excellent. Let us go to the hall; Hamlet meets his fate tonight, by one means—or another—he will not leave this place alive."
-"desperate, sinister",Claudius offers Hamlet a poisoned drink after Hamlet takes the lead in the duel.,"Background: Claudius offers Hamlet a poisoned drink after Hamlet takes the lead in the duel.
-Claudius (speaking) Sweet Prince Hamlet, your arm outshines even Laertes—truly, you are the darling of this match. Will you not grace your parched lips with this goblet? A king’s toast to your triumph!
-Hamlet (speaking) My lord, I thank you, but my blood is warm with contest still. Let the bout roll on a moment more.
-Gertrude (speaking) Hamlet, your brow is damp. Drink, and put your mother’s heart at ease—for worry consumes me.
-Claudius (speaking) The cup is yours, madam, yet I had reserved it for Hamlet. But who would dispute a mother’s care?
-Hamlet (speaking) My thanks, mother, but in good faith—I’ll not drink ‘til victory is honest and whole.
-Laertes (speaking) His spirit is unyielding, majesty. Perhaps fortune changes yet.
-Claudius (speaking) Perhaps, Laertes. Let fortune choose her champion, but let my love choose who to celebrate."
-"conscience-stricken, panicked","Claudius reacts to the play by leaving the room, revealing his guilt to Hamlet.","The moment the play mimics the King's murder, Claudius abruptly rises and flees, exposing his guilt to Hamlet.
-Claudius (speaking)  
-Enough! Give me some air—light, lights! I cannot watch this any longer.
+Stop the performance! Enough. I can’t watch this blasphemy a moment longer.  
 Gertrude (speaking)  
-My lord, are you unwell? Why do you leave so suddenly?
-Claudius (speaking)  
-No—it's nothing. I... The air is stifling—I need to clear my head.
-Polonius (speaking)  
-Your Majesty, shall I fetch your physician? This is most unsettling.
-Claudius (speaking)  
-No physicians, Polonius. Just bring me to my chambers at once.
+My lord, what is wrong? Why do you pale and tremble so?  
 Hamlet (speaking)  
-The play was too much for him, it seems. Why do you tremble, uncle?
+What frightens you, uncle? The play’s the thing, remember?  
 Claudius (speaking)  
-Be silent, Hamlet! I will not be made sport of in my own court."
+I must have air—I cannot breathe here! Someone, help me!"
 "fearful, calculating",Claudius exiles Hamlet to England as punishment for killing Polonius and instructs Rosencrantz and Guildenstern to accompany him and ensure his execution.,"Background: Claudius exiles Hamlet to England as punishment for killing Polonius and instructs Rosencrantz and Guildenstern to accompany him and ensure his execution.
-Claudius (speaking) The deed is done, but the stain lingers—Polonius lies dead, and Denmark reels from prince to shadow. Hamlet must leave our shores tonight, to England, under your charge, for safety’s sake—or so the court shall think.
-Rosencrantz (speaking) My lord, your will is ours; we shall attend the prince and see him delivered as you command. Yet, what darker purpose sits behind your words?
-Claudius (speaking) You are loyal—to Denmark, and to me. A letter goes with you, sealed and final; its import is grave, and must not be questioned.
-Guildenstern (speaking) We understand, majesty. Is it... his end you demand or only his absence?
-Claudius (speaking) The king of England owes me favour—what is written must be done, unflinching. Do not return without your mission finished, or your lives shall answer for your failure.
-Rosencrantz (speaking) We are uneasy, my lord—Hamlet suspects us already. If he sees through us, what then?
-Claudius (speaking) Then see to it he does not. Use what friendship remains between you, mask your purpose, and move swiftly.
-Guildenstern (speaking) Should we falter, sire, is there no mercy to be hoped?
-Claudius (speaking) Mercy fled this castle with Polonius’s soul. There is no other path—heed my warning, and let none suspect the danger that shadows Hamlet’s journey.
-Rosencrantz (speaking) We obey, though our hearts tremble.
-Claudius (speaking) Fear is the hand that shapes kings and grave-diggers alike. Now go—midnight sees Hamlet gone, or I shall wonder if any loyalty lives in Elsinore."
-desperate,Claudius resorts to offering Hamlet a poisoned drink during the duel.,"During the tense duel, Claudius, seeing his plots unravel, desperately offers Hamlet a poisoned drink.
-Claudius (speaking)  
-Come, Hamlet, take this drink to refresh your spirits—your skill astounds us all.
-Hamlet (speaking)  
-My lord, I thank you, yet my blood runs hot; I shall drink anon, after the next pass.
-Gertrude (speaking)  
-He grows weary, Claudius—perhaps I will taste to honor him.
-Claudius (speaking)  
-Sweet Gertrude, do not—no, my dear, leave it for Hamlet alone!
-Laertes (speaking)  
-The king grows pale; what troubles your heart, my lord?
-Claudius (speaking)  
-Nothing—only a father’s worry for his son; let the cup stand ready, for this contest drains us all."
-"guilty, distressed","Claudius reacts to the staged play, confirming his guilt.","Background: Claudius reacts to the staged play, confirming his guilt.
-Claudius (speaking)  
-What is this? Shadows come alive to mock me—this play burns my very skin.
-Hamlet (speaking)  
-My lord, you seem troubled. The color has fled your cheeks—has the performance displeased you?
-Claudius (speaking)  
-Displeased? It claws at my soul, as if the actors wield daggers and know their victim.
-Gertrude (speaking)  
-Dear husband, why do you tremble so? Sit, I pray you—this is but a fiction on the stage.
-Claudius (speaking)  
-A fiction, yes, but fiction veils the truth like silk around a blade.
-Hamlet (speaking)  
-You look as though you’ve seen a ghost, sir. Shall I call a physician?
-Claudius (speaking)  
-No physician could purge this sickness, nor cleanse what lies upon my hands.
-Polonius (speaking)  
-Sire, perhaps some air would do you well. Shall I clear the hall?
-Claudius (speaking)  
-No, leave me—let the truth fester here with me. I must endure.
-Hamlet (speaking)  
-A heavy conscience gives heavy feet. Shall I escort you to your chambers?
-Claudius (speaking)  
-You mock me, Hamlet—every word a blade. You know nothing—nothing!
-Gertrude (speaking)  
-Please—peace in the hall! Claudius, speak plain: what frightens you so?
-Claudius (speaking)  
-Enough! The air thickens and I choke upon it—I must go!"
+Claudius (speaking) The deed is done. Hamlet must leave Denmark for England—tonight.
+Rosencrantz (speaking) My lord, shall we watch him closely through the journey?
+Guildenstern (speaking) Is there more we must know, your Majesty?
+Claudius (speaking) The letter you carry orders his death; ensure it is delivered without fail."
+desperate,Claudius resorts to offering Hamlet a poisoned drink during the duel.,"The background is: Claudius resorts to offering Hamlet a poisoned drink during the duel.
+Claudius (speaking) The heat grows fierce, Hamlet. Take this cup, refresh yourself.
+Hamlet (speaking) My lord, I thank you, but let me finish this pass first.
+Gertrude (speaking) He looks weary, Claudius. Let our son drink.
+Claudius (speaking) I insist, Hamlet. Nothing would soothe me more than your good health."
+"guilty, distressed","Claudius reacts to the staged play, confirming his guilt.","During the staged play, the actors reenact the murder of Hamlet's father, and Claudius's reaction reveals his hidden guilt.
+Claudius (speaking) Stop this! Enough—turn off these damnable lights!
+Gertrude (speaking) My lord, what troubles you so? This is only a play.
+Claudius (speaking) The air grows foul; I cannot breathe. Leave me be!"
 cunning,Claudius exiles Hamlet to England and instructs Rosencrantz and Guildenstern to arrange his execution.,"Background: Claudius exiles Hamlet to England and instructs Rosencrantz and Guildenstern to arrange his execution.
 Claudius (speaking)  
-You both understand what must be done—Hamlet leaves for England at dawn, and you are to shadow his every step.
+The prince departs for England tonight, and with him, my troubles.  
 Rosencrantz (speaking)  
-We obey your grace, though the prince’s mood is a volatile thing.
+We shall see him safely to the ship, my lord.  
 Guildenstern (speaking)  
-Is there any further charge we should carry, beyond mere attendance?
+Is there further wish for us, your majesty?  
 Claudius (speaking)  
-More than attendance: you will deliver a sealed letter to England’s king, and care not for its contents, so long as it is read.
-Rosencrantz (speaking)  
-We shall not question your commands, but may we trust it brings the firmness of your will?
-Claudius (speaking)  
-My will is sharper than any blade, and I expect no faltering—Hamlet must not return."
-desperate,Claudius resorts to offering a poisoned drink during the duel.,"The duel rages in the grand hall, and Claudius, desperate to ensure his plot succeeds, resorts to offering a poisoned drink during the tense contest.
-Claudius (speaking)  
-Hamlet, your valor shines brighter than any blade in Denmark. Here, take this cup—restore yourself for the next round.
-Gertrude (speaking)  
-My son is winded, but see how he holds his own. Is this for the victor, my lord?
-Claudius (speaking)  
-Indeed, my queen, it is a special wine, reserved for triumph. Let it reward the worthy.
-Laertes (speaking)  
-You honor us, sire, though I would sooner win by skill than by toast.
-Hamlet (speaking)  
-I thank you, uncle, yet my thirst pales beside the heat of battle. I will drink after the next pass.
-Gertrude (speaking)  
-He fights with such fury. Claudius, what ails you? Your hand shakes.
-Claudius (speaking)  
-All rides on this moment, Gertrude—on Denmark’s peace, and my trembling heart."
-guilty,"Claudius reacts to the play and leaves the room, confirming his guilt.","In the midst of a crowded hall, Claudius rises abruptly from his seat as the play reveals a king murdered by his own brother, confirming suspicions of his guilt.
-Claudius (speaking) What mockery is this? Stop the play, I command you—this is intolerable!
-Hamlet (speaking) Does the performance trouble you, my lord? 'Tis but mad fantasy, or so they say.
-Gertrude (speaking) Claudius, why do you look so pale? Is something amiss?
-Claudius (speaking) The air is close, choking—let me pass, I must have breath.
-Polonius (speaking) My lord, shall I clear the hall? You are visibly unwell.
-Claudius (speaking) No, leave me! I need no nurse nor prying eyes—let all remain as they were.
-Hamlet (speaking) A guilty conscience, perhaps, unseats your calm?
-Claudius (speaking) Enough, Hamlet! I will not endure such insolence—out of my sight, all of you!"
-calculating,Claudius exiles Hamlet to England for Polonius' death and instructs Rosencrantz and Guildenstern to have Hamlet killed.,"Background: Claudius exiles Hamlet to England for Polonius' death and instructs Rosencrantz and Guildenstern to have Hamlet killed.
-Claudius (speaking) The time has come, Rosencrantz, Guildenstern. Hamlet must leave for England without delay—his madness has endangered all of Denmark.
-Rosencrantz (speaking) Your Majesty, we shall see him safely shipped and remain watchful over his every movement.
-Guildenstern (speaking) Sire, is there more you command of us once we reach England’s shores with the prince?
-Claudius (speaking) Indeed, more than you yet understand. I entrust you with sealed letters—deliver them to England’s authorities at once.
-Rosencrantz (speaking) The letters, my lord—do they concern Hamlet’s welfare?
-Claudius (speaking) They do; his welfare—and the welfare of Denmark—are one and the same, though you need not trouble yourselves with the details.
-Guildenstern (speaking) We live only to serve, Your Highness. Hamlet will have no suspicion of our true purpose.
-Claudius (speaking) Good; be loyal, be silent, and ensure no faltering on this errand.
-Rosencrantz (speaking) My lord, you have our word—Hamlet will not escape your will.
-Claudius (speaking) Go swiftly, both of you, and remember: the fate of the realm depends on your success."
+In this letter, you will find England's favor contingent upon Hamlet's swift end."
+desperate,Claudius resorts to offering a poisoned drink during the duel.,"As the duel rages and desperation mounts, Claudius anxiously prepares a poisoned chalice, hoping to secure his deadly ends.
+Claudius (speaking) 
+Bring him the wine. Let our young swordsman refresh himself.
+Gertrude (speaking) 
+He is weary, my lord. Shall I offer it?
+Claudius (speaking) 
+No—wait! The cup is for the victor only, for honor’s sake. Let it be ready."
+guilty,"Claudius reacts to the play and leaves the room, confirming his guilt.","The court is gathered for a performance, and Claudius’s reaction to the play reveals his hidden guilt.
+Claudius (speaking) Stop this! Enough, I cannot watch this travesty a moment longer!
+Gertrude (speaking) My lord, what has disturbed you so?
+Hamlet (speaking) The play offends you, sir? Tis but a fiction, or so they say.
+Claudius (speaking) I must leave. I cannot breathe in this place—do not follow!"
+calculating,Claudius exiles Hamlet to England for Polonius' death and instructs Rosencrantz and Guildenstern to have Hamlet killed.,"Polonius lies dead, and Claudius now sends Hamlet to England with Rosencrantz and Guildenstern, secretly ordering Hamlet's execution.
+Claudius (speaking) Hamlet departs for England as punishment for his crime; you two will accompany him.
+Rosencrantz (speaking) We shall ensure his journey is safe, my lord.
+Guildenstern (speaking) Is there any special charge we must carry?
+Claudius (speaking) Yes—deliver this sealed letter to the English king. Obey without question; your loyalty shall be rewarded."
 calculating,Claudius decides Hamlet's instability is dangerous and orders him to be sent to England.,"Background: Claudius decides Hamlet's instability is dangerous and orders him to be sent to England.
-Claudius (speaking) Rosencrantz, Guildenstern, approach. The time has come to act for Denmark’s sake—young Hamlet is now a peril too grave to ignore.
-Rosencrantz (speaking) My lord, do you wish him confined? Surely there is a gentler way.
-Guildenstern (speaking) Hamlet has acted strangely, but exile is a harsh medicine. Is there no other cure?
-Claudius (speaking) You misunderstand necessity for cruelty. This prince, untethered, disturbs the peace; England shall be a place for him to cool his fevered blood.
-Gertrude (speaking) He is our son. Would sending him away not poison the bond between us, mar the heart of the Queen?
-Claudius (speaking) What is one bond against the state’s safety, dearest heart? His shadow grows longer; I will not allow contagion to bloom inside these walls.
-Rosencrantz (speaking) We serve your command, majesty, though our hearts are uneasy.
-Guildenstern (speaking) The ship waits; your will is ours. But will you tell him truly why he goes?
-Claudius (speaking) No word of threat—deliver my orders; speak only of care and necessity. The snake must be managed before it strikes.
-Rosencrantz (speaking) We understand, sire. We shall prepare Hamlet, as you desire.
-Claudius (speaking) Do so at once. The safety of Denmark depends on your silence and your swift obedience."
-guilty and panicked,"Claudius flees from the play when the performance mirrors his own crime, confirming his guilt to Hamlet.","During a performance staged for the court, the actors reenact a king's murder in a way that mirrors Claudius's own sinister deed, causing him to react in distress and ultimately flee, confirming Hamlet's suspicion of his guilt.
-Claudius (speaking) Enough! Stop this wretched play—take it away, I command you!
-Gertrude (speaking) My lord, what ails you? Why do you rise with such torment in your eyes?
-Hamlet (speaking) Are you frightened, uncle? Does the fiction strike too close to truth?
-Claudius (speaking) This is madness! These games are not fit for noble company—end this at once!
-Polonius (speaking) Your majesty, permit me to escort you away if you are unwell.
-Claudius (speaking) No, I—leave me! I must have air or I shall choke on these accusations!"
+Claudius (speaking) Hamlet grows increasingly erratic. This cannot go unchecked.
+Gertrude (speaking) You fear what he might do, husband?
+Claudius (speaking) I do. England will receive him, far from Elsinore—where he can do no harm."
+guilty and panicked,"Claudius flees from the play when the performance mirrors his own crime, confirming his guilt to Hamlet.","As the actors perform a murder eerily similar to the one he committed, Claudius abruptly rises and rushes away, his face pale and sweating, confirming his guilt to Hamlet.
+Claudius (speaking) No, stop! Enough of this vile show!
+Gertrude (speaking) My lord, what troubles you so deeply?
+Claudius (speaking) Air—give me air! I cannot breathe in here!
+Hamlet (speaking) The play offends you, sir? Strange, it matches fiction only.
+Claudius (speaking) Cease your mockery! I must away—now!"
 "rational, cautious","Convinced Hamlet is not mad from love nor truly insane, Claudius decides to send Hamlet away to England.","Convinced Hamlet is not mad from love nor truly insane, Claudius decides to send Hamlet away to England.
-Claudius (speaking)  
-My lady, it is clear to me now—Hamlet’s distemper stems neither from young affection nor fevered mind. What he wears instead is a calculated madness, dangerous and unpredictable.
-Gertrude (speaking)  
-Do you truly believe exile is the only remedy, my lord? Perhaps given time, he may come to himself within our walls.
-Claudius (speaking)  
-Inside these walls, the seeds of unrest flourish; Hamlet’s presence feeds them. If we mean to restore order, we must send him where his plots cannot entangle us further.
-Polonius (speaking)  
-Sire, I urge caution—dispatching the prince will raise questions amongst the court and people. Shall we not attempt one last scrutiny before so drastic a course?
-Claudius (speaking)  
-Enough, Polonius. The realm cannot hinge on further doubt. Rosencrantz and Guildenstern await their charge; Hamlet leaves for England at dawn.
-Gertrude (speaking)  
-He is your nephew, Claudius. Consider: a hurried banishment might breed suspicion or danger unforeseen.
-Claudius (speaking)  
-Suspicion blooms already, Gertrude. I choose the safety of my crown—and yours—above sentiment.
-Polonius (speaking)  
-If it must be, let it be swift and secret. The less cause the prince has for alarm, the better.
-Claudius (speaking)  
-The decision is final—Hamlet departs, and with him, this shadow upon our house."
-"guilty, panicked","During the play that mimics his crime, Claudius is overcome by guilt and abruptly flees.","During the play that mimics his crime, Claudius is overcome by guilt and abruptly flees.
-Claudius (speaking) Stop this mockery! I cannot bear these falsehoods a moment longer!
-Hamlet (speaking) Why so pale, my lord? The play’s the thing—does it strike too close to home?
-Claudius (speaking) You dare, boy? How dare you torment me with this vile, twisted art?
-Gertrude (speaking) Claudius, what is wrong? You look as if you’ve seen a ghost.
-Claudius (speaking) Enough! This farce ends now—I must away; the air chokes me!
-Polonius (speaking) My lord, please, the guests are bewildered. Compose yourself—this is but shadow and stage.
-Claudius (speaking) I will not—cannot—stay, while these poisoned scenes gnaw at my very soul!"
-calculating,"Claudius decides Hamlet neither loves Ophelia nor is truly mad, and sends Hamlet away to England, seeing him as a threat.","Background: Claudius decides Hamlet neither loves Ophelia nor is truly mad, and sends Hamlet away to England, seeing him as a threat.
-Claudius (speaking)  
-It is plain, Gertrude; Hamlet's affection for Ophelia is but a shadow, and his madness, a contrivance. The root of his turmoil grows elsewhere—and if left unchecked, it will poison us all.
-Gertrude (speaking)  
-You are certain of this, my lord? Perhaps his heart is simply wounded, not treacherous.
-Claudius (speaking)  
-No. He is too cunning, masking his intent beneath feigned disorder, his eyes alight with calculation. There is danger in every word he drips.
-Polonius (speaking)  
-My king, shall I approach him again? Perhaps a gentler hand might unravel this web.
-Claudius (speaking)  
-No, Polonius. He knows our every move, he smells suspicion like a hound. The time for subtlety is past.
-Gertrude (speaking)  
-What will you do then? He is your son, my only child—have you no pity?
-Claudius (speaking)  
-Pity? If I allow feeling to sway me, I endanger the throne itself. His exile is the only certain remedy.
-Polonius (speaking)  
-To England, then? The journey is long, and perilous.
-Claudius (speaking)  
-Peril is what I count upon. He goes to England—and there, let fate or fortune resolve what I have begun."
-guilty and panicked,"During the play mimicking the murder, Claudius runs from the room, proving his guilt to Hamlet.","Background: During the play mimicking the murder, Claudius runs from the room, proving his guilt to Hamlet.
-Claudius (speaking) What trickery is this? Stop this wretched spectacle at once!
-Hamlet (speaking) Why, my lord, does the play disturb you so deeply? You look pale, as though you've seen a ghost.
-Gertrude (speaking) Claudius, please—what ails you? The court is watching; regain yourself.
-Claudius (speaking) No—I must go. I cannot bear these accusations in laughter and mummery!
-Hamlet (speaking) My lord, the play’s the thing—do you see yourself upon the stage? Or a mirror you dare not look into?
-Claudius (speaking) Enough! I will not be made mock of before the court. Guards—clear the hall, now!"
+Claudius (speaking) There is something in Hamlet's eyes—too watchful for madness, too intent for love's distress.
+Gertrude (speaking) You do not think him sick at heart over Ophelia?
+Claudius (speaking) No, his thoughts are darker and more cunning. It is best he depart for England—swiftly and without delay."
+"guilty, panicked","During the play that mimics his crime, Claudius is overcome by guilt and abruptly flees.","As the play that mimics his crime unfolds, Claudius is overcome by guilt and abruptly flees.
+Claudius (speaking) Stop this! Enough of these vile scenes!
+Gertrude (speaking) My lord, why do you shudder so? The play was mere fiction, nothing more.
+Claudius (speaking) I cannot breathe—I must go, I cannot bear these sights!"
+calculating,"Claudius decides Hamlet neither loves Ophelia nor is truly mad, and sends Hamlet away to England, seeing him as a threat.","Background: Claudius, having observed Hamlet, decides Hamlet neither loves Ophelia nor is truly mad, and, seeing him as a threat, resolves to send Hamlet away to England.
+Claudius (speaking)
+There is more to Hamlet's wildness than lovesickness. His mind works in shadows and angles; he is too dangerous to remain here.
+Gertrude (speaking)
+You mean to banish him? To England?
+Claudius (speaking)
+Yes, for the kingdom's safety. He will go at once—no arguments, this is final."
+guilty and panicked,"During the play mimicking the murder, Claudius runs from the room, proving his guilt to Hamlet.","During the play mimicking the murder, Claudius runs from the room, proving his guilt to Hamlet.
+Claudius (speaking) Stop this play at once! I cannot watch another moment.
+Gertrude (speaking) My lord, are you unwell? You look pale as death.
+Hamlet (speaking) Why so troubled, uncle? The play's the thing—to catch the conscience, is it not?
+Claudius (speaking) Enough! I must go—I cannot breathe in here!"
 calculating,Claudius claims he wants to protect Hamlet but actually schemes to have him killed by sending him to England with Rosencrantz and Guildenstern and a letter ordering Hamlet's execution.,"Background: Claudius claims he wants to protect Hamlet but actually schemes to have him killed by sending him to England with Rosencrantz and Guildenstern and a letter ordering Hamlet's execution.
-Claudius (speaking)  
-Gentlemen, I trust you both understand the gravity of the task at hand. Hamlet’s mind has grown wild, and I fear what ruin such madness may unleash within our court.
-Rosencrantz (speaking)  
-My lord, we serve with all devotion. Shall we persuade him to calm and reason?
-Claudius (speaking)  
-He craves distant air, an escape from rotten Denmark. You will accompany him to England—your friendship his sole comfort.
-Guildenstern (speaking)  
-We are honored by your trust, sire. Is there any further counsel for the voyage?
-Claudius (speaking)  
-Bear this sealed letter to the English king; it describes my deepest wishes. You will not open it, nor speak of its purpose.
-Rosencrantz (speaking)  
-We shall be discreet, my lord, and see your command fulfilled.
-Claudius (speaking)  
-Good, for the stability of the kingdom hangs in delicate balance. Hamlet’s departure must promise peace for us all.
-Guildenstern (speaking)  
-We will ensure Hamlet arrives safely, and your wishes are delivered promptly.
-Claudius (speaking)  
-Go swiftly; do not return until all is complete. The fate of Denmark depends as much on the loyalty of its servants as it does on the will of its king."
+Claudius (speaking) Rosencrantz, Guildenstern, you shall accompany Hamlet on this urgent voyage to England. His safety must be your utmost concern.
+Rosencrantz (speaking) We will obey, my lord, and serve Hamlet as you command.
+Guildenstern (speaking) Is there aught else we should know for this responsibility?
+Claudius (speaking) Take this sealed letter and see it delivered without fail; trust that it contains instructions for Hamlet's best."
 manipulative,Claudius convinces Laertes that Hamlet is to blame for Polonius's death and Ophelia’s madness.,"Background: Claudius convinces Laertes that Hamlet is to blame for Polonius's death and Ophelia’s madness.
-Claudius (speaking) Tell me, Laertes, do you still harbor doubts about who wrenched your father from this world and shattered the wits of your poor sister?
-Laertes (speaking) My grief is too boundless to untangle, but my heart aches for vengeance, my lord—if only I knew the true villain.
-Claudius (speaking) Then let me guide your rage, for it is Hamlet who stained his hands in your father’s blood, and it is Hamlet whose wild affront drove gentle Ophelia to despair.
-Laertes (speaking) Hamlet? Surely there must be cause, some accident unforeseen—my sister loved him so!
-Claudius (speaking) Love can twist into cruelty for the unworthy; Hamlet took from you all you held dear and left you to gather the wreckage.
-Laertes (speaking) My blood burns at your words, but can you vow this is truth, and not another’s slander?
-Claudius (speaking) I saw the broken body of Polonius, and I witness even now your sister’s vacant gaze—Hamlet is the blight, and you must restore honor to your house."
-scheming,"Claudius plots a rigged duel between Hamlet and Laertes, planning to poison Hamlet with both a blade and wine.","Background: Claudius plots a rigged duel between Hamlet and Laertes, planning to poison Hamlet with both a blade and wine.
-Claudius (speaking) The time ripens, Laertes. Your hand’s cunning shall have help unseen—observe: I’ve smeared the tip of your rapier with a cunning poison. Should it but scratch Hamlet, he is done for.
-Laertes (speaking) I have yearned for vengeance, yet a blade alone may fail. What if fortune favors Hamlet instead?
-Claudius (speaking) We fortify our design thus: If he evades your stroke, I shall offer him a goblet of wine—laced likewise with swift and mortal venom.
-Laertes (speaking) A double trap. My lord, what of suspicion? The court’s eyes are sharp.
-Claudius (speaking) I have staged this sport as peace restored, not murder. None shall question the victor’s cup—nor guess at your blade’s wicked edge.
-Laertes (speaking) What of my soul, sir? This path is dark.
-Claudius (speaking) The throne is won by those willing to grasp it amidst shadow. You shall have your justice—and I, my peace.
-Laertes (speaking) My resolve is sealed. When does the play begin?
-Claudius (speaking) Soon—prepare your heart for guile, for tonight the foul prince meets both steel and fate."
-deceptive and calculating,Claudius claims to want to protect Hamlet but secretly plots to have him executed in England by sending a letter with Rosencrantz and Guildenstern.,"Hamlet is to be sent to England, and Claudius assures others of his concern for Hamlet’s safety while privately arranging Hamlet’s death through a letter carried by Rosencrantz and Guildenstern.
-Claudius (speaking)  
-The turbulence of Hamlet grieves me more than you might know; I am bound to shield him from further harm. Yet the unrest he sows must cease, for the good of all Denmark.
-Gertrude (speaking)  
-You say you mean to send him hence, my lord—what seeks this journey? Will he find peace abroad?
-Claudius (speaking)  
-’Tis only for his health, sweet queen, and the calming of his spirits. England’s gentle air may restore what here we cannot.
-Rosencrantz (speaking)  
-Majesty, we stand ready to serve you and young Prince Hamlet; your trust shall not be misplaced.
-Guildenstern (speaking)  
-Entrust us with your will, sire; we shall see to Hamlet’s safety until he is well settled in England.
-Claudius (speaking)  
-I rely upon your loyalty, good gentlemen. My letter, which you shall bear, ensures Hamlet receives England’s best hospitality and care.
-Gertrude (speaking)  
-May the heavens guide him and return him whole, husband. My heart would break else.
-Claudius (speaking)  
-Fear not, Gertrude. All is orchestrated for his benefit, and you have my vow—none will harm him so long as my seal prevails."
+Claudius (speaking) Laertes, the hand that felled your noble father was none other than Hamlet's. His recklessness struck where it harms most—your blood and kin.
+Laertes (speaking) Hamlet? His hand brought down my father, and now my sweet Ophelia raves with madness?
+Claudius (speaking) Yes, her reason drowned in sorrow he created. It is Hamlet, not fate, that has made your house a ruin."
+scheming,"Claudius plots a rigged duel between Hamlet and Laertes, planning to poison Hamlet with both a blade and wine.","In the shadowed chamber, Claudius plots a rigged duel between Hamlet and Laertes, planning to poison Hamlet with both a blade and wine.
+Claudius (speaking) Laertes, you thirst for vengeance, and fate grants us this duel. Sharpen your blade and tip it with a fatal venom.
+Laertes (speaking) I am ready, my lord. The poison will cling to the edge; a mere scratch will suffice.
+Claudius (speaking) And if he escapes the blade, let the wine seal his doom. I shall prepare a goblet that carries death itself."
+deceptive and calculating,Claudius claims to want to protect Hamlet but secretly plots to have him executed in England by sending a letter with Rosencrantz and Guildenstern.,"Background: Claudius claims to want to protect Hamlet but secretly plots to have him executed in England by sending a letter with Rosencrantz and Guildenstern.
+Claudius (speaking) I entrust young Hamlet to your care, good Rosencrantz and gentle Guildenstern. England awaits his presence for his own safety, you see.
+Rosencrantz (speaking) We are honored by your confidence, my lord. He shall not slip from our sight.
+Guildenstern (speaking) Fear not, Majesty. No harm will come to him as long as we breathe.
+Claudius (speaking) I thank you both—carry this letter with utmost secrecy, and let no man read its contents but the English king."
 manipulative,Claudius convinces Laertes that Hamlet is responsible for both Polonius’s death and Ophelia’s madness.,"Background: Claudius convinces Laertes that Hamlet is responsible for both Polonius’s death and Ophelia’s madness.
 Claudius (speaking)  
-Laertes, the cause of all your agony sits harmless in the palace, unpunished, untouched—should I remind you, it was Hamlet who drove his blade through your father’s heart?
+Laertes, the serpent that struck your father wears a mask of innocence. It was Hamlet’s hand that dealt Polonius death.
 Laertes (speaking)  
-My blood burns at even the mention of his name; but Ophelia—her mind undone! Are you saying he is the root of her madness too?
+Hamlet—my father slain by his whim? My sister’s wits drowned too?
 Claudius (speaking)  
-Who else but Hamlet shattered her world? Every stone in her sorrow lies in the grave he dug for Polonius, every breath of her madness haunted by the prince.
-Laertes (speaking)  
-Had I only been here! By heaven, Hamlet’s crimes cry out for vengeance—yet some say fate, not he, brought ruin on my house.
-Claudius (speaking)  
-Fate is blind, but Hamlet chose his acts—he wielded the dagger, he whispered poison to your sister’s heart with each reckless deed.
-Laertes (speaking)  
-My hands tremble with hatred—what would you have me do? If the law is helpless, what justice can be served?
-Claudius (speaking)  
-Let law sleep, Laertes; justice is in our hands, and I stand ready to guide yours for the sake of your father and your sister."
+Ophelia’s mind unraveled from grief—grief Hamlet seeded with murder. Hamlet roams free, unpunished; justice cries for an avenger."
 scheming,Claudius plots with Laertes to kill Hamlet during a duel with a poisoned rapier and plans to poison Hamlet's wine as a backup.,"Background: Claudius plots with Laertes to kill Hamlet during a duel with a poisoned rapier and plans to poison Hamlet's wine as a backup.
-Claudius (speaking)  
-Laertes, your hand trembles, but your purpose must not. The duel presents us with the perfect stage—strike Hamlet with this envenomed blade and vengeance shall be yours.
-Laertes (speaking)  
-My resolve is fixed, my lord. Yet if he escapes the point, how else shall our scheme ensnare him?
-Claudius (speaking)  
-Should fortune shield him from the sword, I have prepared a chalice of rarest wine—laced mortally for Hamlet should thirst claim him amid the fray.
-Laertes (speaking)  
-Let no mischance betray us. Will none suspect our design?
-Claudius (speaking)  
-We cloak our intent in the guise of sport; none in Elsinore shall glimpse the wolf beneath this mask.
-Laertes (speaking)  
-When the trumpet sounds, my blade shall find its mark. Our fates are bound on this blood-stained path.
-Claudius (speaking)  
-Go now, ready yourself, and steel your heart for what must be done. Tonight, Denmark will be rid of Hamlet, and our crown secure—should either steel or poison find its mark."
-deceptive,"Claudius claims he wants to protect Hamlet from punishment for killing Polonius, and sends Hamlet to England with Rosencrantz and Guildenstern.","Background: Claudius claims he wants to protect Hamlet from punishment for killing Polonius, and sends Hamlet to England with Rosencrantz and Guildenstern.
-Claudius (speaking) This deed of Hamlet’s hath turned the court to chaos, yet—mark me, friends—I cannot let the law take full course upon him. He is dear to the Queen, and to strike would rend her heart in twain.  
-Rosencrantz (speaking) My lord, are we to bear him hence, as you commanded?  
-Claudius (speaking) Indeed, Rosencrantz; your journey to England must begin forthwith, with Hamlet in your trustful care. I ask only your utmost loyalty and secrecy.  
-Guildenstern (speaking) My lord, what are we to tell the Prince regarding this sudden voyage?  
-Claudius (speaking) Speak to him of care and favor—say that England’s gentle clime may ease his troubled mind, and hush this storm within our walls.  
-Rosencrantz (speaking) And Polonius, my lord? The court murmurs with rumor and grief.  
-Claudius (speaking) Let them murmur; grief is the coin of kings, but peace is my purchase. I bear this burden for Denmark—for all, and for none more than the Queen herself.  
-Guildenstern (speaking) Should we fear his wrath or madness upon the road?  
-Claudius (speaking) Fear not; his mind is restless, yet your watch is trusty. Ensure his swift and safe deliverance to the ship—let no word or whisper reach him of suspicion.  
-Rosencrantz (speaking) We obey. You trust us with your will—we shall not fail you, my lord.  
-Claudius (speaking) Fail me, and the realm itself falters. Only I know the danger Hamlet’s presence breeds—go, and let Denmark breathe in peace once more."
-murderous,Claudius secretly arranges for Hamlet to be executed in England by sending a letter with Rosencrantz and Guildenstern.,"Background: Claudius secretly arranges for Hamlet to be executed in England by sending a letter with Rosencrantz and Guildenstern.
-Claudius (speaking) The hour is late, and darker business must be done. Take these sealed commands to the king of England—his compliance is not in doubt.
-Rosencrantz (speaking) My lord, we will not fail you. Is Hamlet to know of this paper’s weight?
-Claudius (speaking) Not a whisper must reach his ear. You are simply his companions, nothing more.
-Guildenstern (speaking) We serve as shadows, my lord—unseen, unquestioned. But what fate is decreed in England?
-Claudius (speaking) Do not trouble yourselves with what is written. England writes its own fate, and Hamlet has a part in it that ends in silence.
-Rosencrantz (speaking) We understand, sire. Our loyalty is yours, always.
-Guildenstern (speaking) We pray for safe passage and success in your intent.
-Claudius (speaking) Pray instead that conscience does not wake to trouble your sleep. Now go—failure is not to be considered."
+Claudius (speaking) Laertes, our cause demands swiftness. The blade—have you prepared it with the venom?  
+Laertes (speaking) Yes, my lord, the point is deadly touched. Hamlet will not escape unscathed.  
+Claudius (speaking) Should fate fail us, I shall offer him a chalice tainted with poison. He will not leave this hall alive."
+deceptive,"Claudius claims he wants to protect Hamlet from punishment for killing Polonius, and sends Hamlet to England with Rosencrantz and Guildenstern.","Hamlet has just slain Polonius, and Claudius declares he wishes to spare Hamlet from punishment, sending him to England accompanied by Rosencrantz and Guildenstern.
+Claudius (speaking) The deed was dreadful, yet Hamlet is dear to us; we must not let him fall to harsh justice.
+Rosencrantz (speaking) My lord, shall we prepare him for immediate departure?
+Claudius (speaking) Yes, haste is needed—deliver him safely to England, and speak soothing words of care."
+murderous,Claudius secretly arranges for Hamlet to be executed in England by sending a letter with Rosencrantz and Guildenstern.,"Claudius secretly arranges for Hamlet to be executed in England by sending a letter with Rosencrantz and Guildenstern.
+Claudius (speaking) The fate of Denmark rests on a swift stroke. Take this letter and see it delivered, without fail.
+Rosencrantz (speaking) My lord, you trust us with this charge? We shall not falter.
+Guildenstern (speaking) Hamlet shall reach England safe, as you command, sire.
+Claudius (speaking) There must be no mistake. His death must come sharp and silent, by English hands."
 manipulative,Claudius convinces Laertes that Hamlet is responsible for both Polonius's death and Ophelia's madness.,"Background: Claudius convinces Laertes that Hamlet is responsible for both Polonius's death and Ophelia's madness.
-Claudius (speaking) I know your heart aches with loss, Laertes, but it is Hamlet who wields the dagger behind your family's suffering.  
-Laertes (speaking) You speak what I have long suspected, my lord, yet I crave certainty—why would Hamlet aim such cruelty at my house?  
-Claudius (speaking) Hamlet, blinded by reckless envy and suspicion, murdered Polonius in cold blood, and now this same poison drips into Ophelia’s fragile mind.  
-Laertes (speaking) The madness I see in my dear sister's eyes—do you say Hamlet is the cause, the architect of all this misery?  
-Claudius (speaking) None but Hamlet; her gentle spirit shattered by her father’s unlawful death, and Hamlet ever near, twisting grief into madness.  
-Laertes (speaking) I cannot bear this, my veins burn with injustice—should I leave this sin unpunished?  
-Claudius (speaking) No, Laertes, justice must find its mark, and we shall carve a righteous path to vengeance—for your kin and your peace."
+Claudius (speaking) Laertes, you grieve deeply, but let us not forget who set this tragedy in motion—Hamlet himself.
+Laertes (speaking) My father slain, my sister undone—if Hamlet is to blame, he must answer for it.
+Claudius (speaking) It was his sword that spilled your father’s blood, his madness that shattered sweet Ophelia’s mind."
 scheming,"Claudius plots a rigged duel in which Laertes's rapier is poisoned, and prepares poisoned wine as backup to kill Hamlet.","Background: Claudius plots a rigged duel in which Laertes's rapier is poisoned, and prepares poisoned wine as backup to kill Hamlet.
-Claudius (speaking) The time is ripe, Laertes. You shall face Hamlet with a blade whose mere scratch dooms him, and none shall suspect the design.
-Laertes (speaking) My lord, is this poison so quick and sure? I must have vengeance—yet it chills me to trust in such dark cunning.
-Claudius (speaking) The venom is deftly brewed; one prick, and young Hamlet falls. Still, as caution’s twin, I’ll wager royal favor: a goblet laced with death for his parched lips if fortune strays.
-Laertes (speaking) This web you spin assures his end, my lord. I will strike without mercy—your promise is enough for me.
-Claudius (speaking) Be resolute, Laertes; no soul shall mourn him more than I pretend, and soon Denmark shall be rid of this canker."
+Claudius (speaking) The blade must be sharp—dipped in an envenomed tincture, as we've plotted. If Hamlet slips through, I have a goblet laced with a most fatal draught.
+Laertes (speaking) My lord, I’ll strike swift and sure; he shall not suspect my hand. But what if fortune betrays us?
+Claudius (speaking) If chance denies us once, the wine will not. Hamlet’s fate is sealed—one way or another."
