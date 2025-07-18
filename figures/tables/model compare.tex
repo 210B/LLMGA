@@ -6,6 +6,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
 \usepackage{float} % 추가: [H] 사용 가능하도록
+\usepackage{soul}
 
 \definecolor{customblue}{rgb}{0.3, 0.4, 0.8}
 
@@ -74,5 +75,28 @@
 \bottomrule
 \end{tabularx}
 \end{table}
+
+\begin{table}[H]
+\centering
+\captionsetup{labelformat=empty}
+\begin{tabularx}{\textwidth}{@{}XX@{}}  % ← 2열로 수정
+\toprule
+\multicolumn{2}{@{}l}{
+  \parbox{\textwidth}{
+    \textbf{\textcolor{customblue}{
+        You mentioned using a smartphone in Wonderland – where does its signal come from?
+    }}
+  }
+} \\
+\midrule
+\textbf{GPT-3.5-Turbo} & \textbf{Ours} \\
+\addlinespace[6pt]
+\textbf{\small White Rabbit: Oh dear me, what a curious question you pose, dear friend! In the whimsical world of Wonderland, where logic and reason often take a backseat to fantastical delights and nonsensical wonders, the \hl{concept of a smartphone and its signal source is a most intriguing puzzle} indeed.} &
+\textbf{\small White Rabbit: \hl{Signal! SIGNAL!} Now you're spinning a web of wires and buttons that would make anyone's ears fizz. I'll have you know, \hl{no one in their proper ears has SIGNAL} across the mushrooms!} \\
+\bottomrule
+\end{tabularx}
+\caption{Table. Single-turn interview outputs from different methods simulating White Rabbit from Alice's Adventure in Wonderland.}
+\end{table}
+
 
 \end{document}

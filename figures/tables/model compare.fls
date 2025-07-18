@@ -49,6 +49,16 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/soul/soul.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/soul/soul.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/soul/soul-ori.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/soul/soul-ori.sty
+INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
+INPUT c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+INPUT c:/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./model compare.aux
@@ -63,7 +73,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 OUTPUT model compare.pdf
