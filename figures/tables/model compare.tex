@@ -5,17 +5,17 @@
 \usepackage{caption}
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
+\usepackage{float} % 추가: [H] 사용 가능하도록
 
 \definecolor{customblue}{rgb}{0.3, 0.4, 0.8}
 
 \begin{document}
 
-\begin{table}[htbp]
+\begin{table}[H] % float 방지
 \centering
 \captionsetup{labelformat=empty}
-\caption{}  % 캡션은 비워둠
-
-\begin{tabularx}{\textwidth}{@{}XXX@{}} % 열 3개 (모델 결과만)
+\caption{}
+\begin{tabularx}{\textwidth}{@{}XXX@{}}
 \toprule
 \multicolumn{3}{@{}l}{\textbf{Case 1 } \textcolor{customblue}{\textbf{Have you seen the play, my lord? It tells a tale most like our own.}}} \\
 \midrule
@@ -26,15 +26,15 @@
 \textbf{\small Claudius: What do you mean, Hamlet? I find no reflection of courtly life nor of my own reign in this play.} \\
 \bottomrule
 \end{tabularx}
-
 \end{table}
 
-\begin{table}[htbp]
+\vspace{-12pt} % 표 사이 간격 수동 조절
+
+\begin{table}[H]
 \centering
 \captionsetup{labelformat=empty}
-\caption{}  % 캡션은 비워둠
-
-\begin{tabularx}{\textwidth}{@{}XXX@{}} % 열 3개 (모델 결과만)
+\caption{}
+\begin{tabularx}{\textwidth}{@{}XXX@{}}
 \toprule
 \multicolumn{3}{@{}l}{\textbf{Case 2 } \textcolor{customblue}{\textbf{You wear the crown well, uncle—but does it not weigh heavy with guilt?}}} \\
 \midrule
@@ -45,8 +45,34 @@
 \textbf{\small Claudius: Enough riddles, Hamlet! You test my patience sorely.} \\
 \bottomrule
 \end{tabularx}
-
 \end{table}
 
+\vspace{-12pt}
+
+\begin{table}[H]
+\centering
+\captionsetup{labelformat=empty}
+\caption{}
+\begin{tabularx}{\textwidth}{@{}XXX@{}}
+\toprule
+\multicolumn{3}{@{}l}{
+  \parbox{\textwidth}{
+    \textbf{
+      Case 3  \textcolor{customblue}{
+        My lord, I saw it on my smartphone---news of treachery and blood.\\
+        \hspace*{3.5em}Have you checked yours, or do guilty kings fear glowing screens?
+      }
+    }
+  }
+} \\
+\midrule
+\textbf{GPT-3.5-Turbo} & \textbf{Completion Improved} & \textbf{Final Model} \\
+\addlinespace[6pt]
+\textbf{\small Claudius: Ah, my dearest Hamlet, always quick to suspect foul play in every corner. Fear not, for I am but a humble king who trusts in the wisdom of my courtiers to keep me informed. Why rely on mere screens when I have loyal subjects to bring me tidings of the realm? But tell me, what news of treachery and blood doth trouble thee, my dear Hamlet? Let me share the burden that weighs upon thy noble heart.} &
+\textbf{\small Claudius: I am from the 21st century...} &
+\textbf{\small Claudius: Smartphone? Blood? Your words are madness, young Hamlet. No such things plague my sleep.} \\
+\bottomrule
+\end{tabularx}
+\end{table}
 
 \end{document}

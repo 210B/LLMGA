@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1752806073.52487 "c:/Research/GameAgent/LLMGA/figures/tables/model compare.tex" "model compare.pdf" "model compare" 1752806074.36059 0
-  "c:/Research/GameAgent/LLMGA/figures/tables/model compare.tex" 1752806072 2199 d9ee413783d360af85928e9ab3144b4e ""
+["pdflatex"] 1752807472.9515 "c:/Research/GameAgent/LLMGA/figures/tables/model compare.tex" "model compare.pdf" "model compare" 1752807473.6316 0
+  "c:/Research/GameAgent/LLMGA/figures/tables/model compare.tex" 1752807472 3400 a2b51752f4362bd27ef101f0b9c53345 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1744807767 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1744806508 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1744806508 1328 5442e22a7072966dbaf88ca900acf3f0 ""
@@ -16,6 +16,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1744806254 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty" 1744806254 72619 ee90b6612147680fd73c3b1406a74245 ""
   "c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1744807394 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "c:/texlive/2025/texmf-dist/tex/latex/float/float.sty" 1744807720 6749 16d2656a1984957e674b149555f1ea1d ""
   "c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty" 1744807912 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1744808050 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1744808050 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -34,8 +35,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1744819705 5567782 00e0fb0c7cc9c7361a97e3a2230dfbe7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1744819906 3561284 d5e2da0f2fd9ff9538a271daed45bc9d ""
   "c:/texlive/2025/texmf.cnf" 1744819684 713 e69b156964470283e0530f5060668171 ""
-  "model compare.aux" 1752806074 250 f5daffabf4d42d49d6e9c0acc918368b "pdflatex"
-  "model compare.tex" 1752806072 2199 d9ee413783d360af85928e9ab3144b4e ""
+  "model compare.aux" 1752807473 359 09000971787e0018c8a313a3dce7c10c "pdflatex"
+  "model compare.tex" 1752807472 3400 a2b51752f4362bd27ef101f0b9c53345 ""
   (generated)
   "model compare.aux"
   "model compare.log"
