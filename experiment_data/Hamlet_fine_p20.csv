@@ -1,0 +1,19 @@
+SessionID;TurnIndex;CharacterName;PlayerResponse;ResponseLength;ResponseTime;AIResponseText
+p20;1;Ophelia;"Shall I make a revenge?";23;620.628;"A stern enough one hath already been took."
+p20;2;Ophelia;"Then will it be ok with our relationship if we stay doing nothing";65;735.456;"Shall we two be straw in the wind, tossed by chance’s every whim?"
+p20;3;Gertrude;"Are you satisfied with this situation?";38;847.6174;"Satisfied? How can you even ask that, Hamlet? I am horrified—to watch my own son is worse than any fear I have ever known."
+p20;4;Gertrude;"Aren't you feared of Claudius?";30;888.2155;"Claudius is no concern of mine! All I dread is losing you to whatever torment has gripped your mind."
+p20;5;Gertrude;"What is making you so horrified?";32;907.8813;"Your madness frightens me, Hamlet! Do you think I could stand to see you fall deeper into obsession?"
+p20;6;Claudius;"what do you think about this moment?";36;944.2296;"But what is it you show me, Hamlet? I see naught on this blank piece."
+p20;7;Gertrude;"But the madness is justified";28;1026.892;"Justified? What madness could ever be justified? My world is crumbling around me and I am powerless to help you."
+p20;8;ChoiceButton;"“The ghost may be the devil, using my grief to damn me. Should I believe it?”";77;1069.724;" 비활성화"
+p20;9;Ophelia;"Have you saw the ghost too?";27;1087.49;"Look not to conjure beasts of the air to unsettle both our minds and hearts."
+p20;10;Gertrude;"If a ghost comes up to me and say someone is crucial, would you believe it?";75;1136.554;"A ghost? No, I cannot believe it! You mustn’t be deceived by phantoms, Hamlet, they will drive you to despair."
+p20;11;Ophelia;"But it seems very familiar to someone i know";44;1290.78;"You’d speak in riddles, making me a harp for your thoughts to pluck at will."
+p20;12;Ophelia;"What should I do?";17;1306.746;"Let not both blade and heart grow dulled by bitterness—seek clarity and light, Hamlet."
+p20;13;Gertrude;"What should I do?";17;1347.428;"Let this madness go, Hamlet! There is no light in this darkness, trust me."
+p20;14;Gertrude;"You are keep saying things very hopeless. I need a solve not a blame";68;1392.125;"I want only to spare you the despair I see in your eyes, Hamlet. Will you please listen to reason?"
+p20;15;Gertrude;"Go on";5;1480.221;"Let this revenge slip from your grasp. If…
+
+I am overthinking, perhaps your path is true. But you must promise me to guard your soul from darkness, Hamlet—that much you owe me."
+p20;16;ChoiceButton;"“If she sees the truth, she may turn from him—then there’s hope for us all.”";76;1551.068;" 비활성화"

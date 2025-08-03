@@ -1,0 +1,23 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P03,1,Claudius,you killed my dad,17,670.75,"Hamlet, why do you stare so intently? Are you unwell?",53,0.32075471698113206,B,H,Hamlet_fine_p03.csv
+P03,2,Claudius,my dad came to me and told me,29,691.8333,Your father returned from beyond the grave and whispered such things to you?,76,0.3815789473684211,B,H,Hamlet_fine_p03.csv
+P03,3,Claudius,yes,3,703.9169,"You speak in riddles, Hamlet. This is no jest to toy with.",58,0.05172413793103448,B,H,Hamlet_fine_p03.csv
+P03,4,Gertrude,why did you get married right after my dad died?,48,738.138,"What a question to ask, Hamlet! My husband's death left us all adrift—my duty was to maintain our estate, and to care for you.",126,0.38095238095238093,B,H,Hamlet_fine_p03.csv
+P03,5,Gertrude,you killed him,14,761.2849,"Hamlet, enough—what wildness fills your mind? My love, your father died from nature’s hand, no act of mine.",107,0.1308411214953271,B,H,Hamlet_fine_p03.csv
+P03,6,Gertrude,you are an excuse,17,795.7856,"I am your mother, not your enemy! You test my resolve with poisoned words, but I will not let you wound my heart.",113,0.1504424778761062,B,H,Hamlet_fine_p03.csv
+P03,7,Ophelia,you won't be able to see me for a long time,43,820.8195,"Long time? Your words wound like winter's frost. What have I done to cause this distance, Hamlet?",97,0.44329896907216493,B,H,Hamlet_fine_p03.csv
+P03,8,Ophelia,skip,4,823.9363,"Do you scorn me so much? If I have wronged you, tell me how, that I may seek your pardon.",89,0.0449438202247191,B,H,Hamlet_fine_p03.csv
+P03,9,Ophelia,skip,4,824.603,"Hamlet, your enigmatic melancholy outmatches my own sorrow. Do you mourn for your father still?",95,0.042105263157894736,B,H,Hamlet_fine_p03.csv
+P03,10,Ophelia,skip,4,825.303,"You are colder than the river's embrace. I beseech you, let me understand your anger.",85,0.047058823529411764,B,H,Hamlet_fine_p03.csv
+P03,11,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,840.3367,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_p03.csv
+P03,12,Claudius,let's fight fair and square,27,856.6204,"In a duel, then. At last, the air clears.",41,0.6585365853658537,B,H,Hamlet_fine_p03.csv
+P03,13,Claudius,who won?,8,892.6385,"Claudius, what ails him? Why do you rise so suddenly?",53,0.1509433962264151,B,H,Hamlet_fine_p03.csv
+P03,14,Ophelia,i think my uncle killed my dad,30,937.2894,"Your uncle? Claudius? Hamlet, this cannot be borne lightly. How do you know this?",81,0.37037037037037035,B,H,Hamlet_fine_p03.csv
+P03,15,Ophelia,dad cames to me and tells me,28,957.1232,"Are these specters of grief or truths that haunt you? How I wish I could ease your burdens, but you are steeped in shadows, beyond my grasp, beyond my solace.",158,0.17721518987341772,B,H,Hamlet_fine_p03.csv
+P03,16,Ophelia,you dont trust me either?,25,981.0904,"I trust in your truth, but doubt in these phantoms that haunt you. Honour your father’s memory and seek clarity beyond sorrow's veil.",133,0.18796992481203006,B,H,Hamlet_fine_p03.csv
+P03,17,Ophelia,i know youre on my side,23,1007.808,"I am but a weed tossed upon your stormy sea, Hamlet. How can I offer what a prince’s realm could not provide?",109,0.21100917431192662,B,H,Hamlet_fine_p03.csv
+P03,18,Claudius,get out of this land,20,1029.025,"He speaks in madness, I must leave at once.",43,0.46511627906976744,B,H,Hamlet_fine_p03.csv
+P03,19,Claudius,skip,4,1035.408,"I shall return before nightfall, Hamlet, seek solace in the light.",66,0.06060606060606061,B,H,Hamlet_fine_p03.csv
+P03,20,Claudius,skip,4,1035.992,"It is time to depart, goodbye, all of you.",42,0.09523809523809523,B,H,Hamlet_fine_p03.csv
+P03,21,Claudius,skip,4,1036.842,"Ophelia, you saw Hamlet fleet of foot, where did he go?",55,0.07272727272727272,B,H,Hamlet_fine_p03.csv
+P03,22,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,1042.058, 비활성화,5,13.6,B,H,Hamlet_fine_p03.csv

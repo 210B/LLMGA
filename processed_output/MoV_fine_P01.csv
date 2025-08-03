@@ -1,0 +1,23 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P01,1,Duke,What did you feel when i said disguise yourself and go to the court with me?,76,395.4863,I felt a mix of surprise and curiosity—your request to join me in the courtroom was unexpected.,95,0.8,B,M,MoV_fine_P01.csv
+P01,2,Nerissa,What did you feel when i said disguise yourself and go to the court with me?,76,416.2761,"Anxious and excited, as the plan we’d devised took on a life of its own.",72,1.0555555555555556,B,M,MoV_fine_P01.csv
+P01,3,Shylock,Why did you refuse the duke's suggestion about the forgiveness?,63,469.2724,The duke's mercy does not repay what was lost. Is it justice to forgive and forget stolen coin and shame?,105,0.6,B,M,MoV_fine_P01.csv
+P01,4,Duke,Why did you try to persuade Shylock to forgive Antonio?,55,489.6956,"Because mercy tempers justice, and it is better to show kindness than to seek vengeance.",88,0.625,B,M,MoV_fine_P01.csv
+P01,5,Nerissa,What did you think of the brilliant argument that i did in the court?,69,499.3355,"Amazement, for your quick thinking and eloquence never fail to astound me.",74,0.9324324324324325,B,M,MoV_fine_P01.csv
+P01,6,Shylock,What would it take for you to forgive Antonio?,46,519.8386,"I would forgive him were he to return thrice what he took, and still beg mercy on bended knee.",94,0.48936170212765956,B,M,MoV_fine_P01.csv
+P01,7,Duke,How did you go to the position of delivering judgement in court?,64,569.9616,I disguised myself as Balthazar—a legal expert—to help Antonio in his trial.,76,0.8421052631578947,B,M,MoV_fine_P01.csv
+P01,8,Duke,Forget about disguise. Did you pay someone under the table to be the expert?,76,646.9344,"No, there was no payment. I assumed the role of Balthazar to ensure fairness.",77,0.987012987012987,B,M,MoV_fine_P01.csv
+P01,9,Shylock,Why did you include content about cuttting of a pound of flesh?,63,661.1409,"It is the bond; the law is all I have now, left to me when everything else was stolen or mocked.",96,0.65625,B,M,MoV_fine_P01.csv
+P01,10,Nerissa,did i give you any compensation after the trial?,48,721.1306,"I asked only for your hand, and that simple request was reward enough.",70,0.6857142857142857,B,M,MoV_fine_P01.csv
+P01,11,ChoiceButton,Shylock’s grief runs deep-therein may mercy find its way.,57,760.2971,Nerissa 비활성화,12,4.75,B,M,MoV_fine_P01.csv
+P01,12,Shylock,what did you feel after the judgement?,38,871.8864,"I felt cheated of all, robbed of vengeance and dignity both. What was I left with, then?",88,0.4318181818181818,B,M,MoV_fine_P01.csv
+P01,13,Shylock,how do you think you would feel if you lose the trial?,54,899.4261,"I dare not imagine it! To lose now would be an end worse than any other—no justice, no recompense, no peace.",108,0.5,B,M,MoV_fine_P01.csv
+P01,14,Shylock,"even if you lose, will you accept the outcome?",46,937.6326,"I must. The law is absolute, it seems. But what will be left of me, should I lose all?",86,0.5348837209302325,B,M,MoV_fine_P01.csv
+P01,15,Duke,What if Shylock holds a grudge against you because of your judgement?,69,1012.135,"If Shylock bears any ill-will, I hope he will let time soften his heart.",72,0.9583333333333334,B,M,MoV_fine_P01.csv
+P01,16,Duke,are you confident you can make a fair judgement?,48,1035.275,"I shall weigh evidence, consult reason, and strive for justice as your guide.",77,0.6233766233766234,B,M,MoV_fine_P01.csv
+P01,17,Duke,who did you learn from to become an expert?,43,1053.315,Life itself taught me; for experience is the best teacher.,58,0.7413793103448276,B,M,MoV_fine_P01.csv
+P01,18,Duke,what kind of hat are you wearing,32,1069.438,"My headpiece is a velvet cap, reminiscent of legal attire.",58,0.5517241379310345,B,M,MoV_fine_P01.csv
+P01,19,Shylock,what kind of clothes are you wearing?,37,1092.385,"I wear my best; sable hat, tawny gown with fine silk and lace.",62,0.5967741935483871,B,M,MoV_fine_P01.csv
+P01,20,Shylock,why did you grow a beard?,25,1109.675,"Madam, how can you mock me so? Am I Shylock or am I not, to be chided over my face now?",87,0.28735632183908044,B,M,MoV_fine_P01.csv
+P01,21,Duke,a message to kids who want to become judges,43,1122.398,"Grow wise, respect all, and uphold truth when seeking to wear the robes of justice.",83,0.5180722891566265,B,M,MoV_fine_P01.csv
+P01,22,ChoiceButton,Thou hast known scorn-yet mercy heals both giver and received.,62,1163.394, 비활성화,5,12.4,B,M,MoV_fine_P01.csv

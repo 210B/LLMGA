@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P18,1,Claudius,Do you remember my father's last situation?,43,104.0333,"Yes, he fell ill suddenly and died, I recall it well.",53,0.8113207547169812,B,H,Hamlet_fine_P18.csv
+P18,2,Gertrude,Do you remember my father's last situation?,43,112.9999,"Hamlet, please. My son, these troubled thoughts are heavy in your eyes tonight.",79,0.5443037974683544,B,H,Hamlet_fine_P18.csv
+P18,3,Ophelia,I have an important job to do. Why don't you go into a convent?,63,228.3891,Where should I go? You've stung me to the quick. What more do you want?,71,0.8873239436619719,B,H,Hamlet_fine_P18.csv
+P18,4,Claudius,Why did you leave in the middle of the play?,44,259.1956,I...it was too crowded and I needed air...,42,1.0476190476190477,B,H,Hamlet_fine_P18.csv
+P18,5,Gertrude,Why do you avoid talking about your father's death?,51,281.2021,"I... it pains me to recall your father's passing, the questions it left unanswered.",83,0.6144578313253012,B,H,Hamlet_fine_P18.csv
+P18,6,Gertrude,Who killed father?,18,291.0088,"Your words are wild; you speak riddles, not reason. How could I bear the thought?",81,0.2222222222222222,B,H,Hamlet_fine_P18.csv
+P18,7,Ophelia,Look at Clodius. Marriage is crazy thing.,41,336.1652,"Marriage is a crazy thing with King or commoner, but what can a woman do?",73,0.5616438356164384,B,H,Hamlet_fine_P18.csv
+P18,8,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,366.965,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_P18.csv
+P18,9,Ophelia,I made a big mistake,20,384.6049,Men make mistakes too; they forget to marry those their hearts seek.,68,0.29411764705882354,B,H,Hamlet_fine_P18.csv
+P18,10,Claudius,Do you really love Gertrude?,28,438.5446,"Of course, she is my wife, Hamlet.",34,0.8235294117647058,B,H,Hamlet_fine_P18.csv
+P18,11,Claudius,I'm going to get to the bottom of my father's death.,52,464.8678,"You speak in riddles, Hamlet. We all mourned your father’s passing.",67,0.7761194029850746,B,H,Hamlet_fine_P18.csv
+P18,12,Claudius,Are you a devout believer?,26,481.7577,"I would never doubt the divine order, Hamlet.",45,0.5777777777777777,B,H,Hamlet_fine_P18.csv
+P18,13,Claudius,You can't go to the heaven,26,508.6141,"Hamlet, what dark thoughts plague your mind?",44,0.5909090909090909,B,H,Hamlet_fine_P18.csv
+P18,14,Ophelia,It was my mistake with your father. I thought it was Claudius.,62,530.6207,My father's ghost had me believing promises would come true. Why the delay?,75,0.8266666666666667,B,H,Hamlet_fine_P18.csv
+P18,15,Claudius,Who gave the poison to my father?,33,574.9437,"Hamlet, you are not well. Your questions are madness.",53,0.6226415094339622,B,H,Hamlet_fine_P18.csv
+P18,16,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,598.3651, 비활성화,5,13.6,B,H,Hamlet_fine_P18.csv

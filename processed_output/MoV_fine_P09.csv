@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P09,1,Nerissa,I don't agree with this unfair contract,39,404.5274,Then we must find a way to help without breaking the law. What do you suggest?,78,0.5,B,M,MoV_fine_P09.csv
+P09,2,Nerissa,How can we claim cruelty?,25,477.8682,A clever mind can tailor words to reveal the cruelty within this document. Tell me your ideas.,94,0.26595744680851063,B,M,MoV_fine_P09.csv
+P09,3,Nerissa,"I think flesh is in contract, but blood is not.",47,518.8557,"Your wit amazes me! Custom cannot overturn that detail; come, let us set things right.",86,0.5465116279069767,B,M,MoV_fine_P09.csv
+P09,4,Nerissa,okay,4,553.2925,"Then we go forth with our plan. Keep your courage ready, and believe in our success.",84,0.047619047619047616,B,M,MoV_fine_P09.csv
+P09,5,Nerissa,How can we make it?,19,575.7947,"With Vaila running in the blood, shall we have the strength to break this bond of despair. Let my plan guide you.",113,0.168141592920354,B,M,MoV_fine_P09.csv
+P09,6,Nerissa,okay,4,603.2476,Trust me—our bond arms us. Let us go forth and dare to undo tyranny!,68,0.058823529411764705,B,M,MoV_fine_P09.csv
+P09,7,Nerissa,let's go!,9,614.0986,"I am ready. Forward, Nerissa; together, we shall save what is dear to you.",74,0.12162162162162163,B,M,MoV_fine_P09.csv
+P09,8,ChoiceButton,"Let us counsel with the Duke, and craft a peace 'twixt law and loss.",68,635.1508, 비활성화,5,13.6,B,M,MoV_fine_P09.csv
+P09,9,Shylock,How cruel you are!,18,688.5062,I seek only what the law allows.,32,0.5625,B,M,MoV_fine_P09.csv
+P09,10,Shylock,I cannot agree,14,696.1069,Then let the court decide. The law will speak for us both.,58,0.2413793103448276,B,M,MoV_fine_P09.csv
+P09,11,Shylock,you should not have signed this contract,40,777.6318,I did so trusting in a man’s word.,34,1.1764705882352942,B,M,MoV_fine_P09.csv
+P09,12,Shylock,it doesn't matter,17,804.9346,Then what more can I do?,24,0.7083333333333334,B,M,MoV_fine_P09.csv
+P09,13,Shylock,You must withdraw this unfair contract,38,840.4715,Will you secure what I have lost?,33,1.1515151515151516,B,M,MoV_fine_P09.csv
+P09,14,Shylock,Yes i can,9,867.3242,Then I shall heed your mercy and be content.,44,0.20454545454545456,B,M,MoV_fine_P09.csv
+P09,15,Shylock,go ahead,8,887.0096,"Thank you, my lady.",19,0.42105263157894735,B,M,MoV_fine_P09.csv
+P09,16,ChoiceButton,Take thy pound-but not a single drop of blood.,46,913.3956, 비활성화,5,9.2,B,M,MoV_fine_P09.csv

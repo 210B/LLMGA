@@ -1,0 +1,19 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P20,1,Ophelia,Shall I make a revenge?,23,620.628,A stern enough one hath already been took.,42,0.5476190476190477,B,H,Hamlet_fine_p20.csv
+P20,2,Ophelia,Then will it be ok with our relationship if we stay doing nothing,65,735.456,"Shall we two be straw in the wind, tossed by chance’s every whim?",65,1.0,B,H,Hamlet_fine_p20.csv
+P20,3,Gertrude,Are you satisfied with this situation?,38,847.6174,"Satisfied? How can you even ask that, Hamlet? I am horrified—to watch my own son is worse than any fear I have ever known.",122,0.3114754098360656,B,H,Hamlet_fine_p20.csv
+P20,4,Gertrude,Aren't you feared of Claudius?,30,888.2155,Claudius is no concern of mine! All I dread is losing you to whatever torment has gripped your mind.,100,0.3,B,H,Hamlet_fine_p20.csv
+P20,5,Gertrude,What is making you so horrified?,32,907.8813,"Your madness frightens me, Hamlet! Do you think I could stand to see you fall deeper into obsession?",100,0.32,B,H,Hamlet_fine_p20.csv
+P20,6,Claudius,what do you think about this moment?,36,944.2296,"But what is it you show me, Hamlet? I see naught on this blank piece.",69,0.5217391304347826,B,H,Hamlet_fine_p20.csv
+P20,7,Gertrude,But the madness is justified,28,1026.892,Justified? What madness could ever be justified? My world is crumbling around me and I am powerless to help you.,112,0.25,B,H,Hamlet_fine_p20.csv
+P20,8,ChoiceButton,"“The ghost may be the devil, using my grief to damn me. Should I believe it?”",77,1069.724, 비활성화,5,15.4,B,H,Hamlet_fine_p20.csv
+P20,9,Ophelia,Have you saw the ghost too?,27,1087.49,Look not to conjure beasts of the air to unsettle both our minds and hearts.,76,0.35526315789473684,B,H,Hamlet_fine_p20.csv
+P20,10,Gertrude,"If a ghost comes up to me and say someone is crucial, would you believe it?",75,1136.554,"A ghost? No, I cannot believe it! You mustn’t be deceived by phantoms, Hamlet, they will drive you to despair.",110,0.6818181818181818,B,H,Hamlet_fine_p20.csv
+P20,11,Ophelia,But it seems very familiar to someone i know,44,1290.78,"You’d speak in riddles, making me a harp for your thoughts to pluck at will.",76,0.5789473684210527,B,H,Hamlet_fine_p20.csv
+P20,12,Ophelia,What should I do?,17,1306.746,"Let not both blade and heart grow dulled by bitterness—seek clarity and light, Hamlet.",86,0.19767441860465115,B,H,Hamlet_fine_p20.csv
+P20,13,Gertrude,What should I do?,17,1347.428,"Let this madness go, Hamlet! There is no light in this darkness, trust me.",74,0.22972972972972974,B,H,Hamlet_fine_p20.csv
+P20,14,Gertrude,You are keep saying things very hopeless. I need a solve not a blame,68,1392.125,"I want only to spare you the despair I see in your eyes, Hamlet. Will you please listen to reason?",98,0.6938775510204082,B,H,Hamlet_fine_p20.csv
+P20,15,Gertrude,Go on,5,1480.221,"Let this revenge slip from your grasp. If…
+
+I am overthinking, perhaps your path is true. But you must promise me to guard your soul from darkness, Hamlet—that much you owe me.",176,0.028409090909090908,B,H,Hamlet_fine_p20.csv
+P20,16,ChoiceButton,"“If she sees the truth, she may turn from him—then there’s hope for us all.”",76,1551.068, 비활성화,5,15.2,B,H,Hamlet_fine_p20.csv

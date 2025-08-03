@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P17,1,Claudius,why did you kill my father?,27,422.599,"Hamlet, your father’s death was an accident. To blame me is unjust.",67,0.40298507462686567,B,H,Hamlet_fine_p17.csv
+P17,2,Claudius,Don't lie. you wanted the throne all along.,43,509.2245,"Hamlet, I may have benefitted, but I swear I didn’t kill him.",61,0.7049180327868853,B,H,Hamlet_fine_p17.csv
+P17,3,Gertrude,how could you marry him so soon after my father's death?,56,594.7499,"Hamlet, the world does not pause for grief alone. My heart found solace in Claudius’ care, as did my safety.",108,0.5185185185185185,B,H,Hamlet_fine_p17.csv
+P17,4,Gertrude,Did you even mourn my father for a single day?,46,659.7233,"I wore black for him, I wept for him—how could you think I recall him without ache?",83,0.5542168674698795,B,H,Hamlet_fine_p17.csv
+P17,5,Gertrude,have you ever felt any guilt for what you've done?,50,705.3446,"Guilt for what, to whom? Gertrude has lost a husband but gained a king; what else should she feel but gratitude?",112,0.44642857142857145,B,H,Hamlet_fine_p17.csv
+P17,6,Ophelia,did you ever truly love me?,27,763.334,"Once, my lord, you professed love to me without reservation. And I, in my trusting innocence, gave you mine in turn.",116,0.23275862068965517,B,H,Hamlet_fine_p17.csv
+P17,7,Claudius,do you really think the crown you gained by killing my father will last?,72,907.7819,"Watch how you speak, Hamlet. Your wild accusations could sour even loyal minds against you.",91,0.7912087912087912,B,H,Hamlet_fine_p17.csv
+P17,8,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,948.9528,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_p17.csv
+P17,9,Claudius,I will take revenge on you.,27,989.5736,"Enough of this talk! Hamlet, you are ill.",41,0.6585365853658537,B,H,Hamlet_fine_p17.csv
+P17,10,Ophelia,"do not love me, i cannot drag you into this",43,1078.299,"You speak in riddles—what distress holds you so firmly, that you would push away the love I still harbor for you?",113,0.3805309734513274,B,H,Hamlet_fine_p17.csv
+P17,11,Claudius,why are you so worked up? feeling guilty?,41,1164.975,"Enough! I have no guilt. Hamlet, you bring madness upon yourself.",65,0.6307692307692307,B,H,Hamlet_fine_p17.csv
+P17,12,Claudius,l will make sure you suffer as much as possible before you die,62,1273.969,Guards! Take him away. His words are poison.,44,1.4090909090909092,B,H,Hamlet_fine_p17.csv
+P17,13,Claudius,"lf you tell the truth now, I will forgive you.",46,1378.763,"You are a danger to yourself and all around you, Hamlet. Enough.",64,0.71875,B,H,Hamlet_fine_p17.csv
+P17,14,Claudius,"Ok, your time is coming to an end",33,1453.971,"You will regret these words, Hamlet. Take him to England.",57,0.5789473684210527,B,H,Hamlet_fine_p17.csv
+P17,15,Ophelia,farewell Ophelia Forget me.,27,1544.38,"Forget you? As soon forget the air I breathe! A heart cannot easily unlearn love, no matter the distance or the pain.",117,0.23076923076923078,B,H,Hamlet_fine_p17.csv
+P17,16,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,1607.903, 비활성화,5,13.6,B,H,Hamlet_fine_p17.csv

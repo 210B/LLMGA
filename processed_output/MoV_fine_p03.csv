@@ -1,0 +1,23 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P03,1,Shylock,do you have any thoughts of forgiving?,38,135.6911,Never have I had reason or cause to grant forgiveness; why speak of it now?,75,0.5066666666666667,B,M,MoV_fine_p03.csv
+P03,2,Shylock,"he brorrowed money with a good heart, thoug",43,171.7919,"He spat in my face and mocked me openly! What heart was it then, if not a hate-filled one?",90,0.4777777777777778,B,M,MoV_fine_p03.csv
+P03,3,Duke,what kind of ruling are you going to make?,42,207.5927,"I will show mercy, as requested, but also render justice, upholding the law.",76,0.5526315789473685,B,M,MoV_fine_p03.csv
+P03,4,Duke,i feel sorry for antonio,24,257.1438,Kindness to Shylock does not diminish compassion for Antonio; justice serves all.,81,0.2962962962962963,B,M,MoV_fine_p03.csv
+P03,5,Duke,why don't you forgive him?,26,285.7112,"Forgiveness is yours to grant, not mine; my duty is to the law.",63,0.4126984126984127,B,M,MoV_fine_p03.csv
+P03,6,Nerissa,whay do you think of antonio?,29,312.2784,"Antonio is worthy of our concern and regard. Though he often seems melancholy, his heart is true.",97,0.29896907216494845,B,M,MoV_fine_p03.csv
+P03,7,Nerissa,he have to give him a piece of brisket,38,338.779,"If you test his loyalty, be sure the jest does not wound his spirit.",68,0.5588235294117647,B,M,MoV_fine_p03.csv
+P03,8,Shylock,are you really going to leave it to the judgmnet of the law?,60,380.0133,The law is all I have in a world that wrongs me at every turn.,62,0.967741935483871,B,M,MoV_fine_p03.csv
+P03,9,Shylock,skip,4,407.0139,"You may have my land, but you cannot pry my revenge from me.",60,0.06666666666666667,B,M,MoV_fine_p03.csv
+P03,10,Shylock,skip,4,408.7631,I will have my bond. And I will have vengeance!,47,0.0851063829787234,B,M,MoV_fine_p03.csv
+P03,11,ChoiceButton,"Let us counsel with the Duke, and craft a peace 'twixt law and loss.",68,424.781, 비활성화,5,13.6,B,M,MoV_fine_p03.csv
+P03,12,Duke,what do you think about shylock now,35,455.265,He has suffered much; may he find penitence and peace in his altered fortune.,77,0.45454545454545453,B,M,MoV_fine_p03.csv
+P03,13,Duke,so what conclusion are you going to make?,41,486.0157,"I will obey your command: Shylock shall keep half his goods; the other half, Antonio may dispose of as he wishes.",113,0.36283185840707965,B,M,MoV_fine_p03.csv
+P03,14,Shylock,what do you think now,21,515.7997,"Only to my wrongs do I respond; my path is set, and I shall show no mercy.",74,0.28378378378378377,B,M,MoV_fine_p03.csv
+P03,15,Shylock,you are amazing,15,558.5341,Let others see—I care only for what is owed to me.,50,0.3,B,M,MoV_fine_p03.csv
+P03,16,Nerissa,how should antonio be forgiven?,31,593.6682,"To forgive Antonio, one need only look into his suffering eyes and offer him peace as one soul to another.",106,0.29245283018867924,B,M,MoV_fine_p03.csv
+P03,17,Nerissa,is there any other way?,23,618.4354,"If there be another path to forgiveness, it must begin with understanding and compassion.",89,0.25842696629213485,B,M,MoV_fine_p03.csv
+P03,18,Duke,move shylock's heart,20,647.5027,"I pray that the loss of goods may temper Shylock's heart, and awaken in him mercy and understanding.",100,0.2,B,M,MoV_fine_p03.csv
+P03,19,Duke,skip,4,661.0571,"There is no precedent for such a ruling, yet Shylock's life shall be spared; let this stand as a new promise of mutual respect.",127,0.031496062992125984,B,M,MoV_fine_p03.csv
+P03,20,Duke,skip,4,662.1061,"As you command, I overturn Shylock's previous sentence.",55,0.07272727272727272,B,M,MoV_fine_p03.csv
+P03,21,Duke,skip,4,663.8377,"Shylock's life is spared; Antonio, show him some grace, for we all must seek mercy when imploring it for others.",112,0.03571428571428571,B,M,MoV_fine_p03.csv
+P03,22,ChoiceButton,Take thy pound-but not a single drop of blood.,46,687.6703, 비활성화,5,9.2,B,M,MoV_fine_p03.csv

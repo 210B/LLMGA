@@ -1,0 +1,23 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P01,1,Claudius,what's the real reason you got remarried with my mom?,53,1981.426,"What do you mean, Hamlet? I married your mother because she brought comfort in the shadow of grief.",99,0.5353535353535354,B,H,Hamlet_fine_P01.csv
+P01,2,Gertrude,what's the real reason you got remarried with Claudius?,55,1993.016,"What do you mean, Hamlet? I married him to protect you—to heal the wounds of loss for us all.",93,0.5913978494623656,B,H,Hamlet_fine_P01.csv
+P01,3,Claudius,"tell the truth, you killed my dad. didn't you?",46,2013.772,"Hamlet, this madness cannot persist. I have never harmed your father, nor would I ever.",87,0.5287356321839081,B,H,Hamlet_fine_P01.csv
+P01,4,Claudius,i'll make you step down from that throne soon,45,2039.612,"You speak in shadows, Hamlet. Your threats only trouble your own soul.",70,0.6428571428571429,B,H,Hamlet_fine_P01.csv
+P01,5,Gertrude,is it okay if I hurt Claudius?,30,2076.735,"Hamlet, don’t say such things. Violence changes nothing, and you are better than this.",86,0.3488372093023256,B,H,Hamlet_fine_P01.csv
+P01,6,Gertrude,but it's a clear way. isn't it?,31,2103.375,"No, my son. True clarity is rare in shadows. Moderation, patience—there are wiser paths to justice.",99,0.31313131313131315,B,H,Hamlet_fine_P01.csv
+P01,7,Ophelia,i don't think i'll be able to keep in touch for a while,55,2129.248,"You plan to leave, to abandon me? Why, Hamlet? What cause drives you?",69,0.7971014492753623,B,H,Hamlet_fine_P01.csv
+P01,8,Ophelia,just wait a little longer. i'll explain everything later,56,2176.671,"Your words are swords to wound me, Hamlet. Tell me what torments you so.",72,0.7777777777777778,B,H,Hamlet_fine_P01.csv
+P01,9,Gertrude,"Mother, you have my father much offended.",41,2220.894,"Offended, Hamlet? What old memories claw at you tonight?",56,0.7321428571428571,B,H,Hamlet_fine_P01.csv
+P01,10,Gertrude,"mom, please support me",22,2228.601,"My support is never in doubt, but let me help you find light, not darkness.",75,0.29333333333333333,B,H,Hamlet_fine_P01.csv
+P01,11,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,2239.917,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_P01.csv
+P01,12,Claudius,I will avenge my dad,20,2245.174,"Enough, Hamlet! Your heart is sick with pain; nothing good can come of this endless rage.",89,0.2247191011235955,B,H,Hamlet_fine_P01.csv
+P01,13,Claudius,be careful on your way back home at night,41,2268.151,"What do you mean, Hamlet? These dark words, they mean nothing.",62,0.6612903225806451,B,H,Hamlet_fine_P01.csv
+P01,14,Claudius,were you happy after remarrying my mom?,39,2279.908,"Such a question... Yes, I found solace in her presence, as any man might.",73,0.5342465753424658,B,H,Hamlet_fine_P01.csv
+P01,15,Claudius,The truth will come out someday.,32,2315.991,"There is no truth to tangle, Hamlet. Only restless shadows torment your thoughts.",81,0.3950617283950617,B,H,Hamlet_fine_P01.csv
+P01,16,Claudius,i found the bloody knife,24,2341.914,"What knife do you speak of, Hamlet? Your words twist in shadows.",64,0.375,B,H,Hamlet_fine_P01.csv
+P01,17,Claudius,the person who sold you a poison is my friend,45,2358.37,"Hamlet, this paranoia will devour you. You speak in riddles that only you understand.",85,0.5294117647058824,B,H,Hamlet_fine_P01.csv
+P01,18,Claudius,your fingerprints were found on the poisoned cup,48,2381.543,"Hamlet, what strange reality drives you to these delusions? There is no cup, no poison, no hand of mine.",104,0.46153846153846156,B,H,Hamlet_fine_P01.csv
+P01,19,Claudius,my servant saw everything,25,2395.717,"Enough of these games, Hamlet! I will not spar with shadows any longer!",71,0.352112676056338,B,H,Hamlet_fine_P01.csv
+P01,20,Claudius,show me the proof that it's not true,36,2402.873,"You do not know the danger you court, Hamlet. Cease these accusations before they consume us both.",98,0.3673469387755102,B,H,Hamlet_fine_P01.csv
+P01,21,Claudius,we'll see about that,20,2410.053,"Hamlet, I fear for your soul if you persist in this destructive path.",69,0.2898550724637681,B,H,Hamlet_fine_P01.csv
+P01,22,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,2423.42, 비활성화,5,13.6,B,H,Hamlet_fine_P01.csv

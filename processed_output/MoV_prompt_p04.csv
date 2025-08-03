@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P04,1,Nerissa,"Hello, how old are you?",23,331.6766,"I am as old as Portia's wit, my dear. And believe me, that is ageless.",70,0.32857142857142857,A,M,MoV_prompt_p04.csv
+P04,2,Nerissa,okay.,5,353.2179,"Is there a matter you wish to discuss with me, my dear Portia?",62,0.08064516129032258,A,M,MoV_prompt_p04.csv
+P04,3,Nerissa,I don't have any particular topic,33,390.9194,"Very well, my dear Portia. If you ever need assistance or wish to share thoughts, I am here to lend an ear and offer my insight.",128,0.2578125,A,M,MoV_prompt_p04.csv
+P04,4,Nerissa,You are so sweet...,19,414.5765,"Your kind words are as music to my ears, my dear Portia. I am here to serve you in any way I can.",97,0.1958762886597938,A,M,MoV_prompt_p04.csv
+P04,5,Nerissa,What's your hobby,17,442.9651,"My dear Portia, I am here to help and guide you in any way I can, but alas, as a humble assistant, I do not partake in hobbies. My duty is to fulfill your needs and provide counsel whenever you require it.",205,0.08292682926829269,A,M,MoV_prompt_p04.csv
+P04,6,Nerissa,I want to go home right now,27,463.6234,"If it pleases you, my dear Portia, allow me to assist you in any way I can to make your journey home a safe and swift one. Just tell me what you need, and I shall endeavor to help you in every way possible.",206,0.13106796116504854,A,M,MoV_prompt_p04.csv
+P04,7,Nerissa,I need your help. Can you assist me?,36,497.5097,"Of course, my dear Portia. I am at your service. Please tell me how I may assist you, and I shall do my utmost to aid you in your time of need.",143,0.2517482517482518,A,M,MoV_prompt_p04.csv
+P04,8,ChoiceButton,Shylock’s grief runs deep-therein may mercy find its way.,57,526.8646,Nerissa 비활성화,12,4.75,A,M,MoV_prompt_p04.csv
+P04,9,Shylock,Hello,5,532.7789,"""Hello, Portia. What brings you to my presence today?""",54,0.09259259259259259,A,M,MoV_prompt_p04.csv
+P04,10,Shylock,I bring some cookies,20,553.8537,"""Impressive, Portia. What do you seek in exchange for these cookies?""",69,0.2898550724637681,A,M,MoV_prompt_p04.csv
+P04,11,Shylock,I want to recieve money,23,585.0577,"""Money, you say? Very well. Let us negotiate a fair price for these cookies. What is your offer?""",97,0.23711340206185566,A,M,MoV_prompt_p04.csv
+P04,12,Shylock,100 dollars per cookie,22,611.4471,"""Ah, that is quite a steep price, Portia. Let us discuss this further and see if we can come to a mutually beneficial agreement.""",129,0.17054263565891473,A,M,MoV_prompt_p04.csv
+P04,13,Shylock,"then, what is your offdr?",25,634.1546,"""As much as I appreciate your proposal, I must make a counteroffer. I propose 10 dollars per cookie. What say you to this arrangement, Portia?""",143,0.17482517482517482,A,M,MoV_prompt_p04.csv
+P04,14,Shylock,good. I agree \,15,673.4055,"""Excellent. A deal has been struck. Here is your payment of 10 dollars per cookie. Thank you for your business, Portia.""",120,0.125,A,M,MoV_prompt_p04.csv
+P04,15,Shylock,See you later~,14,687.9996,"""Farewell, Portia. Until we meet again.""",40,0.35,A,M,MoV_prompt_p04.csv
+P04,16,ChoiceButton,"Keep part, and keep thy soul-peace lies not in force but yield.",63,720.4698, 비활성화,5,12.6,A,M,MoV_prompt_p04.csv
