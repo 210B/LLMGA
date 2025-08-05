@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P17,1,Nerissa,"Nerissa, what should I do?..",28,1834.28,"We must consider our options, my lady, and choose wisely.",57,0.49122807017543857,B,M,MoV_fine_p17.csv
+P17,2,Shylock,hey why did you include such an extreme condition?,50,1896.119,Your claim is unjust—will you not show mercy to heal this rift?,63,0.7936507936507936,B,M,MoV_fine_p17.csv
+P17,3,Shylock,no even so demanding a pound of flesh is an unreasonble clause,62,2030.349,"Then why make such a pact, if you scorn its terms entirely?",59,1.0508474576271187,B,M,MoV_fine_p17.csv
+P17,4,Duke,Is there no way to help Antonio?,32,2093.423,"I beg you, show some mercy! Would you take a life for the money’s sake?",71,0.4507042253521127,B,M,MoV_fine_p17.csv
+P17,5,Duke,Isn't there a contradictory clause in the bond between Antonio an Shylock?,74,2219.052,"Yes, Shylock demands that not a drop of blood is to be shed when claiming his prize.",84,0.8809523809523809,B,M,MoV_fine_p17.csv
+P17,6,Duke,wow! I had no idea such a way existed,37,2266.64,Mortal life may overpower the bond of law; let us question if this path serves justice truly.,93,0.3978494623655914,B,M,MoV_fine_p17.csv
+P17,7,Nerissa,Nerissa I think I've found a way,32,2305.661,"What do you mean, Portia? Pray tell me your plan.",49,0.6530612244897959,B,M,MoV_fine_p17.csv
+P17,8,ChoiceButton,"Let us then to the letter, not a syllable more nor less. The bond speaks plain.",79,2361.266,Shylock 비활성화,12,6.583333333333333,B,M,MoV_fine_p17.csv
+P17,9,Duke,Can I ask shykok a question?,28,2491.163,What question do you have that could sway this dire moment so?,62,0.45161290322580644,B,M,MoV_fine_p17.csv
+P17,10,Duke,shylock's conteact is contradictory,35,2568.088,"You say rightly; this bond does not suit your purpose, Shylock.",63,0.5555555555555556,B,M,MoV_fine_p17.csv
+P17,11,Duke,there is no provision in the contract that blood can be shed,60,2685.483,"Indeed, the bond allows for the taking of flesh, but not a drop of blood; would you see Antonio struck down by such trickery?",125,0.48,B,M,MoV_fine_p17.csv
+P17,12,Duke,Therefore this clause is invalid.,33,2766.174,You’ve deciphered the riddle yourself; this deadly fulfillment stands against justice.,86,0.38372093023255816,B,M,MoV_fine_p17.csv
+P17,13,Duke,let's find another way,22,2824.897,There is hope yet that wisdom shall guide us to a better course.,64,0.34375,B,M,MoV_fine_p17.csv
+P17,14,Duke,he was disriminated against because he was Jewish,49,2930.025,How then can vengeance be the answer for a wrong not of his heart?,66,0.7424242424242424,B,M,MoV_fine_p17.csv
+P17,15,Duke,"no, it's important to understand each other and solve each other through conversation.",86,3063.471,May we see it become a path for justice and compassion instead.,63,1.3650793650793651,B,M,MoV_fine_p17.csv
+P17,16,ChoiceButton,"Keep part, and keep thy soul-peace lies not in force but yield.",63,3101.292, 비활성화,5,12.6,B,M,MoV_fine_p17.csv

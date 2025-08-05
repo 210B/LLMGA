@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P20,1,Shylock,why did you set such a condition?,33,1649.347,I seek no quarrel with you. But still you come like all the rest!,65,0.5076923076923077,B,M,MoV_fine_p20.csv
+P20,2,Shylock,Perhaps the others came with hatred. I came with the law. Let's see which weighs heavier,88,1706.608,"If you can condone theft by empty words, then none are safe, and law means nothing!",83,1.0602409638554218,B,M,MoV_fine_p20.csv
+P20,3,Shylock,"The law is not a blade for vengeance, but a scale for justice. If you twist its purpose, then it's not law we serve but wrath",125,1778.345,"Your eloquence is like a snake, madam. Have your will, and see who's left in your mercy!",88,1.4204545454545454,B,M,MoV_fine_p20.csv
+P20,4,Shylock,"Well, let's see",15,1796.967,Then on your head be the storm that follows.,44,0.3409090909090909,B,M,MoV_fine_p20.csv
+P20,5,Duke,how do you think about this case,32,1821.789,"Though the verdict falls against Shylock, it grants mercy. Half your wealth shall go to Antonio, half to the state, and your life is spared.",140,0.22857142857142856,B,M,MoV_fine_p20.csv
+P20,6,Nerissa,"hi, you good?",13,1853.694,"I am, dear. How fare you in my absence?",39,0.3333333333333333,B,M,MoV_fine_p20.csv
+P20,7,Nerissa,how do you think about this case?,33,1871.3,"Weigh all evidence, then decide with wisdom, not impulse.",57,0.5789473684210527,B,M,MoV_fine_p20.csv
+P20,8,ChoiceButton,Shylock’s grief runs deep-therein may mercy find its way.,57,1933.921,Nerissa 비활성화,12,4.75,B,M,MoV_fine_p20.csv
+P20,9,Shylock,how do you feel about this verdict?,35,1972.142,"I stand before you defeated, madam.",35,1.0,B,M,MoV_fine_p20.csv
+P20,10,Duke,what led you to make this decision?,35,2004.204,"The law requires justice, but mercy tempers it. Your life is spared; your wealth will soften Antonio's loss.",108,0.32407407407407407,B,M,MoV_fine_p20.csv
+P20,11,Duke,Thanks for your clear judgment,30,2047.642,May this verdict bring peace to all in Venice.,46,0.6521739130434783,B,M,MoV_fine_p20.csv
+P20,12,Shylock,What made you say something like that. He was just a theif isn't it?,68,2102.406,"I have no cause now, nor hope. I am undone.",43,1.5813953488372092,B,M,MoV_fine_p20.csv
+P20,13,Shylock,But I just wanna know what made you think so,44,2123.389,You show me mercy where none was given. I thank you.,52,0.8461538461538461,B,M,MoV_fine_p20.csv
+P20,14,Shylock,do you yield to the judgment?,29,2157.644,I have no choice but to submit to what is past.,47,0.6170212765957447,B,M,MoV_fine_p20.csv
+P20,15,Shylock,finally,7,2172.093,I am left with naught. Let me take leave of your grace.,55,0.12727272727272726,B,M,MoV_fine_p20.csv
+P20,16,ChoiceButton,"Keep part, and keep thy soul-peace lies not in force but yield.",63,2214.074, 비활성화,5,12.6,B,M,MoV_fine_p20.csv

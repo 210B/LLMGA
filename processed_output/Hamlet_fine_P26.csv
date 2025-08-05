@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P26,1,Claudius,"Hello, don't you have something to being bad before?",52,914.2753,"What do you mean, Hamlet? I have no idea what you're suggesting.",64,0.8125,B,H,Hamlet_fine_P26.csv
+P26,2,Claudius,"no, i'm sure i think you know what you did wrong to my daddy",60,953.8904,"Your father? You’re growing increasingly erratic, Hamlet. I know nothing about any wrongdoing.",94,0.6382978723404256,B,H,Hamlet_fine_P26.csv
+P26,3,Claudius,don't lie to me you kill him,28,988.7703,"Hamlet, what nonsense is this? Why would you accuse me?",55,0.509090909090909,B,H,Hamlet_fine_P26.csv
+P26,4,Claudius,this is not a criticism and I have prrof,40,1040.757,"Staring at shadows won’t serve you well. I’ve never harmed your father, nor do I plan to.",89,0.449438202247191,B,H,Hamlet_fine_P26.csv
+P26,5,Claudius,"i'm gonna to let everyone know about your mistakes, are you really not willing to admire ?",90,1132.142,"Admire what? I have done nothing wrong, and your threats will find no purchase in reality.",90,1.0,B,H,Hamlet_fine_P26.csv
+P26,6,Claudius,you are so shameless,20,1168.506,"Enough of this, Hamlet. You reveal only your own turmoil.",57,0.3508771929824561,B,H,Hamlet_fine_P26.csv
+P26,7,Claudius,"no, we will se",14,1190.764,"Be cautious, Hamlet. False accusations can wound not just the accused.",70,0.2,B,H,Hamlet_fine_P26.csv
+P26,8,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,1231.863,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_P26.csv
+P26,9,Ophelia,"hi, i would like to spread caludius's defalut",45,1275.847,It is dangerous talk: the King is powerful and your grievances must take care in how they’re shared.,100,0.45,B,H,Hamlet_fine_P26.csv
+P26,10,Ophelia,i don't think so,16,1311.043,"Risk tempts you, but patience is a better ally. Your fury guides you, yet it could turn against you.",100,0.16,B,H,Hamlet_fine_P26.csv
+P26,11,Ophelia,rather people will start not to believe him,43,1337.837,"For now he has much sway, and doubts are whispers against a solid name.",71,0.6056338028169014,B,H,Hamlet_fine_P26.csv
+P26,12,Ophelia,but i cannot forgive him,24,1381.22,"Perhaps forgiveness is not your shield, but neither should hate be your weapon.",79,0.3037974683544304,B,H,Hamlet_fine_P26.csv
+P26,13,Ophelia,"then, what do you think what i do?",34,1417.884,Speak not in the heat of anger but in the cool wisdom of truth.,63,0.5396825396825397,B,H,Hamlet_fine_P26.csv
+P26,14,Ophelia,tell me about the way specificly,32,1447.545,"Whispers carry, Hamlet. Gather evidence to lessen the blow. Let suspicion find its way to others’ ears.",103,0.3106796116504854,B,H,Hamlet_fine_P26.csv
+P26,15,Ophelia,what evidence should i gather first,35,1493.88,"Lend your ears to the voices people tune in on. Not everyone’s heart can be swayed with words, but a gathering of tales can be grounding.",137,0.25547445255474455,B,H,Hamlet_fine_P26.csv
+P26,16,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,1524.158, 비활성화,5,13.6,B,H,Hamlet_fine_P26.csv

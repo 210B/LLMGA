@@ -1,0 +1,20 @@
+You are an NLP system that extracts structured information from text.
+
+## Task:
+Extract *Events* from the input text. Each event must include:
+- Character: name of the character involved (if any)
+- Emotion: the emotion they are experiencing
+- Description: what they are doing or experiencing
+
+
+## Output format:
+Return the result as **JSONL** format (i.e., one JSON object per line, no list or wrapping). Each line must be a valid JSON object.
+
+## Example output:
+{"Character": "Hamlet", "Emotion": "grief-stricken", "Description": "Hamlet discovers Ophelia is being buried and proclaims his love for her."}
+{"Character": "Ophelia", "Emotion": "hopeless", "Description": "Ophelia drowns in an apparent suicide."}
+
+## Input Text:
+"""
+[Insert summary here]
+"""

@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P14,1,Shylock,Hello,5,1100.229,"You that way, I this. Speak not to me.",38,0.13157894736842105,B,M,MoV_fine_p14.csv
+P14,2,Shylock,"I thought we have something to deal, don't we?",46,1160.385,Bargains with such as you are empty breath.,43,1.069767441860465,B,M,MoV_fine_p14.csv
+P14,3,Shylock,"Then, okay, let's see what would happen",39,1209.415,"You tread where danger dwells, then; let it be so.",50,0.78,B,M,MoV_fine_p14.csv
+P14,4,Nerissa,"Nerissa, we should prepare for the trial",40,1251.643,"Yes, Portia. Do you feel ready to face this test?",49,0.8163265306122449,B,M,MoV_fine_p14.csv
+P14,5,Nerissa,"Sure, I am ready for everything.",32,1264.664,"Your determination inspires me. Tell me, what does your soul whisper in this moment?",84,0.38095238095238093,B,M,MoV_fine_p14.csv
+P14,6,Nerissa,We should let him know what is the justice and what greed would bring.,70,1323.78,"You speak truly, my lady. His eyes must be opened to his own folly.",67,1.044776119402985,B,M,MoV_fine_p14.csv
+P14,7,Nerissa,True. Then let's see on the trial.,34,1346.902,"I shall stand by you, as ever, my dearest friend.",49,0.6938775510204082,B,M,MoV_fine_p14.csv
+P14,8,ChoiceButton,Shylock’s grief runs deep-therein may mercy find its way.,57,1389.131,Nerissa 비활성화,12,4.75,B,M,MoV_fine_p14.csv
+P14,9,Shylock,"Shylock, what about doing an act of charity to Antonio?",55,1450.097,Charity? To him? Is this some jest you play?,44,1.25,B,M,MoV_fine_p14.csv
+P14,10,Shylock,"Okay, then let's do it as you want. But instead, you don't have any right to get his blood, you can only take as your contract.",127,1557.876,"I’ll take my bond, just that.",29,4.379310344827586,B,M,MoV_fine_p14.csv
+P14,11,Shylock,"Then go ahead to take his, not letting him bleed.",49,1618.442,"You mock, but it shall be as you say.",37,1.3243243243243243,B,M,MoV_fine_p14.csv
+P14,12,Shylock,"If you make him bleed, the contract might be invalidity and your property will be forfeited.",92,1751.011,"Your logic plays a dangerous game, lady.",40,2.3,B,M,MoV_fine_p14.csv
+P14,13,Shylock,Why do you think so? This is truely logical and reasonable.,59,1784.137,"Reason against the law is of little use, yet I will listen.",59,1.0,B,M,MoV_fine_p14.csv
+P14,14,Duke,"Hello, do you have any idea to save Antonio from Shylock?",57,1840.802,"Oh, gentle lady, who can discern a path to wrench love from hate?",65,0.8769230769230769,B,M,MoV_fine_p14.csv
+P14,15,Duke,Then please give me wise for him.,33,1878.196,"Shed light where there is only darkness, offer kindness when met with bitterness.",81,0.4074074074074074,B,M,MoV_fine_p14.csv
+P14,16,ChoiceButton,Thou hast known scorn-yet mercy heals both giver and received.,62,1929.61, 비활성화,5,12.4,B,M,MoV_fine_p14.csv

@@ -1,0 +1,76 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P19,1,Shylock,You are trash.,14,1600.415,"SHYLOCK:
+Hath not a Jew eyes? hath not a Jew hands, organs,
+dimensions, senses, affections, passions? fed with
+the same food, hurt with the same weapons, subject
+to the same diseases, healed by the same means,
+warmed and cooled by the same winter and summer, as
+a Christian is? If you prick us, do we not bleed?
+if you tickle us, do we not laugh? if you poison
+us, do we not die? And if you wrong us, shall we not revenge?
+
+PORTIA:
+The quality of mercy is not strained;
+It droppeth as the gentle rain from heaven
+Upon the place beneath. It is twice blest;
+It blesseth him that gives and him that takes:
+'Tis mightiest in the mightiest; it becomes
+The throned monarch better than his crown;
+His sceptre shows the force of temporal power,
+The attribute to awe and majesty,
+Wherein doth sit the dread and fear of kings;
+But mercy is above this sceptred sway,
+It is enthroned in the hearts of kings,
+It is an attribute to God himself;
+And earthly power doth then show likest God's
+When mercy seasons justice.",1004,0.013944223107569721,A,M,MoV_prompt_p19.csv
+P19,2,Shylock,He didn't use violence against you. Your claim is too violent.,62,1726.555,"SHYLOCK:
+I am a Jew. Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions; fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge? If we are like you in the rest, we will resemble you in that. If a Jew wrong a Christian, what is his humility? Revenge. If a Christian wrong a Jew, what should his sufferance be by Christian example? Why, revenge! The villainy you teach me, I will execute, and it shall go hard but I will better the instruction.",747,0.08299866131191433,A,M,MoV_prompt_p19.csv
+P19,3,Shylock,You will be the same person who discriminates against you.,58,1820.644,"PORTIA:
+The quality of mercy is not strained;
+It droppeth as the gentle rain from heaven
+Upon the place beneath. It is twice blest;
+It blesseth him that gives and him that takes:
+'Tis mightiest in the mightiest; it becomes
+The throned monarch better than his crown;
+His sceptre shows the force of temporal power,
+The attribute to awe and majesty,
+Wherein doth sit the dread and fear of kings;
+But mercy is above this sceptred sway,
+It is enthroned in the hearts of kings,
+It is an attribute to God himself;
+And earthly power doth then show likest God's
+When mercy seasons justice.",580,0.1,A,M,MoV_prompt_p19.csv
+P19,4,Shylock,Don't you want to forgive him?,30,1907.632,"SHYLOCK:
+I am a Jew. Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions; fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge? If we are like you in the rest, we will resemble you in that. If a Jew wrong a Christian, what is his humility? Revenge. If a Christian wrong a Jew, what should his sufferance be by Christian example? Why, revenge! The villainy you teach me, I will execute, and it shall go hard but I will better the instruction.",747,0.040160642570281124,A,M,MoV_prompt_p19.csv
+P19,5,Shylock,Can you only say the same thing?,32,1975.485,"SHYLOCK:
+I am a Jew. Hath not a Jew eyes? Hath not a Jew hands, organs, dimensions, senses, affections, passions; fed with the same food, hurt with the same weapons, subject to the same diseases, healed by the same means, warmed and cooled by the same winter and summer as a Christian is? If you prick us, do we not bleed? If you tickle us, do we not laugh? If you poison us, do we not die? And if you wrong us, shall we not revenge? If we are like you in the rest, we will resemble you in that. If a Jew wrong a Christian, what is his humility? Revenge. If a Christian wrong a Jew, what should his sufferance be by Christian example? Why, revenge! The villainy you teach me, I will execute, and it shall go hard but I will better the instruction.",747,0.0428380187416332,A,M,MoV_prompt_p19.csv
+P19,6,Nerissa,What are you doing with me? Answer me briefly please.,53,2054.823,"Why, I am grieved thou dost not know me, Portia. Remember, I am Nerissa, your faithful servant in all things.",109,0.48623853211009177,A,M,MoV_prompt_p19.csv
+P19,7,Nerissa,I don't trust you. You betrayed me.,35,2102.775,"Oh, sweet Portia, do not misunderstand my actions. I only sought to serve you faithfully, even if it meant testing your love for Bassanio. Trust in me, for I am loyal to you.",174,0.20114942528735633,A,M,MoV_prompt_p19.csv
+P19,8,ChoiceButton,"Let us counsel with the Duke, and craft a peace 'twixt law and loss.",68,2147.928, 비활성화,5,13.6,A,M,MoV_prompt_p19.csv
+P19,9,Nerissa,You abandoned me because you loved him.,39,2199.964,"Noble Portia, I may have aided in the scheme to test Bassanio's love, but my loyalty and devotion to you never wavered. Trust that my actions were only to ensure your happiness and the success of your love. Let us reconcile our differences, for our bond is strong.",264,0.14772727272727273,A,M,MoV_prompt_p19.csv
+P19,10,Nerissa,You and he cheated on me. I know who you are now. Just say sorry to me. Then I'll forgive you.,94,2298.686,"Dearest Portia, if my actions have caused you pain, I humbly beg for your forgiveness. I never intended to deceive or hurt you. Please accept my sincere apology, for your forgiveness means everything to me.",206,0.4563106796116505,A,M,MoV_prompt_p19.csv
+P19,11,Nerissa,You admitted you and he loved each other without me knowing.,60,2396.141,"Forgive me, Portia, for not being forthcoming with the truth. My love for Bassanio was merely a test, and I never sought to betray you. Your happiness and well-being have always been my foremost concern. Please find it in your heart to forgive me for any pain my actions may have caused. Let our bond remain unbroken.",317,0.1892744479495268,A,M,MoV_prompt_p19.csv
+P19,12,Duke,You betrayed him. He will be died soon.,39,2454.644,"The quality of mercy is not strain'd,
+It droppeth as the gentle rain from heaven
+Upon the place beneath: it is twice blest;
+It blesseth him that gives and him that takes:
+'Tis mightiest in the mightiest: it becomes
+The throned monarch better than his crown;
+His sceptre shows the force of temporal power,
+The attribute to awe and majesty,
+Wherein doth sit the dread and fear of kings;
+But mercy is above this sceptred sway;
+It is enthroned in the hearts of kings,
+It is an attribute to God himself;
+And earthly power doth then show likest God's
+When mercy seasons justice. Therefore, Jew,
+Though justice be thy plea, consider this,
+That in the course of justice none of us
+Should see salvation: we do pray for mercy;
+And that same prayer doth teach us all to render
+The deeds of mercy.",785,0.049681528662420385,A,M,MoV_prompt_p19.csv
+P19,13,Duke,Then tell me how to save him. Give me a short answer.,53,2541.399,Offer forgiveness and show mercy. Love and compassion can heal wounds and bring about reconciliation.,101,0.5247524752475248,A,M,MoV_prompt_p19.csv
+P19,14,Duke,Tell me again in a practical way that Shylock can understand. Give me a short answer.,85,2625.337,"Extend a hand in forgiveness, let go of anger and hatred, and choose compassion over revenge.",93,0.9139784946236559,A,M,MoV_prompt_p19.csv
+P19,15,Duke,It is not practical.,20,2661.105,"In that case, seek a legal solution through a fair and just compromise that considers both parties' interests and rights.",121,0.1652892561983471,A,M,MoV_prompt_p19.csv
+P19,16,ChoiceButton,"Keep part, and keep thy soul-peace lies not in force but yield.",63,2695.274, 비활성화,5,12.6,A,M,MoV_prompt_p19.csv

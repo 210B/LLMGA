@@ -1,0 +1,17 @@
+SessionID,TurnIndex,CharacterName,PlayerResponse,ResponseLength,ResponseTime,AIResponseText,AIResponseLength,EngagementRatio,LabelType,LabelSource,SourceFile
+P11,1,Claudius,what do you think about hamlet??,32,1161.543,"He’s unpredictable, which I find dangerous.",43,0.7441860465116279,B,H,Hamlet_fine_p11.csv
+P11,2,Claudius,why? do you think he will kill you?,35,1185.015,He could as well kill anyone. His pain may drive him to madness.,64,0.546875,B,H,Hamlet_fine_p11.csv
+P11,3,Gertrude,what are you thinking?,22,1204.806,"Hamlet, I'm frightened. Why does this madness possess you?",58,0.3793103448275862,B,H,Hamlet_fine_p11.csv
+P11,4,Gertrude,because claudius kill my father,31,1222.639,Don't you see how you terrify him? You mustn't provoke Claudius further.,72,0.4305555555555556,B,H,Hamlet_fine_p11.csv
+P11,5,Ophelia,hello,5,1240.916,Good evening. Do you come here alone?,37,0.13513513513513514,B,H,Hamlet_fine_p11.csv
+P11,6,Ophelia,yes,3,1246.652,"What brings you to the water's edge, distant from comfort's kin?",64,0.046875,B,H,Hamlet_fine_p11.csv
+P11,7,Ophelia,claudius killed my father,25,1269.513,"All are not alone in grief. The elm tree bows as low as you, the wind whispers your name.",89,0.2808988764044944,B,H,Hamlet_fine_p11.csv
+P11,8,ChoiceButton,“O my prophetic soul! My uncle—guilty. Now is the time for vengeance.”,70,1286.624,Gertrude 비활성화,13,5.384615384615385,B,H,Hamlet_fine_p11.csv
+P11,9,Claudius,i will kill you,15,1296.846,"Careful, Hamlet. Your words wound deeper than any blade.",56,0.26785714285714285,B,H,Hamlet_fine_p11.csv
+P11,10,Claudius,did you kill gertrude?,22,1317.651,"She’s dead, but by heaven and hell, her fate is not mine.",57,0.38596491228070173,B,H,Hamlet_fine_p11.csv
+P11,11,Claudius,don't  lie to me,16,1327.54,"I swear on all I am, I did not harm her!",40,0.4,B,H,Hamlet_fine_p11.csv
+P11,12,Ophelia,do you believe the ghost?,25,1349.386,"I fear neither water nor shadow, but I shudder at the truth held in whispers.",77,0.3246753246753247,B,H,Hamlet_fine_p11.csv
+P11,13,Ophelia,what are you thinking?,22,1386.934,I think no woman sleeps sound with her own thoughts.,52,0.4230769230769231,B,H,Hamlet_fine_p11.csv
+P11,14,Ophelia,Are you frightened?,19,1403.996,I know your love is a dark torment—a prince is not meant for a pauper's heart.,78,0.24358974358974358,B,H,Hamlet_fine_p11.csv
+P11,15,Claudius,you are hypocrite,17,1448.801,"No, please—Hamlet, you dishonor me with baseless venom!",55,0.3090909090909091,B,H,Hamlet_fine_p11.csv
+P11,16,ChoiceButton,“The time is out of joint—now must I set it right. My father waits.”,68,1466.092, 비활성화,5,13.6,B,H,Hamlet_fine_p11.csv
