@@ -40,3 +40,23 @@ plt.savefig('figures/scatter_by_model.png', dpi=300)
 
 # 🔹 화면 표시
 plt.show()
+
+df = pd.read_csv('data/questionnaire/final_scores_with_immersion.csv', encoding='utf-8-sig')
+df['ID'] = df['ID'].astype(str)
+
+# 🔹 스타일 설정
+sns.set(style='whitegrid')
+
+# 🔹 박스플롯 그리기
+plt.figure(figsize=(6, 5))
+sns.boxplot(data=df, x='Model', y='immersion_total', palette='Set2')
+plt.title('Immersion Total Score by Model Group')
+plt.xlabel('Model')
+plt.ylabel('Immersion Total Score')
+plt.tight_layout()
+
+# 🔹 저장
+plt.savefig('figures/boxplot_immersion_by_model.png', dpi=300)
+
+# 🔹 화면 표시
+plt.show()
