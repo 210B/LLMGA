@@ -1,0 +1,9 @@
+﻿Variable,t-statistic,p-value
+Hamlet_score,-3.7235,0.0021
+Venice_score,-2.3921,0.0261
+immersion_attention,-1.8686,0.0821
+immersion_time_loss,-0.3908,0.6998
+immersion_presence,-1.2026,0.242
+immersion_emotional,-3.4649,0.0024
+immersion_enjoyment,-2.1279,0.0465
+immersion_total,-1.8952,0.0721

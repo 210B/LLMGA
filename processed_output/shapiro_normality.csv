@@ -1,0 +1,17 @@
+﻿Variable,Model,Shapiro-W,p-value
+Hamlet_score,A,0.8923,0.1262
+Hamlet_score,B,0.9303,0.3831
+Venice_score,A,0.9706,0.9166
+Venice_score,B,0.9321,0.403
+immersion_attention,A,0.8497,0.0364
+immersion_attention,B,0.8935,0.1309
+immersion_time_loss,A,0.8274,0.0195
+immersion_time_loss,B,0.9407,0.5069
+immersion_presence,A,0.9327,0.41
+immersion_presence,B,0.9279,0.3582
+immersion_emotional,A,0.8664,0.0588
+immersion_emotional,B,0.9545,0.7032
+immersion_enjoyment,A,0.9568,0.7378
+immersion_enjoyment,B,0.914,0.2399
+immersion_total,A,0.8293,0.0206
+immersion_total,B,0.9808,0.9868

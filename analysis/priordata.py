@@ -53,18 +53,21 @@ column_rename_map = {
     "위와 같은 현상으로 인해 불편함을 경험하신 적이 있습니까?": "hallu_exp",
     "ChatGPT와 같이 대형 언어 모델 기반의 에이전트와 상호작용하는 시스템에 대해 알고 계셨습니까? ": "LLM_agent"
 }
-df_combined = df_combined.rename(columns=column_rename_map)
-df_combined.to_csv("processed_output/prior_survey.csv", index=False, encoding="utf-8-sig")
 
+# 2. 데이터 불러오기 & 컬럼명 변경
 df = pd.read_csv("processed_output/prior_survey.csv")
+df.rename(columns=column_rename_map, inplace=True)
 
+# 3. 매핑 딕셔너리
 yes_no_map = {"예": 1, "아니오": 0}
+
 frequency_map = {
     "자주(주 3회 이상)": 3,
     "보통(주 1~2회)": 2,
     "가끔(월 1~2회)": 1,
     "거의 하지 않음": 0
 }
+
 understanding_map = {
     "세부적인 원리까지 이해함": 3,
     "대략적인 원리 이해함": 2,
@@ -72,24 +75,18 @@ understanding_map = {
     "이름과 개념만 들어봄": 0.5,
     "전혀 모름": 0
 }
+
 sunderstanding_map = {
     "세부적인 내용까지 잘 알고 있음": 3,
     "주요 인물과 줄거리를 대략적으로 알고 있음": 2,
     "작품의 이름과 대략적인 배경만 알고 있음": 1,
     "전혀 모름": 0
 }
-
-# 이진 응답 컬럼 처리
-binary_cols = [
-    "simul_exp", "AIgame_exp", "shakespeare", "LLM",
-    "LLM_exp", "hallu_exp", "LLM_agent"
-]
-
-for col in binary_cols:
-    if col in df.columns:
-        df[col] = df[col].map(yes_no_map)
-
-# 가중치 매핑 함수
+hallu_exp_map = {
+    "전혀 없음": 0,
+    "가끔 경험함": 1,
+    "자주 경험함": 2
+}
 media_weights = {
     "원작 희곡 또는 번역본을 읽음": 3,
     "요약/해설 자료를 읽음": 2,
@@ -97,34 +94,37 @@ media_weights = {
     "학교 수업 등 교육 과정": 1.5,
     "인터넷/미디어를 통해 간접적으로만 알고 있음": 1
 }
+
+# 4. 가중치 점수 계산 함수
 def compute_weighted_score(response, weight_map):
     if pd.isna(response):
         return 0
     items = [x.strip() for x in str(response).split(",")]
     return sum(weight_map.get(item, 0) for item in items)
 
-# 5. 인코딩 적용
+# 5. 인코딩 수행
 
-# (1) 예/아니오
-for col in ["simul_exp", "AIgame_exp", "shakespeare", "LLM", "LLM_exp", "hallu_exp", "LLM_agent"]:
+# Binary 예/아니오
+for col in ["simul_exp", "AIgame_exp", "shakespeare", "LLM", "LLM_exp", "LLM_agent"]:
     if col in df.columns:
         df[col] = df[col].map(yes_no_map)
 
-# (2) 빈도
+# Frequency
 df["game_frequency"] = df["game_frequency"].map(frequency_map)
 df["LLM_frequency"] = df["LLM_frequency"].map(frequency_map)
 
-# (3) 이해도
+# 이해도
 df["LLM_understanding"] = df["LLM_understanding"].map(understanding_map)
 df["hallucination"] = df["hallucination"].map(understanding_map)
 
-# (4) 셰익스피어 접근 방식 가중치 점수 → 기존 열 덮어쓰기
-df["hamlet_approach"] = df["hamlet_approach"].apply(lambda x: compute_weighted_score(x, media_weights))
-df["venice_approach"] = df["venice_approach"].apply(lambda x: compute_weighted_score(x, media_weights))
-
+# 셰익스피어 작품 이해도
 df["hamlet_understanding"] = df["hamlet_understanding"].map(sunderstanding_map)
 df["venice_understanding"] = df["venice_understanding"].map(sunderstanding_map)
 
+# 접근 방식 점수
+df["hamlet_approach"] = df["hamlet_approach"].apply(lambda x: compute_weighted_score(x, media_weights))
+df["venice_approach"] = df["venice_approach"].apply(lambda x: compute_weighted_score(x, media_weights))
 
-# 5. 저장
+df["hallu_exp"] = df["hallu_exp"].map(hallu_exp_map)
+# 6. 저장
 df.to_csv("processed_output/prior_survey_processed.csv", index=False, encoding="utf-8-sig")
