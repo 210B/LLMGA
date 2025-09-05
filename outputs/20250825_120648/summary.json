@@ -1,0 +1,99 @@
+{
+  "emotion_x_immersion": {
+    "high": {
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "disappointment": 0,
+      "frustration": 0,
+      "interest": 4,
+      "joy": 8,
+      "mixed": 0,
+      "neutral": 3,
+      "답답/짜증/실망": 0,
+      "실망": 0,
+      "중립": 2,
+      "즐거움/감탄": 14,
+      "지루함": 0,
+      "호기심": 1,
+      "혼란": 0,
+      "혼합": 0,
+      "흥미": 57
+    },
+    "low": {
+      "boredom": 2,
+      "confusion": 5,
+      "curiosity": 0,
+      "disappointment": 2,
+      "frustration": 7,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 0,
+      "답답/짜증/실망": 23,
+      "실망": 1,
+      "중립": 7,
+      "즐거움/감탄": 0,
+      "지루함": 23,
+      "호기심": 0,
+      "혼란": 19,
+      "혼합": 1,
+      "흥미": 0
+    },
+    "medium": {
+      "boredom": 2,
+      "confusion": 1,
+      "curiosity": 1,
+      "disappointment": 0,
+      "frustration": 3,
+      "interest": 8,
+      "joy": 0,
+      "mixed": 4,
+      "neutral": 13,
+      "답답/짜증/실망": 1,
+      "실망": 0,
+      "중립": 46,
+      "즐거움/감탄": 3,
+      "지루함": 1,
+      "호기심": 18,
+      "혼란": 9,
+      "혼합": 21,
+      "흥미": 78
+    },
+    "neutral": {
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "disappointment": 0,
+      "frustration": 0,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 0,
+      "답답/짜증/실망": 0,
+      "실망": 0,
+      "중립": 1,
+      "즐거움/감탄": 0,
+      "지루함": 0,
+      "호기심": 0,
+      "혼란": 0,
+      "혼합": 0,
+      "흥미": 0
+    }
+  },
+  "top5_descriptive_low": {
+    "no_data": 5,
+    "unnatural_dialogue": 3,
+    "AI_self-disclosure": 3,
+    "repetitive_dialogue": 3,
+    "statement_flip": 2
+  },
+  "visual_supports_but_negative_examples": [
+    {
+      "participant_id": "P22",
+      "segment_id": "P22_7354_01",
+      "evidence_quote": "글씨체가 너무 채팅치는 느낌이어서",
+      "text_ko": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다."
+    }
+  ]
+}

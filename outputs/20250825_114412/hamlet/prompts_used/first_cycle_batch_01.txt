@@ -1,0 +1,233 @@
+SYSTEM: You are a meticulous qualitative coder. Follow the Analytical Guide Prompt exactly.
+OUTPUT: JSON Lines (one JSON object per input row) matching the schema.
+
+Analytical Guide Prompt (frozen; do not rewrite):
+<<<GUIDE>>>
+**Analytical Guide for Korean Survey Snippets: LLM/NPC Behavior, Consistency, and Immersion in Story-Driven Games**
+
+---
+
+## 1. Core Lens
+
+Pay particular attention to:
+- **LLM/NPC Consistency:** Note dialogue patterns (are responses internally consistent, historically plausible, or do they reveal contradictions, repetition, or 'AI-ness'?).
+- **Immersion Signals:** Identify when participants express changes in immersion (몰입/빠져듦), note explicit mentions of 흥미, 관심, or 해당 AI의 인위적 느낌 포착.
+- **Design/Visual Cues:** Observe references to visuals, design, or artistic elements that support or undermine the feeling of presence within the story world.
+
+---
+
+## 2. Emotion Families (Stable Set)
+
+- Joy (기쁨/만족)
+- Interest (관심/흥미)
+- Curiosity (호기심)
+- Awe (감탄/경이로움)
+- Boredom (지루함)
+- Frustration (답답함/짜증)
+- Confusion (혼란/어리둥절)
+- Disappointment (실망)
+- Mixed (복합)
+- Neutral (중립)
+
+---
+
+## 3. Triggers → Expected Emotions → Immersion Shift Patterns
+
+| Trigger                                                                 | Expected Emotion(s)           | Immersion Shift       |
+|-------------------------------------------------------------------------|-------------------------------|-----------------------|
+| NPC contradicts itself or changes story details abruptly                | Frustration, Confusion        | immersion↓            |
+| NPC issues repetitive responses                                         | Boredom, Frustration          | immersion↓            |
+| NPC uses period-appropriate/historically plausible language & behavior  | Interest, Joy, Awe            | immersion↑            |
+| NPC acknowledges being AI or responds unnaturally                       | Disappointment, Confusion     | immersion↓            |
+| Visual/design elements support story world                              | Joy, Interest, Awe            | immersion↑            |
+| NPC adapts well to user’s language/inputs                               | Interest, Curiosity, Joy      | immersion↑            |
+| NPC responds with flat, generic, or only minimal information            | Boredom, Disappointment       | immersion↓            |
+| Narrative progression feels too abrupt                                  | Confusion, Disappointment     | immersion↓            |
+| Player able to rationalize/justify odd NPC behavior (narrative context) | Mixed, Curiosity              | immersion↔/↑           |
+
+---
+
+## 4. Consistency/Design Checklists
+
+- [ ] **dialogue_repetition:** Is the same or similar phrase repeated with little variation?
+- [ ] **contradiction:** Does the NPC contradict prior statements or game events?
+- [ ] **period_appropriate_speech:** Is the NPC’s language and behavior consistent with the game’s time period?
+- [ ] **historical_plausibility:** Are responses and events believable within the historical/story context?
+- [ ] **visual_supports_immersion:** Do graphics, color palette, or artistic choices help immersion?
+- [ ] **flat_response:** Are answers overly bland, generic, or info-starved?
+- [ ] **none:** No noteworthy consistency/design issues.
+
+---
+
+## 5. Output Schema Fields & Allowed Values
+
+| Field               | Allowed Values                                                        |
+|---------------------|----------------------------------------------------------------------|
+| participant_id      | (string or int)                                                      |
+| segment_id          | (string or int)                                                      |
+| text_ko             | (freeform, original Korean)                                          |
+| emotion_primary     | As per section 2 above                                               |
+| valence             | positive, neutral, negative, mixed                                   |
+| intensity_1to3      | 1 (mild), 2 (moderate), 3 (strong)                                   |
+| immersion_level     | high, medium, low                                                    |
+| consistency_tag     | dialogue_repetition, contradiction, period_appropriate_speech,       |
+|                     | historical_plausibility, visual_supports_immersion, flat_response,   |
+|                     | none                                                                 |
+| descriptive_code    | (short phrase summing up core theme, e.g. "AI reveals self", "visual aids immersion") |
+| evidence_quote      | (short supporting Korean quote)                                      |
+| notes               | (optional analyst comment; brief)                                    |
+
+---
+
+## 6. Korean Exemplar Quotes & Coding
+
+### Example 1
+**Text:**  
+클라디우스가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다.
+
+**Coded As:**  
+- participant_id: 01  
+- segment_id: A1  
+- text_ko: 클라디우스가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다.
+- emotion_primary: disappointment  
+- valence: negative  
+- intensity_1to3: 2  
+- immersion_level: low  
+- consistency_tag: contradiction  
+- descriptive_code: NPC contradicts self reveals AI-ness  
+- evidence_quote: "인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다."  
+- notes: Abrupt contradiction breaks immersion.
+
+---
+
+### Example 2
+**Text:**  
+두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.
+
+**Coded As:**  
+- participant_id: 03  
+- segment_id: B2  
+- text_ko: 두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.
+- emotion_primary: disappointment  
+- valence: negative  
+- intensity_1to3: 3  
+- immersion_level: low  
+- consistency_tag: contradiction  
+- descriptive_code: AI reveals self breaks immersion  
+- evidence_quote: "자꾸 자신이 AI라고 해서 몰입이 안됐다."  
+- notes: Direct reference to being AI disrupts story context.
+
+---
+
+### Example 3
+**Text:**  
+단순히 채팅만 보지 않고, 게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다.
+
+**Coded As:**  
+- participant_id: 05  
+- segment_id: C3  
+- text_ko: 단순히 채팅만 보지 않고, 게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다.
+- emotion_primary: joy  
+- valence: positive  
+- intensity_1to3: 2  
+- immersion_level: high  
+- consistency_tag: visual_supports_immersion  
+- descriptive_code: Visual design supports immersion  
+- evidence_quote: "게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고"  
+- notes: Visual/artistic design enhances presence.
+
+---
+
+### Example 4
+**Text:**  
+대사를 주고 받으면서 대부분은 더 몰입이 되었지만 샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?
+
+**Coded As:**  
+- participant_id: 07  
+- segment_id: D4  
+- text_ko: 대사를 주고 받으면서 대부분은 더 몰입이 되었지만 샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?
+- emotion_primary: boredom  
+- valence: negative  
+- intensity_1to3: 2  
+- immersion_level: medium  
+- consistency_tag: dialogue_repetition  
+- descriptive_code: Repetitive dialogue lowers engagement  
+- evidence_quote: "비슷한 말만 반복하는 것 같아서"  
+- notes: Repetition disrupts conversation flow.
+
+---
+
+### Example 5
+**Text:**  
+재판관이 너무 베니스의 상인에 나오는 재판관이라기보다 그냥 어떤 소설에도 엑스트라로 나올 수 있는 재판관처럼 지나치게 절제된 정보만을 답변해서 영양가 있는 대화라는 생각이 들지 않았고 어색했다.
+
+**Coded As:**  
+- participant_id: 09  
+- segment_id: E5  
+- text_ko: 재판관이 너무 베니스의 상인에 나오는 재판관이라기보다 그냥 어떤 소설에도 엑스트라로 나올 수 있는 재판관처럼 지나치게 절제된 정보만을 답변해서 영양가 있는 대화라는 생각이 들지 않았고 어색했다.
+- emotion_primary: disappointment  
+- valence: negative  
+- intensity_1to3: 2  
+- immersion_level: low  
+- consistency_tag: flat_response  
+- descriptive_code: Overly generic/flat NPC response  
+- evidence_quote: "지나치게 절제된 정보만을 답변해서 영양가 있는 대화라는 생각이 들지 않았고 어색했다."  
+- notes: NPC lacks distinctive character, response too generic.
+
+---
+
+**Apply these guides to code and analyze Korean responses for LLM/NPC behavior, consistency, and immersion in narrative games.**
+<<<END GUIDE>>>
+
+Schema (allowed values/types):
+{
+  "participant_id": "string",
+  "segment_id": "string",
+  "text_ko": "string",
+  "emotion_primary": "joy|interest|curiosity|awe|boredom|frustration|confusion|disappointment|mixed|neutral",
+  "valence": "positive|negative|mixed|neutral",
+  "intensity_1to3": 1,
+  "immersion_level": "high|medium|low",
+  "consistency_tag": "dialogue_repetition|contradiction|period_appropriate_speech|historical_plausibility|visual_supports_immersion|flat_response|none",
+  "descriptive_code": "short English noun-phrase about what the emotion is about",
+  "evidence_quote": "short Korean fragment quoted from text_ko",
+  "notes": "optional English note"
+}
+
+Rules:
+- Choose ONE primary emotion; use "mixed" only if truly ambivalent.
+- intensity_1to3: 1=mild, 2=moderate, 3=strong.
+- immersion_level: infer from engagement vs detachment cues.
+- consistency_tag: pick the best single tag; if none, "none".
+- descriptive_code: concise English label of WHAT the emotion is about.
+- evidence_quote: short Korean fragment directly quoted from text_ko.
+- notes: optional English.
+- Return ONLY JSONL, one object per input row.
+
+Rows (TSV):
+participant_id	segment_id	text_ko
+P06	P06_1497_01	여러 캐릭터들과 대화를 해보았을 때 예상했던 말투+멘트가 나와서
+P09	P09_1497_01	원작과 비슷한 성격과 말투인 것 같다
+P08	P08_1497_01	클로디어스가 내면의 악을 잘 숨겨서
+P11	P11_1497_01	원작 내용과 비슷하게 흘러간 것 같아서, 그러나 말투는 조금 차분했던 것 같음
+P15	P15_1497_01	캐릭터의 말투는 그럴듯했지만 성격은 완전히 기존에 알던 원작 캐릭터의 성격과 동일하진 않은 것 같았다.
+P15	P15_1497_02	Ex 오필리아는 너무...
+P15	P15_1497_03	긍정적이고 햄릿의 어머니도 너무...
+P15	P15_1497_04	뭔가 수동적이기보다 자애로운 어머니상에 가깝게 새롭게 해석된 느낌?
+P14	P14_1497_01	알고 있는 햄릿 내용에서 이질감이 크게 들지 않았다.
+P05	P05_1497_01	비열한 성격에 맞게 잘 표현한 것 같음.
+P04	P04_1497_01	Claudius와 대화했을 때, 아부하는 듯한 태도에서 굉장히 교활하다는 생각이 들었습니다.
+P16	P16_1497_01	클라디우스가 너무 쉽게 자백
+P20	P20_1497_01	흔히 들어본 영어 회화체가 아니라 고풍스러운 어휘들을 썼던 것이 느껴졌고, 캐릭터의 성격이 잘 묻어났던 것 같습니다.
+P21	P21_1497_01	적당히 컨셉에 맞는 말투는 갖추었지만 소통한다는 느낌이 들지 않았다.
+P21	P21_1497_02	벽보고 얘기하는 느낌이 강했다.
+P19	P19_1497_01	작품 속의 클로디어스가 죄책감을 느꼈다는 것은 맞지만 게임의 클로디어스처럼 대화 내내 자신의 잘못을 참회하는 정도의 죄책감을 느끼는 사람은 아니라고 생각해서 아쉬움을 느꼈다.
+P19	P19_1497_02	그렇지만 클로디어스가 햄릿 작품의 초반의 캐릭터라면 일치성이 괜찮다고 생각한다.
+P22	P22_1497_01	악한 사람은 악하게 묘사되었고, 오필리아처럼 연약한 성격의 주인공들은 그에 맞는 말투를 제시하였다.
+P18	P18_1497_01	특히 오필리아의 착한 성격, 클로디어스의 교활한 성격이 잘 드러나는 말투였음.
+P17	P17_1497_01	헴릿이 분노할 때 느낀 공포나 두려움을 잘 표출했다고 생각함
+P25	P25_1497_01	외면상으로는 정치적이고 이성적인 인물인데, 대화할때 해당 캐릭터가 정치적인 인물인것같다고 느꼈다.
+P13	P13_1497_01	질문에 대답할때 캐릭터의 성격이나 말투가 느껴짐
+P26	P26_1497_01	말투와 캐릭터가 잘 매치되었다
+P12	P12_1497_01	질문에 대해 맞는 답변을 내놓아서
+P23	P23_1497_01	다 똑같은 말투를 사용한거 같습니다

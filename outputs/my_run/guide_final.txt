@@ -1,0 +1,132 @@
+### 1) Core lens (what to pay attention to)
+- (a) **Consistency of LLM/NPCs**: Look for sudden opinion shifts, contradictions, out-of-character responses, dialogue repetition, degree of immersion-breaking 'AI-ness', appropriateness of speech (period/historical), and narrative plausibility.
+- (b) **Immersion & Engagement Signals**: Note self-reports of 몰입(immersion), moments when immersion increases or drops, references to 'AI-like' errors, and emotional valence (흥미, 어색함, 지루함, etc.).
+- (c) **Visual/Design Supports**: Track explicit mentions of visual style, UI, art, or color palette that enhance or harm immersion and narrative transportation.
+
+---
+
+### 2) Emotion Families (Primary)
+- **Joy**    (기쁨)  
+- **Interest**  (흥미)
+- **Curiosity**  (호기심)
+- **Awe**    (경이)
+- **Boredom**  (지루함)
+- **Frustration** (좌절/짜증)
+- **Confusion**  (혼란)
+- **Disappointment** (실망)
+- **Mixed**    (복합)
+- **Neutral**  (중립)
+
+Intensity: 1 (mild), 2 (moderate), 3 (strong)
+
+---
+
+### 3) Triggers → Expected Emotions → Immersion Shift Patterns
+
+| Trigger                                             | Expected Emotions        | Immersion Shift       |
+|-----------------------------------------------------|-------------------------|-----------------------|
+| Contradictory or rapidly shifting NPC remarks       | confusion, frustration, disappointment | immersion ↓ (drops) |
+| NPCs reveal 'AI' nature or break character          | boredom, disappointment, frustration   | immersion ↓         |
+| Visible dialogue repetition, generic/templated replies | boredom, frustration         | immersion ↓         |
+| NPC uses period-appropriate/historically plausible language | interest, joy, awe     | immersion ↑          |
+| Visual and UI elements feel believable & atmospheric     | joy, interest, awe      | immersion ↑          |
+| Flat/under-informative or dry responses             | boredom, disappointment, neutral| immersion ↓         |
+| Narrative-incongruent or abrupt plot progressions   | confusion, disappointment   | immersion ↓         |
+| Character reactions that make story sense (in context)   | interest, awe, joy, mixed | immersion ↑ or stable|
+
+---
+
+### 4) Consistency/Design Checklists
+
+#### Consistency
+- Sudden opinion/identity shifts? (contradiction)
+- Dialogue repetition or structure reuse? (dialogue_repetition)
+- Flat, generic, or non-interactive replies? (flat_response)
+- References to AI or 'knowing it's a game'? (contradiction, none)
+- Accurate period-appropriate language/behavior? (period_appropriate_speech)
+- Historical or narrative plausibility? (historical_plausibility)
+- Out-of-context responses? (contradiction, none)
+
+#### Design/Visual
+- Visuals/UI supportive of immersion? (visual_supports_immersion)
+- Art/color/tone enhance narrative? (visual_supports_immersion)
+- Any design flaws mentioned that reduce immersion? (none)
+
+---
+
+### 5) Output Schema Fields and Allowed Values
+
+- **participant_id**: Text/Alphanumeric
+- **segment_id**: Text/Alphanumeric
+- **text_ko**: Korean free text
+- **emotion_primary**: {joy, interest, curiosity, awe, boredom, frustration, confusion, disappointment, mixed, neutral}
+- **valence**: {positive, negative, mixed, neutral}
+- **intensity_1to3**: {1, 2, 3}
+- **immersion_level**: {high, medium, low}
+- **consistency_tag**: {dialogue_repetition, contradiction, period_appropriate_speech, historical_plausibility, visual_supports_immersion, flat_response, none}
+- **descriptive_code**: Short phrase summarizing the key phenomenon (e.g., 'NPC contradiction breaks immersion', 'design-supported immersion', etc.)
+- **evidence_quote**: Short Korean quote excerpt (max 2 sentences)
+- **notes**: Brief analytic note or context expansion (optional)
+
+---
+
+### 6) Exemplar Korean Quotes & Coding
+
+#### A) 
+- **text_ko**: "Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다."
+- **emotion_primary**: disappointment
+- **valence**: negative
+- **intensity_1to3**: 2
+- **immersion_level**: low
+- **consistency_tag**: contradiction
+- **descriptive_code**: NPC contradiction breaks immersion
+- **evidence_quote**: "말을 바꾸는 부분에서 인공지능과 대화한다는 생각이... 흥미가 조금 떨어졌다"
+- **notes**: Contradictory statements by Claudius break narrative illusion.
+
+#### B) 
+- **text_ko**: "샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?"
+- **emotion_primary**: boredom
+- **valence**: negative
+- **intensity_1to3**: 2
+- **immersion_level**: medium
+- **consistency_tag**: dialogue_repetition
+- **descriptive_code**: Repetitive dialogue undermines engagement
+- **evidence_quote**: "비슷한 말만 반복하는 것 같아서"
+- **notes**: Recurrent repetitions make dialogue less enjoyable.
+
+#### C) 
+- **text_ko**: "게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다."
+- **emotion_primary**: joy
+- **valence**: positive
+- **intensity_1to3**: 3
+- **immersion_level**: high
+- **consistency_tag**: visual_supports_immersion
+- **descriptive_code**: Design enhances immersion
+- **evidence_quote**: "디자인, 색감, 그림체 등이 더 몰입할 수 있도록 도와주었고"
+- **notes**: Visual and design elements strengthen the sense of being in-game.
+
+#### D)
+- **text_ko**: "두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다."
+- **emotion_primary**: disappointment
+- **valence**: negative
+- **intensity_1to3**: 3
+- **immersion_level**: low
+- **consistency_tag**: contradiction
+- **descriptive_code**: NPC self-reference as AI breaks immersion
+- **evidence_quote**: "자꾸 자신이 AI라고 해서 몰입이 안됐다."
+- **notes**: Overt AI-referencing disrupts narrative engagement.
+
+#### E)
+- **text_ko**: "클라디우스의 차분한 면모가 처음에는 어색했으나 햄릿이 미쳐있는 상황이라고 가정해보니 클라디우스의 차분함이 햄릿의 광기를 더 극대화시키는 것 같아 납득이 가는 수준이었다."
+- **emotion_primary**: interest
+- **valence**: mixed
+- **intensity_1to3**: 2
+- **immersion_level**: medium
+- **consistency_tag**: period_appropriate_speech
+- **descriptive_code**: Historically plausible character response increases believability
+- **evidence_quote**: "햄릿이 미쳐있는 상황이라고 가정해보니... 납득이 가는 수준이었다"
+- **notes**: The character's behavior, when viewed in context, feels plausible and supports story immersion.
+
+---
+
+Use these lenses, tags, and exemplars to systematically annotate and interpret Korean user survey data on LLM/NPC behavior, consistency, and immersive experience in story-based games.

@@ -1,0 +1,216 @@
+SYSTEM: You are a meticulous qualitative coder. Follow the Analytical Guide Prompt exactly.
+OUTPUT: JSON Lines (one JSON object per input row) matching the schema.
+
+Analytical Guide Prompt (frozen; do not rewrite):
+<<<GUIDE>>>
+**Analytical Guide Prompt for Korean Survey Snippets on LLM/NPC Behavior, Consistency, and Immersion in Story-driven Games**
+
+---
+
+### 1. Core Lens (What to Pay Attention To)
+- **a) LLM/NPC Consistency:**  
+  - Look for repeated phrases, sudden contradictions, lack of character coherence, period appropriateness of language, and historical plausibility.
+- **b) Signals of Immersion (몰입/흥미 vs. 몰입감 저하):**  
+  - Note mentions of feeling "immersed" vs. moments that "break" the illusion (“AI-ness” positivity/negativity).
+- **c) Game Design & Visual Support:**  
+  - Attention to mentions of visuals, color, artwork, or UI design that enhance or disrupt immersion.
+
+---
+
+### 2. Emotion Families (Primary)
+- Joy (기쁨)
+- Interest (흥미)
+- Curiosity (호기심)
+- Awe (경이)
+- Boredom (지루함)
+- Frustration (좌절)
+- Confusion (혼란)
+- Disappointment (실망)
+- Mixed (복합적 감정)
+- Neutral (중립)
+
+---
+
+### 3. Triggers → Expected Emotions → Immersion Shift Patterns
+
+| Trigger                                      | Expected Emotion(s)                        | Immersion Shift     |
+|-----------------------------------------------|--------------------------------------------|---------------------|
+| NPC/LLM contradicts itself or story           | Confusion, Frustration, Disappointment     | ↓ (lower)           |
+| Repetitive or template-like responses         | Boredom, Frustration                       | ↓                   |
+| NPC refers to itself as “AI” out-of-context   | Confusion, Boredom, Disappointment         | ↓                   |
+| NPC shows period-appropriate/historically plausible speech | Interest, Awe, Joy          | ↑ (higher)           |
+| Visual/design elements enhance setting        | Joy, Interest                              | ↑                   |
+| Flat, non-descript responses                  | Boredom, Disappointment                    | ↓                   |
+| Logical or character-coherent reactions       | Interest, Curiosity, Joy                   | ↑                   |
+| Rapid/unexplained emotional shifts from NPC   | Confusion, Disappointment                  | ↓                   |
+
+---
+
+### 4. Consistency/Design Checklists
+
+**Consistency:**
+- Is the dialogue contextually consistent? (No contradictions, logical character arc)
+- Is the speech appropriate for the time period/setting?
+- Does the NPC avoid breaking character (“AI-ness”)?
+
+**Design & Immersion:**
+- Do visual/design elements support historical or immersive atmosphere?
+- Are responses dynamic vs. repetitive?
+- Are emotional and narrative beats fitting the story’s pacing?
+
+**Red Flags for Concern:**
+- Dialogue repetition or template-like phrasing
+- NPC “outing” as AI unnecessarily
+- Flat/unengaged or irrelevant responses
+- Missed historical/setting accuracy
+
+---
+
+### 5. Output Schema Fields & Allowed Values
+
+- **participant_id**: [string/int, anonymized respondent]
+- **segment_id**: [string/int, snippet/unit of analysis]
+- **text_ko**: [original Korean snippet]
+- **emotion_primary**: [joy, interest, curiosity, awe, boredom, frustration, confusion, disappointment, mixed, neutral]
+- **valence**: [positive, negative, neutral, mixed]
+- **intensity_1to3**: [1,2,3]
+- **immersion_level**: [high, medium, low]
+- **consistency_tag**: [dialogue_repetition, contradiction, period_appropriate_speech, historical_plausibility, visual_supports_immersion, flat_response, none]
+- **descriptive_code**: [short 1-3 word descriptor, e.g., “AI-break”, “period speech”, “visual immersion”]
+- **evidence_quote**: [short quote for evidence, in Korean]
+- **notes**: [optional; nuanced context/clarification]
+
+---
+
+### 6. Exemplar Korean Quotes & Codes
+
+#### Exemplar 1
+- **Text (text_ko):**  
+  Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다.
+- **Coding:**  
+  emotion_primary: disappointment  
+  valence: negative  
+  intensity_1to3: 2  
+  immersion_level: low  
+  consistency_tag: contradiction  
+  descriptive_code: “contradictory response”  
+  evidence_quote: "다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각"  
+  notes: 감정적 일관성 부족이 몰입감을 저해함.
+
+---
+
+#### Exemplar 2
+- **Text (text_ko):**  
+  단순히 채팅만 보지 않고, 게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다.
+- **Coding:**  
+  emotion_primary: joy  
+  valence: positive  
+  intensity_1to3: 3  
+  immersion_level: high  
+  consistency_tag: visual_supports_immersion  
+  descriptive_code: “visual immersion”  
+  evidence_quote: "게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고"  
+  notes: 시각적 요소가 몰입을 촉진.
+
+---
+
+#### Exemplar 3
+- **Text (text_ko):**  
+  두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.
+- **Coding:**  
+  emotion_primary: frustration  
+  valence: negative  
+  intensity_1to3: 2  
+  immersion_level: low  
+  consistency_tag: flat_response  
+  descriptive_code: “AI-break”  
+  evidence_quote: "자꾸 자신이 AI라고 해서 몰입이 안됐다"  
+  notes: AI라고 반복적으로 밝히는 태도가 몰입을 저해함.
+
+---
+
+#### Exemplar 4
+- **Text (text_ko):**  
+  클라디우스의 차분한 면모가 처음에는 어색했으나 햄릿이 미쳐있는 상황이라고 가정해보니 클라디우스의 차분함이 햄릿의 광기를 더 극대화시키는 것 같아 납득이 가는 수준이었다.
+- **Coding:**  
+  emotion_primary: interest  
+  valence: positive  
+  intensity_1to3: 2  
+  immersion_level: medium  
+  consistency_tag: period_appropriate_speech  
+  descriptive_code: “period speech”  
+  evidence_quote: "차분한 면모가... 햄릿의 광기를 더 극대화시키는 것 같아 납득이 가는 수준"  
+  notes: 시대적 맥락과 캐릭터 해석의 설득력 있음.
+
+---
+
+#### Exemplar 5
+- **Text (text_ko):**  
+  샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?
+- **Coding:**  
+  emotion_primary: boredom  
+  valence: negative  
+  intensity_1to3: 1  
+  immersion_level: low  
+  consistency_tag: dialogue_repetition  
+  descriptive_code: “repetition”  
+  evidence_quote: "비슷한 말만 반복하는 것 같아서"  
+  notes: 반복적 대화가 흥미와 몰입 저하 초래.
+
+---
+
+**Use these codes to systematically analyze Korean player feedback on LLM/NPC immersion, emotion, and narrative behavior.**
+<<<END GUIDE>>>
+
+Schema (allowed values/types):
+{
+  "participant_id": "string",
+  "segment_id": "string",
+  "text_ko": "string",
+  "emotion_primary": "joy|interest|curiosity|awe|boredom|frustration|confusion|disappointment|mixed|neutral",
+  "valence": "positive|negative|mixed|neutral",
+  "intensity_1to3": 1,
+  "immersion_level": "high|medium|low",
+  "consistency_tag": "dialogue_repetition|contradiction|period_appropriate_speech|historical_plausibility|visual_supports_immersion|flat_response|none",
+  "descriptive_code": "short English noun-phrase about what the emotion is about",
+  "evidence_quote": "short Korean fragment quoted from text_ko",
+  "notes": "optional English note"
+}
+
+Rules:
+- Choose ONE primary emotion; use "mixed" only if truly ambivalent.
+- intensity_1to3: 1=mild, 2=moderate, 3=strong.
+- immersion_level: infer from engagement vs detachment cues.
+- consistency_tag: pick the best single tag; if none, "none".
+- descriptive_code: concise English label of WHAT the emotion is about.
+- evidence_quote: short Korean fragment directly quoted from text_ko.
+- notes: optional English.
+- Return ONLY JSONL, one object per input row.
+
+Rows (TSV):
+participant_id	segment_id	text_ko
+P10	P10_7566_01	방해되지 않았다.
+P22	P22_7566_01	가끔 등장하는 그러한 특성도 결국 게임의 재미를 높이는 요소라고 생각한다.
+P18	P18_7566_01	캐릭터들이 각자의 상황에 알맞는 대답을 했고 몰입이 깨지지 않았음.
+P17	P17_7566_01	배경과 설정을 이해하고 게임을 플레이 한 결과 캐릭터들의 설정붕괴 모습이 포착되지 않았다.
+P25	P25_7566_01	부조리한 캐릭터의 행동이 자주 등장했다는 생각이 들진 않았다.
+P13	P13_7566_01	자주 등장하지 않았던 것 같다.
+P26	P26_7566_01	부조리하다고 느낀 점이 많이 없었다.
+P12	P12_7566_01	내가 원하는 캐릭터에 질문을 하고 답변을 듣는거라 약간씩 어느정도 반응을 예상하거나 추측하면서 질문할 문장을 작성하기 때문에 갑작스럽다고 느껴지는 부조리한 캐릭터의 행동들은 느끼지 못하였음.
+P23	P23_7566_01	그러지않음
+P24	P24_7566_01	Shylock이 논리도 없이 자기가 재판에서 이길 것이라 주장해 몰입이 되지 않았다.
+P01	P01_7566_01	캐릭터의 행동과 대답은 내가 충분히 게임에 몰입할 수 있게 했다.
+P02	P02_7566_01	공작이 외부 법률 전문가 고용을 지속적으로 반대함
+P03	P03_7566_01	주관적인 생각으로 베니스의 상인에서 부조리한 캐릭터는 사일로라고 생각했는데
+P06	P06_4484_01	아까도 말했듯이 파트1에서 조금 과장된 느낌 (너무 많이 글이 나오는 게)
+P09	P09_4484_01	스토리에 관련된 내용이어서 방해되지 않았다
+P08	P08_4484_01	감정적 몰입을 할만한 티키타카가 이루어지진 않았기 때문이다.
+P11	P11_4484_01	관련성이 적은 질문을 했을 때 대답이 뜬금없던 느낌이 약간 있던 것 같음
+P15	P15_4484_01	몰입을 방해하는 대사는 없었다.
+P15	P15_4484_02	그러나 대화 내에서 대답이 대체로 겹치거나 비슷하다는 느낌을 받았다.
+P14	P14_4484_01	몰입되었다.
+P05	P05_4484_01	캐릭터 대사가 부자연스럽지 않고 캐릭터에 맞는 말을 잘 해주었다.
+P04	P04_4484_01	제 채팅에 알맞는 답변을 답했기 때문입니다
+P16	P16_4484_01	협상에 호의적이어서 긴장이 되지는 않았다.
+P20	P20_4484_01	공감이 잘 된 것 같습니다.
+P21	P21_4484_01	두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.

@@ -1,0 +1,61 @@
+{
+  "emotion_x_immersion": {
+    "high": {
+      "awe": 11,
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 4,
+      "disappointment": 0,
+      "frustration": 1,
+      "interest": 84,
+      "joy": 74,
+      "mixed": 0,
+      "neutral": 11
+    },
+    "low": {
+      "awe": 0,
+      "boredom": 15,
+      "confusion": 9,
+      "curiosity": 0,
+      "disappointment": 24,
+      "frustration": 7,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 0
+    },
+    "medium": {
+      "awe": 0,
+      "boredom": 12,
+      "confusion": 18,
+      "curiosity": 15,
+      "disappointment": 17,
+      "frustration": 4,
+      "interest": 16,
+      "joy": 1,
+      "mixed": 7,
+      "neutral": 59
+    }
+  },
+  "top5_descriptive_low": {
+    "unnatural-dialogue": 2,
+    "repetitive-answers": 2,
+    "one-sided-dialogue": 2,
+    "AI-awareness, immersion_break": 2,
+    "homogeneous-speech": 1
+  },
+  "visual_supports_but_negative_examples": [
+    {
+      "participant_id": "P22",
+      "segment_id": "P22_2910_01",
+      "evidence_quote": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다.",
+      "text_ko": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다."
+    },
+    {
+      "participant_id": "P17",
+      "segment_id": "P17_6046_01",
+      "evidence_quote": "가독성이 더 좋은 색으로 바뀌었으면",
+      "text_ko": "플레이어의 글씨 색이 초록색이라 가독성이 더 좋은 색으로 바뀌었으면 좋겠습니다!!"
+    }
+  ]
+}

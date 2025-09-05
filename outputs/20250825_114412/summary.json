@@ -1,0 +1,70 @@
+{
+  "emotion_x_immersion": {
+    "high": {
+      "awe": 9,
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 5,
+      "disappointment": 0,
+      "frustration": 1,
+      "interest": 56,
+      "joy": 88,
+      "mixed": 0,
+      "neutral": 17,
+      "satisfaction": 5
+    },
+    "low": {
+      "awe": 0,
+      "boredom": 9,
+      "confusion": 7,
+      "curiosity": 0,
+      "disappointment": 23,
+      "frustration": 6,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 0,
+      "satisfaction": 0
+    },
+    "medium": {
+      "awe": 0,
+      "boredom": 17,
+      "confusion": 20,
+      "curiosity": 13,
+      "disappointment": 13,
+      "frustration": 9,
+      "interest": 20,
+      "joy": 2,
+      "mixed": 11,
+      "neutral": 58,
+      "satisfaction": 0
+    }
+  },
+  "top5_descriptive_low": {
+    "AI reveals self breaks immersion": 2,
+    "Out-of-character confession breaks plausibility": 1,
+    "Unresponsive NPC breaks conversation": 1,
+    "Concept fit but lack of interaction": 1,
+    "Generic/mechanical NPC response": 1
+  },
+  "visual_supports_but_negative_examples": [
+    {
+      "participant_id": "P22",
+      "segment_id": "P22_6873_01",
+      "evidence_quote": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다.",
+      "text_ko": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다."
+    },
+    {
+      "participant_id": "P04",
+      "segment_id": "P04_7557_01",
+      "evidence_quote": "표정을 확인할 수 없었습니다.",
+      "text_ko": "채팅으로 진행하다 보니 그 캐릭터의 표정을 확인할 수 없었습니다."
+    },
+    {
+      "participant_id": "P17",
+      "segment_id": "P17_3169_01",
+      "evidence_quote": "가독성이 더 좋은 색으로 바뀌었으면 좋겠습니다",
+      "text_ko": "플레이어의 글씨 색이 초록색이라 가독성이 더 좋은 색으로 바뀌었으면 좋겠습니다!!"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+SYSTEM: You are a meticulous qualitative coder. Follow the Analytical Guide Prompt exactly.
+OUTPUT: JSON Lines (one JSON object per input row) matching the schema.
+
+Analytical Guide Prompt (frozen; do not rewrite):
+<<<GUIDE>>>
+**Analytical Guide Prompt for Korean Survey Snippets on LLM/NPC Behavior, Consistency, and Immersion in Story-driven Games**
+
+---
+
+1) **Core Lens (What to Pay Attention To):**
+- **LLM/NPC Consistency:** Observe for stable characterization, avoidance of self-contradiction, linguistic period/tone authenticity, and plausible historical/conceptual alignment.
+- **Immersion Signals:** Notice expressions explicitly referencing immersion (몰입), engagement (흥미), or disconnection (떨어짐, 몰입이 안됨), as well as moments when the ‘AI-ness’ becomes apparent.
+- **Supportive/Opposing Visual & Design Elements:** Attend to mentions of visuals, UI, artistic style, or game mechanics that support or undercut narrative engagement.
+
+---
+
+2) **Emotion Families (Primary; 선택):**
+- **Positive:** joy (기쁨), interest (흥미), curiosity (호기심), awe (경이로움)
+- **Negative:** boredom (지루함), frustration (좌절), confusion (혼란), disappointment (실망)
+- **Other:** mixed (복합), neutral (중립)
+
+---
+
+3) **Triggers → Expected Emotions → Immersion Shift Patterns**
+
+| Trigger Example                                          | Expected Emotion      | Immersion Shift                                  |
+|---------------------------------------------------------|----------------------|--------------------------------------------------|
+| 캐릭터가 말을 자주 바꿈/모순                                | confusion, frustration | immersion↓ (몰입 감소)                           |
+| 말투, 어휘, 배경이 시대상에 부합                          | interest, awe        | immersion↑ (몰입 증가)                           |
+| 반복되는/템플릿성 답변                                    | boredom, disappointment| immersion↓ (몰입 감소)                           |
+| 게임/비주얼 디자인이 스토리와 자연스럽게 연결됨           | joy, interest        | immersion↑ (몰입 증가)                           |
+| NPC가 자신의 AI임을 노출                                  | confusion, disappointment| immersion↓ (몰입 감소)                        |
+| 캐릭터 설정/세계관 유지 잘됨                              | interest, awe        | immersion↑ (몰입 증가)                           |
+| 대사/반응이 급하게/부자연스럽게 전개                      | confusion, disappointment| immersion↓ (몰입 감소)                        |
+| 평이하거나 영양가 없는 대화                                | boredom, disappointment| immersion↓ (몰입 감소)                           |
+
+---
+
+4) **Consistency/Design Checklists:**
+- **dialogue_repetition**: 동일/유사한 대사의 반복 여부
+- **contradiction**: 직전과 다른 입장/정보/캐릭터상의 모순
+- **period_appropriate_speech**: 시대/세계관에 부합하는 언어, 표현
+- **historical_plausibility**: 맥락적/역사적으로 가능한 반응
+- **visual_supports_immersion**: 색감, UI, 연출 등이 몰입에 도움
+- **flat_response**: 딱딱하거나 표면적인, 부자연스러운 응답
+- **none**: 이상 없음 또는 해당 요소 없음
+
+---
+
+5) **OUTPUT SCHEMA FIELDS & ALLOWED VALUES**
+
+| Field             | Allowed Values / Description                                                                       |
+|-------------------|---------------------------------------------------------------------------------------------------|
+| participant_id    | anonymized user ID (예: P01, P02 등)                                                              |
+| segment_id        | sequential/unique snippet number per participant (예: S01, S02)                                   |
+| text_ko           | 원문 한국어 인용문                                                                               |
+| emotion_primary   | joy, interest, curiosity, awe, boredom, frustration, confusion, disappointment, mixed, neutral     |
+| valence           | positive, negative, neutral, mixed                                                                |
+| intensity_1to3    | 1 (mild), 2 (moderate), 3 (strong)                                                                |
+| immersion_level   | high, medium, low                                                                                 |
+| consistency_tag   | dialogue_repetition, contradiction, period_appropriate_speech, historical_plausibility, visual_supports_immersion, flat_response, none |
+| descriptive_code  | Short keyword summary (e.g. AI-awareness, design_support, period_accuracy, repetition, contradiction, flat-dialogue)|
+| evidence_quote    | 짧은 핵심 증거 발췌 (한국어 1문장, 최대 20자)                                                        |
+| notes             | 기타 참고 사항 (optional; 영어 or 한국어, max 1 sentence)                                         |
+
+---
+
+6) **Korean Exemplar Quotes & How They’d Be Coded**
+
+---
+**Example 1**
+- 원문: "Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다."
+- Coding:
+
+| Field            | Value                                                    |
+|------------------|---------------------------------------------------------|
+| participant_id   | P01                                                     |
+| segment_id       | S01                                                     |
+| text_ko          | Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다. |
+| emotion_primary  | disappointment                                          |
+| valence          | negative                                                |
+| intensity_1to3   | 2                                                       |
+| immersion_level  | low                                                     |
+| consistency_tag  | contradiction                                           |
+| descriptive_code | AI-awareness, contradiction                             |
+| evidence_quote   | "말을 바꾸는 부분에서 흥미가 떨어졌다."                 |
+| notes            | 빠른 캐릭터 태도 변화로 몰입 감소                        |
+
+---
+**Example 2**
+- 원문: "대사를 주고 받으면서 대부분은 더 몰입이 되었지만 샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?"
+- Coding:
+
+| Field            | Value                                            |
+|------------------|-------------------------------------------------|
+| participant_id   | P02                                             |
+| segment_id       | S03                                             |
+| text_ko          | 대사를 주고 받으면서 대부분은 더 몰입이 되었지만 샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지? |
+| emotion_primary  | boredom                                         |
+| valence          | negative                                        |
+| intensity_1to3   | 1                                               |
+| immersion_level  | medium                                          |
+| consistency_tag  | dialogue_repetition                             |
+| descriptive_code | repetition, partial-immersion                   |
+| evidence_quote   | "샤일록이 비슷한 말만 반복"                      |
+| notes            | 한 캐릭터 중심으로 반복성 지적                   |
+
+---
+**Example 3**
+- 원문: "게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다."
+- Coding:
+
+| Field            | Value                                             |
+|------------------|--------------------------------------------------|
+| participant_id   | P03                                              |
+| segment_id       | S01                                              |
+| text_ko          | 게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다. |
+| emotion_primary  | joy                                              |
+| valence          | positive                                         |
+| intensity_1to3   | 3                                                |
+| immersion_level  | high                                             |
+| consistency_tag  | visual_supports_immersion                        |
+| descriptive_code | design_support, high-immersion                   |
+| evidence_quote   | "디자인, 색감, 그림체 등이 몰입에 도움"           |
+| notes            | 몰입감 강조하는 긍정적 언급                      |
+
+---
+**Example 4**
+- 원문: "두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다."
+- Coding:
+
+| Field            | Value                         |
+|------------------|------------------------------|
+| participant_id   | P04                          |
+| segment_id       | S02                          |
+| text_ko          | 두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.|
+| emotion_primary  | disappointment               |
+| valence          | negative                     |
+| intensity_1to3   | 2                            |
+| immersion_level  | low                          |
+| consistency_tag  | contradiction                |
+| descriptive_code | AI-awareness, immersion_break|
+| evidence_quote   | "자꾸 AI라고 해서 몰입이 안됐다." |
+| notes            | 메타발언으로 인한 몰입 깨짐    |
+
+---
+**Example 5**
+- 원문: "재판관이 너무 베니스의 상인에 나오는 재판관이라기보다 그냥 어떤 소설에도 엑스트라로 나올 수 있는 재판관처럼 지나치게 절제된 정보만을 답변해서 영양가 있는 대화라는 생각이 들지 않았고 어색했다."
+- Coding:
+
+| Field            | Value                                                     |
+|------------------|----------------------------------------------------------|
+| participant_id   | P05                                                       |
+| segment_id       | S04                                                       |
+| text_ko          | 재판관이 너무 베니스의 상인에 나오는 재판관이라기보다 그냥 어떤 소설에도 엑스트라로 나올 수 있는 재판관처럼 지나치게 절제된 정보만을 답변해서 영양가 있는 대화라는 생각이 들지 않았고 어색했다. |
+| emotion_primary  | disappointment                                            |
+| valence          | negative                                                  |
+| intensity_1to3   | 2                                                        |
+| immersion_level  | low                                                       |
+| consistency_tag  | flat_response                                             |
+| descriptive_code | flat-dialogue, lost-depth                                 |
+| evidence_quote   | "절제된 정보만을 답변해서 어색했다."                      |
+| notes            | 캐릭터 몰입도 저하 언급                                   |
+
+---
+
+**END**
+<<<END GUIDE>>>
+
+Schema (allowed values/types):
+{
+  "participant_id": "string",
+  "segment_id": "string",
+  "text_ko": "string",
+  "emotion_primary": "joy|interest|curiosity|awe|boredom|frustration|confusion|disappointment|mixed|neutral",
+  "valence": "positive|negative|mixed|neutral",
+  "intensity_1to3": 1,
+  "immersion_level": "high|medium|low",
+  "consistency_tag": "dialogue_repetition|contradiction|period_appropriate_speech|historical_plausibility|visual_supports_immersion|flat_response|none",
+  "descriptive_code": "short English noun-phrase about what the emotion is about",
+  "evidence_quote": "short Korean fragment quoted from text_ko",
+  "notes": "optional English note"
+}
+
+Rules:
+- Choose ONE primary emotion; use "mixed" only if truly ambivalent.
+- intensity_1to3: 1=mild, 2=moderate, 3=strong.
+- immersion_level: infer from engagement vs detachment cues.
+- consistency_tag: pick the best single tag; if none, "none".
+- descriptive_code: concise English label of WHAT the emotion is about.
+- evidence_quote: short Korean fragment directly quoted from text_ko.
+- notes: optional English.
+- Return ONLY JSONL, one object per input row.
+
+Rows (TSV):
+participant_id	segment_id	text_ko
+P19	P19_5188_01	무슨 질문만 하면 유대인의 입장을 생각하라는 똑같은 대사가 나와서 방해가 되었다.
+P10	P10_5188_01	방해하지 않았다.
+P22	P22_5188_01	살짝 방해받긴 했지만 게임에 지장이 갈 정도는 아니라고 생각한다.
+P18	P18_5188_01	공작이 포셔를 샤일록이라고 부르며 대화를 진행했음.
+P17	P17_5188_01	몰입에 방해감이 없었고 오히려 몰입되어서 결말을 뒤집으려고 노력을 하게 되었다.
+P25	P25_5188_01	내가 입력한 문장에 비해 캐릭터의 대사가 너무 길었다.
+P13	P13_5188_01	샤일록의 대사가 감정적으로 몰입하게 해줬다
+P26	P26_5188_01	표현들이 자연스러웠다.
+P12	P12_5188_01	캐릭터의 대사들은 감정적 몰입을 할 수 있게 하였지만 좀 잘 모르는 어려운 단어 같은 것들은 해석하기에 살짝 어려웠던 것 같다.
+P23	P23_5188_01	본인이 극 중 캐릭터라고 함
+P24	P24_5188_01	Shylock에게 논리적으로 계약서에 문제점이 있다고 주장했으나 그는 단 하나도 받아들이지 않았다.
+P24	P24_5188_02	그의 캐릭터성을 고려하면 있을 법한 일일 수도 있지만 약간 과하다고 느껴졌다.
+P01	P01_5188_01	캐릭터의 대사는 내가 게임에 몰입할 수 있게 해주었기 때문에
+P02	P02_5188_01	대사는 적절했음.
+P03	P03_5188_01	게임에서도 사일로만이 부조리한 행동을 하고 있다고 느껴서 몰입에 방해되지 않았다.
+P06	P06_8805_01	한 5번?6번?문항 넘어가고 나서는 딱히 할 말이 없어서 thanks (?)같은 말을 하고 끝냈다
+P09	P09_8805_01	게임에 대한 흥미와는 무관하다
+P08	P08_8805_01	없음.
+P11	P11_8805_01	예상이 약간 가는 전개였음
+P15	P15_8805_01	캐릭터가 플레이어의 설득에 따라 점점 긍정적인 답변을 주는 등 플레이어와의 소통을 반영하는 것이 느껴져 대화를 계속 이어나가고 싶다는 느낌이 들었다.
+P14	P14_8805_01	다음 답변이 기대되었다.
+P05	P05_8805_01	동화를 재미있게 본 느낌이어서 좋았다.
+P05	P05_8805_02	ai라고 말한 점도 크게 몰입을 깨지 않고 잘 연결되는 느낌이었다.
+P04	P04_8805_01	흥미가 떨어질 만한 대사는 없었습니다.
+P04	P04_8805_02	하지만 전반적인 대사의 톤이 차분하다고 느껴서서 사람이 아닌 인공지능과 대화하는 느낌을 받았습니다.

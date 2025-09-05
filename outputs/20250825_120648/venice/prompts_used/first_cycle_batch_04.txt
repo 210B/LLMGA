@@ -1,0 +1,199 @@
+SYSTEM: You are a meticulous qualitative coder. Follow the Analytical Guide Prompt exactly.
+OUTPUT: JSON Lines (one JSON object per input row) matching the schema.
+
+Analytical Guide Prompt (frozen; do not rewrite):
+<<<GUIDE>>>
+**Analytical Guide Prompt for Korean LLM/NPC Survey Snippets (Story-driven Games)**
+
+---
+
+### 1) Core Lens  
+**Attend to evidence of:**
+- **NPC/LLM behavioral consistency**: identity stability, statement conflicts, speech style (is it period-appropriate? plausible for the role?), and presence of repetitive/templated language.
+- **Triggers of immersion and its loss**, including moments when “AI-ness” is perceived (such as self-disclosure, logical breaks, or flat/unresponsive behavior).
+- **Visual and design factors**: Visual cues, color, and style supporting or undermining sense of presence/worldbuilding beyond dialogue.
+
+---
+
+### 2) Emotion Families (Primary)  
+Select **one** main emotion family per snippet:
+- **흥미 (interest)**  
+- **즐거움/감탄 (joy/awe)**  
+- **호기심 (curiosity)**  
+- **지루함 (boredom)**  
+- **답답/짜증/실망 (frustration/disappointment)**  
+- **혼란 (confusion)**  
+- **혼합 (mixed)**  
+- **중립 (neutral)**
+
+---
+
+### 3) Triggers → Expected Emotions → Immersion Shift Patterns  
+| **Trigger**                                          | **Expected Emotions**                     | **Immersion Change** |
+|------------------------------------------------------|-------------------------------------------|--------------------|
+| NPC가 자꾸 자기 말을 바꿈/모순                         | confusion, frustration                    | immersion↓         |
+| 자기 AI임을 드러냄/초기설정 무시                     | disappointment, confusion, boredom        | immersion↓         |
+| 똑같거나 비슷한 말만 반복                            | boredom, frustration                      | immersion↓         |
+| 시대/역할/줄거리에 맞는 말투나 행동                 | interest, joy/awe                         | immersion↑         |
+| 시각적/디자인적 요소가 몰입적                        | joy, awe                                  | immersion↑         |
+| 줄거리와 무관한 대사, 정보 제공 안함                 | disappointment, frustration               | immersion↓         |
+| 설득력/이유있는 NPC 정서 해석                        | curiosity, interest                       | immersion↑         |
+| 대화가 너무 빠르게 전개되거나 비현실적인 전환         | confusion, disappointment                 | immersion↓         |
+
+---
+
+### 4) Consistency/Design Checklists  
+Mark any/all that apply:
+- **dialogue_repetition** (대사 반복)
+- **contradiction** (모순)
+- **period_appropriate_speech** (시대/역할에 맞는 말투/대사)
+- **historical_plausibility** (역사/서사적 개연성)
+- **flat_response** (단순/영양가 없는 응답)
+- **visual_supports_immersion** (시각/디자인 요소로 몰입 지원)
+- **none** (이상 없음/체크할 부분 없음)
+
+---
+
+### 5) Output Schema  
+For each snippet, populate fields as follows:  
+- **participant_id**: (string; e.g., 'p01')
+- **segment_id**: (string; e.g., 's01')
+- **text_ko**: (original Korean snippet)
+- **emotion_primary**: {흥미, 즐거움/감탄, 호기심, 지루함, 답답/짜증/실망, 혼란, 혼합, 중립}
+- **valence**: {positive, negative, neutral, mixed}
+- **intensity_1to3**: {1, 2, 3}
+- **immersion_level**: {high, medium, low}
+- **consistency_tag**: {dialogue_repetition, contradiction, period_appropriate_speech, historical_plausibility, flat_response, visual_supports_immersion, none}
+- **descriptive_code**: (a 1–2 word short English analytic code, e.g., 'AI_self-disclosure', 'speech_shift', 'immersion_support', 'flat_dialogue', 'role_mismatch')
+- **evidence_quote**: (<=12 words direct quote in Korean)
+- **notes**: (brief context, issues, or interpretation in English or Korean)
+
+---
+
+### 6) Exemplar Korean Quotes & Coding
+
+#### ①  
+- **text_ko**: “Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다.”
+- **Coding:**
+  - participant_id: p01
+  - segment_id: s01
+  - emotion_primary: 답답/짜증/실망
+  - valence: negative
+  - intensity_1to3: 2
+  - immersion_level: low
+  - consistency_tag: contradiction
+  - descriptive_code: speech_shift
+  - evidence_quote: “다음 채팅에 바로 말을 바꾸는 부분”
+  - notes: Sudden statement flip signals AI, immersion drop.
+
+#### ②  
+- **text_ko**: “똑같은 대사가 반복되는 오류가 있는데 수정이 필요하다고 생각된다.”
+- **Coding:**
+  - participant_id: p02
+  - segment_id: s03
+  - emotion_primary: 지루함
+  - valence: negative
+  - intensity_1to3: 2
+  - immersion_level: low
+  - consistency_tag: dialogue_repetition
+  - descriptive_code: flat_dialogue
+  - evidence_quote: “똑같은 대사가 반복되는 오류”
+  - notes: Dialogue repetition leads to boredom, lost authenticity.
+
+#### ③  
+- **text_ko**: “게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다.”
+- **Coding:**
+  - participant_id: p03
+  - segment_id: s05
+  - emotion_primary: 즐거움/감탄
+  - valence: positive
+  - intensity_1to3: 3
+  - immersion_level: high
+  - consistency_tag: visual_supports_immersion
+  - descriptive_code: immersion_support
+  - evidence_quote: “디자인, 색감, 그림체 등이 몰입을 도와주었고”
+  - notes: Visual/art enhances immersion, blurring reality/source divide.
+
+#### ④  
+- **text_ko**: “두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다.”
+- **Coding:**
+  - participant_id: p04
+  - segment_id: s07
+  - emotion_primary: 답답/짜증/실망
+  - valence: negative
+  - intensity_1to3: 2
+  - immersion_level: low
+  - consistency_tag: contradiction
+  - descriptive_code: AI_self-disclosure
+  - evidence_quote: “자꾸 자신이 AI라고 해서”
+  - notes: AI self-revelation breaks character, ruins immersion.
+
+#### ⑤  
+- **text_ko**: “클라디우스의 차분한 면모가 처음에는 어색했으나 햄릿이 미쳐있는 상황이라고 가정해보니 클라디우스의 차분함이 햄릿의 광기를 더 극대화시키는 것 같아 납득이 가는 수준이었다.”
+- **Coding:**
+  - participant_id: p05
+  - segment_id: s09
+  - emotion_primary: 호기심
+  - valence: positive
+  - intensity_1to3: 2
+  - immersion_level: medium
+  - consistency_tag: period_appropriate_speech
+  - descriptive_code: role_consistent_emotion
+  - evidence_quote: “차분한 면모가...납득이 가는 수준”
+  - notes: Odd at first, but makes sense in character context.
+
+---
+<<<END GUIDE>>>
+
+Schema (allowed values/types):
+{
+  "participant_id": "string",
+  "segment_id": "string",
+  "text_ko": "string",
+  "emotion_primary": "joy|interest|curiosity|awe|boredom|frustration|confusion|disappointment|mixed|neutral",
+  "valence": "positive|negative|mixed|neutral",
+  "intensity_1to3": 1,
+  "immersion_level": "high|medium|low",
+  "consistency_tag": "dialogue_repetition|contradiction|period_appropriate_speech|historical_plausibility|visual_supports_immersion|flat_response|none",
+  "descriptive_code": "short English noun-phrase about what the emotion is about",
+  "evidence_quote": "short Korean fragment quoted from text_ko",
+  "notes": "optional English note"
+}
+
+Rules:
+- Choose ONE primary emotion; use "mixed" only if truly ambivalent.
+- intensity_1to3: 1=mild, 2=moderate, 3=strong.
+- immersion_level: infer from engagement vs detachment cues.
+- consistency_tag: pick the best single tag; if none, "none".
+- descriptive_code: concise English label of WHAT the emotion is about.
+- evidence_quote: short Korean fragment directly quoted from text_ko.
+- notes: optional English.
+- Return ONLY JSONL, one object per input row.
+
+Rows (TSV):
+participant_id	segment_id	text_ko
+P12	P12_6786_01	캐릭터들의 행동이 일관성이 없다고 느껴진 적은 없다
+P23	P23_6786_01	일관성 있었습니다.
+P24	P24_6786_01	캐릭터들 모두 일관된 행동을 보여주었다.
+P01	P01_6786_01	캐릭터들은 전부 처음부터 끝까지 일관성 있게 행동했다
+P02	P02_6786_01	종종 클로디어스가 자신이 살인을 했다는 말을 함
+P03	P03_6786_01	클로디어스가 햄릿에게 아빠를 어떻게 만났냐고 이야기한 뒤 미친 사람 취급하는 것을 보며 캐릭터 행동이 잘 만들어졌다고 느껴 몰입이 방해되지는 않았다.
+P06	P06_2629_01	여러 캐릭터들과 대화해봤을 때 예상한 말들이 나왔기 때문에
+P09	P09_2629_01	배경 설정과 크게 다른 부분은 없었다
+P08	P08_2629_01	원작과 비슷함.
+P11	P11_2629_01	원작 내용과 비슷하게 흘러간 것 같아서
+P15	P15_2629_01	작품 배경의 설정을 벗어나는 수준의 말은 하지 않았지만 플레이어가 어떤 말을 했을 때 잘 모르면...
+P15	P15_2629_02	일단 긍정해주는 느낌도 받았다.
+P15	P15_2629_03	정말 그 캐릭터가 원작에서 그 사실을 알고 있었을까?
+P15	P15_2629_04	하는 의문이 들었다.
+P14	P14_2629_01	알고 있는 캐릭터의 성격 그대로였다.
+P05	P05_2629_01	이야기 기반으로 잘 말해준 것 같다.
+P04	P04_2629_01	게임을 플레이하면서 '복수'에 대한 일관된 주제로 대화를 했다고 생각한다.
+P04	P04_2629_02	그리고 말투도 옛날 시대에 어울리는 말투였다고 느꼈다.
+P16	P16_2629_01	작품 배경 설정과 상관없이 말과 속마음은 다를 수 있으니까 거짓말을 잘 하는 사람일 수도 있고
+P20	P20_2629_01	시대상, 정황상 했을 법한 말이라고 생각합니다.
+P21	P21_2629_01	설정을 벗어나는 말을 한다는 느낌은 받지 못했다.
+P21	P21_2629_02	그러나 햄릿 속 캐릭터의 설정을 제대로 알지 못해 그렇게 느꼈을 가능성도 있다.
+P19	P19_2629_01	그런 생각은 받지 못했다.
+P22	P22_2629_01	전반적으로 배경에 맞추어 주인공들이 말한다고 생각했다.
+P18	P18_2629_01	작품 배경에 어긋나는 말을 하지 않았음.

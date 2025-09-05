@@ -1,0 +1,67 @@
+{
+  "emotion_x_immersion": {
+    "high": {
+      "awe": 7,
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 4,
+      "disappointment": 0,
+      "frustration": 1,
+      "interest": 21,
+      "joy": 62,
+      "mixed": 0,
+      "neutral": 3
+    },
+    "low": {
+      "awe": 0,
+      "boredom": 30,
+      "confusion": 22,
+      "curiosity": 0,
+      "disappointment": 30,
+      "frustration": 14,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 1
+    },
+    "medium": {
+      "awe": 0,
+      "boredom": 2,
+      "confusion": 6,
+      "curiosity": 11,
+      "disappointment": 5,
+      "frustration": 1,
+      "interest": 83,
+      "joy": 9,
+      "mixed": 9,
+      "neutral": 66
+    },
+    "neutral": {
+      "awe": 0,
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 0,
+      "disappointment": 0,
+      "frustration": 0,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 2
+    }
+  },
+  "top5_descriptive_low": {
+    "AI-break": 5,
+    "contradictory response": 4,
+    "repetitive dialogue": 3,
+    "repetition": 3,
+    "repetitive response": 2
+  },
+  "visual_supports_but_negative_examples": [
+    {
+      "participant_id": "P22",
+      "segment_id": "P22_2372_01",
+      "evidence_quote": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다",
+      "text_ko": "글씨체가 너무 채팅치는 느낌이어서 실감이 안났다."
+    }
+  ]
+}

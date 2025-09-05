@@ -1,0 +1,55 @@
+{
+  "emotion_x_immersion": {
+    "high": {
+      "awe": 6,
+      "boredom": 0,
+      "confusion": 0,
+      "curiosity": 4,
+      "disappointment": 0,
+      "frustration": 1,
+      "interest": 59,
+      "joy": 71,
+      "mixed": 0,
+      "neutral": 21
+    },
+    "low": {
+      "awe": 0,
+      "boredom": 10,
+      "confusion": 7,
+      "curiosity": 0,
+      "disappointment": 22,
+      "frustration": 4,
+      "interest": 0,
+      "joy": 0,
+      "mixed": 0,
+      "neutral": 1
+    },
+    "medium": {
+      "awe": 0,
+      "boredom": 21,
+      "confusion": 21,
+      "curiosity": 11,
+      "disappointment": 10,
+      "frustration": 9,
+      "interest": 41,
+      "joy": 4,
+      "mixed": 10,
+      "neutral": 45
+    }
+  },
+  "top5_descriptive_low": {
+    "NPC contradiction breaks immersion": 2,
+    "NPC self-reference as AI breaks immersion": 2,
+    "Flatness of dialogue harms immersion": 1,
+    "Uniform speech reduces engagement": 1,
+    "Mechanical AI-like responses harm immersion": 1
+  },
+  "visual_supports_but_negative_examples": [
+    {
+      "participant_id": "P17",
+      "segment_id": "P17_8839_01",
+      "evidence_quote": "가독성이 더 좋은 색으로 바뀌었으면",
+      "text_ko": "플레이어의 글씨 색이 초록색이라 가독성이 더 좋은 색으로 바뀌었으면 좋겠습니다!!"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+SYSTEM: You are a meticulous qualitative coder. Follow the Analytical Guide Prompt exactly.
+OUTPUT: JSON Lines (one JSON object per input row) matching the schema.
+
+Analytical Guide Prompt (frozen; do not rewrite):
+<<<GUIDE>>>
+### 1) Core lens (what to pay attention to)
+- (a) **Consistency of LLM/NPCs**: Look for sudden opinion shifts, contradictions, out-of-character responses, dialogue repetition, degree of immersion-breaking 'AI-ness', appropriateness of speech (period/historical), and narrative plausibility.
+- (b) **Immersion & Engagement Signals**: Note self-reports of 몰입(immersion), moments when immersion increases or drops, references to 'AI-like' errors, and emotional valence (흥미, 어색함, 지루함, etc.).
+- (c) **Visual/Design Supports**: Track explicit mentions of visual style, UI, art, or color palette that enhance or harm immersion and narrative transportation.
+
+---
+
+### 2) Emotion Families (Primary)
+- **Joy**    (기쁨)  
+- **Interest**  (흥미)
+- **Curiosity**  (호기심)
+- **Awe**    (경이)
+- **Boredom**  (지루함)
+- **Frustration** (좌절/짜증)
+- **Confusion**  (혼란)
+- **Disappointment** (실망)
+- **Mixed**    (복합)
+- **Neutral**  (중립)
+
+Intensity: 1 (mild), 2 (moderate), 3 (strong)
+
+---
+
+### 3) Triggers → Expected Emotions → Immersion Shift Patterns
+
+| Trigger                                             | Expected Emotions        | Immersion Shift       |
+|-----------------------------------------------------|-------------------------|-----------------------|
+| Contradictory or rapidly shifting NPC remarks       | confusion, frustration, disappointment | immersion ↓ (drops) |
+| NPCs reveal 'AI' nature or break character          | boredom, disappointment, frustration   | immersion ↓         |
+| Visible dialogue repetition, generic/templated replies | boredom, frustration         | immersion ↓         |
+| NPC uses period-appropriate/historically plausible language | interest, joy, awe     | immersion ↑          |
+| Visual and UI elements feel believable & atmospheric     | joy, interest, awe      | immersion ↑          |
+| Flat/under-informative or dry responses             | boredom, disappointment, neutral| immersion ↓         |
+| Narrative-incongruent or abrupt plot progressions   | confusion, disappointment   | immersion ↓         |
+| Character reactions that make story sense (in context)   | interest, awe, joy, mixed | immersion ↑ or stable|
+
+---
+
+### 4) Consistency/Design Checklists
+
+#### Consistency
+- Sudden opinion/identity shifts? (contradiction)
+- Dialogue repetition or structure reuse? (dialogue_repetition)
+- Flat, generic, or non-interactive replies? (flat_response)
+- References to AI or 'knowing it's a game'? (contradiction, none)
+- Accurate period-appropriate language/behavior? (period_appropriate_speech)
+- Historical or narrative plausibility? (historical_plausibility)
+- Out-of-context responses? (contradiction, none)
+
+#### Design/Visual
+- Visuals/UI supportive of immersion? (visual_supports_immersion)
+- Art/color/tone enhance narrative? (visual_supports_immersion)
+- Any design flaws mentioned that reduce immersion? (none)
+
+---
+
+### 5) Output Schema Fields and Allowed Values
+
+- **participant_id**: Text/Alphanumeric
+- **segment_id**: Text/Alphanumeric
+- **text_ko**: Korean free text
+- **emotion_primary**: {joy, interest, curiosity, awe, boredom, frustration, confusion, disappointment, mixed, neutral}
+- **valence**: {positive, negative, mixed, neutral}
+- **intensity_1to3**: {1, 2, 3}
+- **immersion_level**: {high, medium, low}
+- **consistency_tag**: {dialogue_repetition, contradiction, period_appropriate_speech, historical_plausibility, visual_supports_immersion, flat_response, none}
+- **descriptive_code**: Short phrase summarizing the key phenomenon (e.g., 'NPC contradiction breaks immersion', 'design-supported immersion', etc.)
+- **evidence_quote**: Short Korean quote excerpt (max 2 sentences)
+- **notes**: Brief analytic note or context expansion (optional)
+
+---
+
+### 6) Exemplar Korean Quotes & Coding
+
+#### A) 
+- **text_ko**: "Claudius가 자신이 범인이 아니라고 한 후, 다음 채팅에 바로 말을 바꾸는 부분에서 인공지능과 대화한다는 생각이 잠깐 들어서 흥미가 조금 떨어졌다."
+- **emotion_primary**: disappointment
+- **valence**: negative
+- **intensity_1to3**: 2
+- **immersion_level**: low
+- **consistency_tag**: contradiction
+- **descriptive_code**: NPC contradiction breaks immersion
+- **evidence_quote**: "말을 바꾸는 부분에서 인공지능과 대화한다는 생각이... 흥미가 조금 떨어졌다"
+- **notes**: Contradictory statements by Claudius break narrative illusion.
+
+#### B) 
+- **text_ko**: "샤일록이랑 대화할 때는 비슷한 말만 반복하는 것 같아서 살짝 어떻게 질문해야 하지?"
+- **emotion_primary**: boredom
+- **valence**: negative
+- **intensity_1to3**: 2
+- **immersion_level**: medium
+- **consistency_tag**: dialogue_repetition
+- **descriptive_code**: Repetitive dialogue undermines engagement
+- **evidence_quote**: "비슷한 말만 반복하는 것 같아서"
+- **notes**: Recurrent repetitions make dialogue less enjoyable.
+
+#### C) 
+- **text_ko**: "게임 자체의 디자인, 색감, 그림체 등이 게임 세계에 더 몰입할 수 있도록 도와주었고, 몰입을 하다 보니 현실 세계와 아주 큰 차이를 못 느꼈다."
+- **emotion_primary**: joy
+- **valence**: positive
+- **intensity_1to3**: 3
+- **immersion_level**: high
+- **consistency_tag**: visual_supports_immersion
+- **descriptive_code**: Design enhances immersion
+- **evidence_quote**: "디자인, 색감, 그림체 등이 더 몰입할 수 있도록 도와주었고"
+- **notes**: Visual and design elements strengthen the sense of being in-game.
+
+#### D)
+- **text_ko**: "두번째 캐릭터가 자꾸 자신이 AI라고 해서 몰입이 안됐다."
+- **emotion_primary**: disappointment
+- **valence**: negative
+- **intensity_1to3**: 3
+- **immersion_level**: low
+- **consistency_tag**: contradiction
+- **descriptive_code**: NPC self-reference as AI breaks immersion
+- **evidence_quote**: "자꾸 자신이 AI라고 해서 몰입이 안됐다."
+- **notes**: Overt AI-referencing disrupts narrative engagement.
+
+#### E)
+- **text_ko**: "클라디우스의 차분한 면모가 처음에는 어색했으나 햄릿이 미쳐있는 상황이라고 가정해보니 클라디우스의 차분함이 햄릿의 광기를 더 극대화시키는 것 같아 납득이 가는 수준이었다."
+- **emotion_primary**: interest
+- **valence**: mixed
+- **intensity_1to3**: 2
+- **immersion_level**: medium
+- **consistency_tag**: period_appropriate_speech
+- **descriptive_code**: Historically plausible character response increases believability
+- **evidence_quote**: "햄릿이 미쳐있는 상황이라고 가정해보니... 납득이 가는 수준이었다"
+- **notes**: The character's behavior, when viewed in context, feels plausible and supports story immersion.
+
+---
+
+Use these lenses, tags, and exemplars to systematically annotate and interpret Korean user survey data on LLM/NPC behavior, consistency, and immersive experience in story-based games.
+<<<END GUIDE>>>
+
+Schema (allowed values/types):
+{
+  "participant_id": "string",
+  "segment_id": "string",
+  "text_ko": "string",
+  "emotion_primary": "joy|interest|curiosity|awe|boredom|frustration|confusion|disappointment|mixed|neutral",
+  "valence": "positive|negative|mixed|neutral",
+  "intensity_1to3": 1,
+  "immersion_level": "high|medium|low",
+  "consistency_tag": "dialogue_repetition|contradiction|period_appropriate_speech|historical_plausibility|visual_supports_immersion|flat_response|none",
+  "descriptive_code": "short English noun-phrase about what the emotion is about",
+  "evidence_quote": "short Korean fragment quoted from text_ko",
+  "notes": "optional English note"
+}
+
+Rules:
+- Choose ONE primary emotion; use "mixed" only if truly ambivalent.
+- intensity_1to3: 1=mild, 2=moderate, 3=strong.
+- immersion_level: infer from engagement vs detachment cues.
+- consistency_tag: pick the best single tag; if none, "none".
+- descriptive_code: concise English label of WHAT the emotion is about.
+- evidence_quote: short Korean fragment directly quoted from text_ko.
+- notes: optional English.
+- Return ONLY JSONL, one object per input row.
+
+Rows (TSV):
+participant_id	segment_id	text_ko
+P19	P19_2386_01	무슨 질문만 하면 유대인의 입장을 생각하라는 똑같은 대사가 나와서 방해가 되었다.
+P10	P10_2386_01	방해하지 않았다.
+P22	P22_2386_01	살짝 방해받긴 했지만 게임에 지장이 갈 정도는 아니라고 생각한다.
+P18	P18_2386_01	공작이 포셔를 샤일록이라고 부르며 대화를 진행했음.
+P17	P17_2386_01	몰입에 방해감이 없었고 오히려 몰입되어서 결말을 뒤집으려고 노력을 하게 되었다.
+P25	P25_2386_01	내가 입력한 문장에 비해 캐릭터의 대사가 너무 길었다.
+P13	P13_2386_01	샤일록의 대사가 감정적으로 몰입하게 해줬다
+P26	P26_2386_01	표현들이 자연스러웠다.
+P12	P12_2386_01	캐릭터의 대사들은 감정적 몰입을 할 수 있게 하였지만 좀 잘 모르는 어려운 단어 같은 것들은 해석하기에 살짝 어려웠던 것 같다.
+P23	P23_2386_01	본인이 극 중 캐릭터라고 함
+P24	P24_2386_01	Shylock에게 논리적으로 계약서에 문제점이 있다고 주장했으나 그는 단 하나도 받아들이지 않았다.
+P24	P24_2386_02	그의 캐릭터성을 고려하면 있을 법한 일일 수도 있지만 약간 과하다고 느껴졌다.
+P01	P01_2386_01	캐릭터의 대사는 내가 게임에 몰입할 수 있게 해주었기 때문에
+P02	P02_2386_01	대사는 적절했음.
+P03	P03_2386_01	게임에서도 사일로만이 부조리한 행동을 하고 있다고 느껴서 몰입에 방해되지 않았다.
+P06	P06_4989_01	한 5번?6번?문항 넘어가고 나서는 딱히 할 말이 없어서 thanks (?)같은 말을 하고 끝냈다
+P09	P09_4989_01	게임에 대한 흥미와는 무관하다
+P08	P08_4989_01	없음.
+P11	P11_4989_01	예상이 약간 가는 전개였음
+P15	P15_4989_01	캐릭터가 플레이어의 설득에 따라 점점 긍정적인 답변을 주는 등 플레이어와의 소통을 반영하는 것이 느껴져 대화를 계속 이어나가고 싶다는 느낌이 들었다.
+P14	P14_4989_01	다음 답변이 기대되었다.
+P05	P05_4989_01	동화를 재미있게 본 느낌이어서 좋았다.
+P05	P05_4989_02	ai라고 말한 점도 크게 몰입을 깨지 않고 잘 연결되는 느낌이었다.
+P04	P04_4989_01	흥미가 떨어질 만한 대사는 없었습니다.
+P04	P04_4989_02	하지만 전반적인 대사의 톤이 차분하다고 느껴서서 사람이 아닌 인공지능과 대화하는 느낌을 받았습니다.
