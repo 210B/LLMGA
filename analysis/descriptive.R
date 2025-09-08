@@ -1,5 +1,6 @@
 setwd("C:/.Soyeon/GameAgent/LLMGA")
 
+
 suppressPackageStartupMessages({
   library(tidyverse)
   library(stringr)
@@ -109,7 +110,7 @@ if (nrow(long_df) > 0) {
     ) +
     facet_wrap(~ Measure, ncol = 2, scales = "free_y") +
     scale_fill_brewer(palette = "Pastel1", name = "Scenario") +
-    labs(title = "Scenario-split outcomes by Model", x = NULL, y = "GEQ Score") +  # y축 라벨만 유지
+    labs(title = "Scenario-split outcomes by Model", x = NULL, y = "Consistency Score") +  # y축 라벨만 유지
     theme_minimal(base_size = 12) +
     theme(
       legend.position = "bottom",
