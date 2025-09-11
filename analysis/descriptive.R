@@ -106,16 +106,23 @@ panel_border_theme <- theme(
 # 6a) 시나리오 분할: x=Model, 시나리오별 도징, 점 없음
 if (nrow(long_df) > 0) {
   # --- 파라미터(원하는 간격/두께로 조절) ---
-  bw      <- 0.3  # 각 박스 자체 너비
-  dodge   <- 0.50  # 같은 Model 내 시나리오 센터 간 거리 (도징 폭)
-  capw    <- 0.25  # 캡(가로선) 길이
+  bw      <- 0.3
+  dodge   <- 0.50
+  capw    <- 0.25
   
   # --- 좌표 준비: Model의 기본 x 위치 + 시나리오 도징 오프셋 ---
   model_lvls    <- levels(df[[MODEL_COL]])
   scenario_lvls <- levels(long_df$Scenario)
-  x_base_map <- setNames(seq(1, by = 1.5, length.out = length(model_lvls)), model_lvls)
+  x_base_map <- setNames(seq(1, by = 1.0, length.out = length(model_lvls)), model_lvls)
   
-  # 시나리오 수(k)에 따라 가운데 정렬 오프셋 계산 (예: 2개면 -dodge/2, +dodge/2)
+  # A/B 라벨을 보기 좋게 치환(다른 레벨은 그대로 유지)
+  model_label_map <- setNames(
+    ifelse(model_lvls == "A", "Baseline",
+           ifelse(model_lvls == "B", "Fine-tuned", as.character(model_lvls))),
+    model_lvls
+  )
+  
+  # 시나리오 수(k)에 따라 가운데 정렬 오프셋
   k <- length(scenario_lvls)
   scen_offsets <- setNames(seq(-(k-1)/2, (k-1)/2, length.out = k) * dodge, scenario_lvls)
   
@@ -133,14 +140,14 @@ if (nrow(long_df) > 0) {
       x_pos  = x_base + unname(scen_offsets[as.character(Scenario)])
     ) %>% select(-stats)
   
-  # --- 플롯(박스 내부 세로줄기 없음 + 캡 추가, 시나리오 도징 반영) ---
+  # --- 플롯 ---
   g1 <- ggplot(summary_df, aes(x = x_pos, fill = Scenario)) +
-    # 수염(박스 밖만)
+    # 수염
     geom_segment(aes(xend = x_pos, y = lower, yend = ymin),
                  linewidth = 0.6, color = "grey20") +
     geom_segment(aes(xend = x_pos, y = upper, yend = ymax),
                  linewidth = 0.6, color = "grey20") +
-    # 캡(가로선)
+    # 캡
     geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymin, yend = ymin),
                  linewidth = 0.6, color = "grey20") +
     geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymax, yend = ymax),
@@ -153,29 +160,35 @@ if (nrow(long_df) > 0) {
                  linewidth = 0.7, color = "grey30") +
     facet_wrap(~ Measure, ncol = 2, scales = "free_y") +
     scale_fill_brewer(palette = "Pastel1", name = "Scenario") +
-    # x축: Model 기준 눈금으로 표시 (시나리오 도징은 내부 좌표만 영향)
+    # x축 라벨: A/B → Baseline/Fine-tuned, 바깥 여백 축소
     scale_x_continuous(
       breaks = seq_along(model_lvls),
-      labels = model_lvls,
-      expand = c(0.2, 0.2)
+      labels = model_label_map[model_lvls],
+      expand = c(0.03, 0.03)   # 기존 0.2 → 0.03 로 축소 (바깥 여백 감소)
     ) +
-    labs(title = "Scenario-split outcomes by Model", x = NULL, y = "Consistency Score") +
+    # 타이틀 제거
+    labs(title = NULL, x = NULL, y = "Consistency Score") +
     theme_minimal(base_size = 12) +
     theme(
       legend.position = "bottom",
       strip.text      = element_blank(),
-      plot.title      = element_text(hjust = 0.5, face = "bold"),
-      panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7)
+      panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7),
+      plot.margin     = margin(t = 6, r = 4, b = 6, l = 4) # 바깥 여백 추가 축소
     )
   
+  # 폭을 약 4칸 느낌으로 축소 (기존 width=5 → 4)
   ggsave("figures/scenario_measures_boxstrip_2.png", g1,
-         width = 5, height = ceiling(nlevels(long_df$Measure) / 2) * 4.0,
+         width = 4, height = ceiling(nlevels(long_df$Measure) / 2) * 4.0,
          dpi = 300, bg = "white")
   message("📦 Saved → figures/scenario_measures_boxstrip_2.png")
 }
 
 # 6b) 전역 지표: immersion_ 접두어 제거해서 facet 이름 표시
 # 6b) 전역 지표: 박스 내부 세로선 제거 + 캡 추가 (오류 없는 버전)
+fill_scale_model <- scale_fill_manual(
+  values = model_palette, limits = model_levels, drop = FALSE, name = "Model", labels = c(A = "Baseline", B = "Fine-tuned")
+)
+
 if (length(global_numeric) > 0) {
   df_global_long <- df %>%
     select(all_of(c(MODEL_COL, global_numeric))) %>%
@@ -189,12 +202,12 @@ if (length(global_numeric) > 0) {
     )
   
   
-  bw   <- 0.40   # 박스 너비(데이터 좌표 단위)
-  capw <- 0.30   # 캡 길이
-  xpad <- 1.0    # 좌우 패딩(크게 줄수록 A-B가 더 붙어 보임)
+  bw   <- 0.25   # 박스 너비(데이터 좌표 단위)
+  capw <- 0.2   # 캡 길이
+  xpad <- max(bw, capw)/2 + 0.1    # 좌우 패딩(크게 줄수록 A-B가 더 붙어 보임)
   
   model_lvls <- levels(df[[MODEL_COL]])
-  x_map <- setNames(c(1, 2), model_lvls)   # ← 고정 좌표
+  x_map <- setNames(c(1.5, 2), model_lvls)   # ← 고정 좌표
   
   summary_df <- df_global_long %>%
     group_by(Measure, Model = .data[[MODEL_COL]]) %>%
@@ -224,10 +237,11 @@ if (length(global_numeric) > 0) {
     geom_segment(aes(x = x_pos - bw/2, xend = x_pos + bw/2, y = middle, yend = middle),
                  linewidth = 0.7, color = "grey30") +
     facet_wrap(~ Measure, nrow = 1, scales = "fixed") +
-    fill_scale_model +
+    fill_scale_model +                     # ← 색상 & 라벨 동시에 적용
     scale_x_continuous(
-      breaks = unname(x_map), labels = names(x_map),
-      limits = c(min(x_map) - xpad, max(x_map) + xpad),  # ← 여기로 간격 조절
+      breaks = unname(x_map),                       # x축 라벨 제거
+      labels = NULL,
+      limits = c(min(x_map) - xpad, max(x_map) + xpad),
       expand = c(0, 0)
     ) +
     labs(x = NULL, y = "GEQ Score") +
@@ -237,7 +251,9 @@ if (length(global_numeric) > 0) {
       strip.text      = element_text(face = "bold"),
       plot.title      = element_blank(),
       panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7),
-      panel.spacing.x = unit(0.15, "lines")
+      panel.spacing.x = unit(0.15, "lines"),
+      axis.text.x     = element_blank(),
+      axis.ticks.x    = element_blank()
     )
   
   ggsave("figures/global_measures_boxstrip_2.png", g2,
