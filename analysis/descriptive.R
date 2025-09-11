@@ -73,6 +73,8 @@ paired_numeric_cols <- pairs_tbl %>%
   pull(col) %>% unique()
 global_numeric <- setdiff(all_numeric, c(paired_numeric_cols, ID_COL))
 
+global_numeric <- setdiff(global_numeric, c("total", "immersion_total"))
+
 message("📌 Scenario measures (paired): ",
         ifelse(length(scenario_measures) > 0, paste(scenario_measures, collapse = ", "), "(none)"))
 message("📌 Global numeric outcomes: ",
@@ -103,18 +105,65 @@ panel_border_theme <- theme(
 
 # 6a) 시나리오 분할: x=Model, 시나리오별 도징, 점 없음
 if (nrow(long_df) > 0) {
-  g1 <- ggplot(long_df, aes(x = .data[[MODEL_COL]], y = Value, fill = Scenario)) +
-    geom_boxplot(
-      position = position_dodge(width = 0.75),
-      outlier.shape = NA, width = 0.4, color = "grey30"
-    ) +
+  # --- 파라미터(원하는 간격/두께로 조절) ---
+  bw      <- 0.3  # 각 박스 자체 너비
+  dodge   <- 0.50  # 같은 Model 내 시나리오 센터 간 거리 (도징 폭)
+  capw    <- 0.25  # 캡(가로선) 길이
+  
+  # --- 좌표 준비: Model의 기본 x 위치 + 시나리오 도징 오프셋 ---
+  model_lvls    <- levels(df[[MODEL_COL]])
+  scenario_lvls <- levels(long_df$Scenario)
+  x_base_map <- setNames(seq(1, by = 1.5, length.out = length(model_lvls)), model_lvls)
+  
+  # 시나리오 수(k)에 따라 가운데 정렬 오프셋 계산 (예: 2개면 -dodge/2, +dodge/2)
+  k <- length(scenario_lvls)
+  scen_offsets <- setNames(seq(-(k-1)/2, (k-1)/2, length.out = k) * dodge, scenario_lvls)
+  
+  # --- 상자그림 요약통계 계산 ---
+  summary_df <- long_df %>%
+    group_by(Measure, Scenario, Model = .data[[MODEL_COL]]) %>%
+    summarise(stats = list(boxplot.stats(Value[!is.na(Value)])$stats), .groups = "drop") %>%
+    mutate(
+      ymin   = purrr::map_dbl(stats, ~ .x[1]),
+      lower  = purrr::map_dbl(stats, ~ .x[2]),
+      middle = purrr::map_dbl(stats, ~ .x[3]),
+      upper  = purrr::map_dbl(stats, ~ .x[4]),
+      ymax   = purrr::map_dbl(stats, ~ .x[5]),
+      x_base = unname(x_base_map[as.character(Model)]),
+      x_pos  = x_base + unname(scen_offsets[as.character(Scenario)])
+    ) %>% select(-stats)
+  
+  # --- 플롯(박스 내부 세로줄기 없음 + 캡 추가, 시나리오 도징 반영) ---
+  g1 <- ggplot(summary_df, aes(x = x_pos, fill = Scenario)) +
+    # 수염(박스 밖만)
+    geom_segment(aes(xend = x_pos, y = lower, yend = ymin),
+                 linewidth = 0.6, color = "grey20") +
+    geom_segment(aes(xend = x_pos, y = upper, yend = ymax),
+                 linewidth = 0.6, color = "grey20") +
+    # 캡(가로선)
+    geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymin, yend = ymin),
+                 linewidth = 0.6, color = "grey20") +
+    geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymax, yend = ymax),
+                 linewidth = 0.6, color = "grey20") +
+    # 박스(Q1~Q3)
+    geom_rect(aes(xmin = x_pos - bw/2, xmax = x_pos + bw/2, ymin = lower, ymax = upper),
+              color = "grey30", linewidth = 0.7) +
+    # 중앙값
+    geom_segment(aes(x = x_pos - bw/2, xend = x_pos + bw/2, y = middle, yend = middle),
+                 linewidth = 0.7, color = "grey30") +
     facet_wrap(~ Measure, ncol = 2, scales = "free_y") +
     scale_fill_brewer(palette = "Pastel1", name = "Scenario") +
-    labs(title = "Scenario-split outcomes by Model", x = NULL, y = "Consistency Score") +  # y축 라벨만 유지
+    # x축: Model 기준 눈금으로 표시 (시나리오 도징은 내부 좌표만 영향)
+    scale_x_continuous(
+      breaks = seq_along(model_lvls),
+      labels = model_lvls,
+      expand = c(0.2, 0.2)
+    ) +
+    labs(title = "Scenario-split outcomes by Model", x = NULL, y = "Consistency Score") +
     theme_minimal(base_size = 12) +
     theme(
       legend.position = "bottom",
-      strip.text      = element_blank(),  # ← facet 제목 숨김
+      strip.text      = element_blank(),
       plot.title      = element_text(hjust = 0.5, face = "bold"),
       panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7)
     )
@@ -126,7 +175,7 @@ if (nrow(long_df) > 0) {
 }
 
 # 6b) 전역 지표: immersion_ 접두어 제거해서 facet 이름 표시
-# 6b) 전역 지표: 가로 한 줄(6칸) + y축 라벨 "GEQ Score"
+# 6b) 전역 지표: 박스 내부 세로선 제거 + 캡 추가 (오류 없는 버전)
 if (length(global_numeric) > 0) {
   df_global_long <- df %>%
     select(all_of(c(MODEL_COL, global_numeric))) %>%
@@ -135,27 +184,64 @@ if (length(global_numeric) > 0) {
     mutate(
       Measure = str_remove(Measure, "^immersion_"),
       Measure = str_replace_all(Measure, "_", " "),
-      Measure = str_to_sentence(Measure),   # 첫 글자 대문자 (time loss 등)
+      Measure = str_to_sentence(Measure),
       Measure = factor(Measure)
     )
   
-  g2 <- ggplot(df_global_long,
-               aes(x = .data[[MODEL_COL]], y = Value, fill = .data[[MODEL_COL]])) +
-    geom_boxplot(outlier.shape = NA, width = 0.4, color = "grey30") +
-    facet_wrap(~ Measure, nrow = 1, scales = "free_y") +   # ← 한 줄로
+  
+  bw   <- 0.40   # 박스 너비(데이터 좌표 단위)
+  capw <- 0.30   # 캡 길이
+  xpad <- 1.0    # 좌우 패딩(크게 줄수록 A-B가 더 붙어 보임)
+  
+  model_lvls <- levels(df[[MODEL_COL]])
+  x_map <- setNames(c(1, 2), model_lvls)   # ← 고정 좌표
+  
+  summary_df <- df_global_long %>%
+    group_by(Measure, Model = .data[[MODEL_COL]]) %>%
+    summarise(stats = list(boxplot.stats(Value[!is.na(Value)])$stats), .groups = "drop") %>%
+    mutate(
+      ymin   = purrr::map_dbl(stats, ~ .x[1]),
+      lower  = purrr::map_dbl(stats, ~ .x[2]),
+      middle = purrr::map_dbl(stats, ~ .x[3]),
+      upper  = purrr::map_dbl(stats, ~ .x[4]),
+      ymax   = purrr::map_dbl(stats, ~ .x[5]),
+      x_pos  = unname(x_map[as.character(Model)])
+    ) %>% select(-stats)
+  
+  g2 <- ggplot(summary_df, aes(x = x_pos, fill = Model)) +
+    # whisker stem (밖만)
+    geom_segment(aes(xend = x_pos, y = lower, yend = ymin), linewidth = 0.6, color = "grey20") +
+    geom_segment(aes(xend = x_pos, y = upper, yend = ymax), linewidth = 0.6, color = "grey20") +
+    # caps
+    geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymin, yend = ymin),
+                 linewidth = 0.6, color = "grey20") +
+    geom_segment(aes(x = x_pos - capw/2, xend = x_pos + capw/2, y = ymax, yend = ymax),
+                 linewidth = 0.6, color = "grey20") +
+    # box
+    geom_rect(aes(xmin = x_pos - bw/2, xmax = x_pos + bw/2, ymin = lower, ymax = upper),
+              color = "grey30", linewidth = 0.7) +
+    # median
+    geom_segment(aes(x = x_pos - bw/2, xend = x_pos + bw/2, y = middle, yend = middle),
+                 linewidth = 0.7, color = "grey30") +
+    facet_wrap(~ Measure, nrow = 1, scales = "fixed") +
     fill_scale_model +
-    labs(title = "Global outcomes by Model", x = NULL, y = "GEQ Score") +  # ← y축 라벨
+    scale_x_continuous(
+      breaks = unname(x_map), labels = names(x_map),
+      limits = c(min(x_map) - xpad, max(x_map) + xpad),  # ← 여기로 간격 조절
+      expand = c(0, 0)
+    ) +
+    labs(x = NULL, y = "GEQ Score") +
     theme_minimal(base_size = 12) +
     theme(
       legend.position = "bottom",
       strip.text      = element_text(face = "bold"),
-      plot.title      = element_text(hjust = 0.5, face = "bold"),
-      panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7)
+      plot.title      = element_blank(),
+      panel.border    = element_rect(colour = "black", fill = NA, linewidth = 0.7),
+      panel.spacing.x = unit(0.15, "lines")
     )
   
   ggsave("figures/global_measures_boxstrip_2.png", g2,
-         width = 12, height = 3.5,   # ← 가로 1행에 맞게 사이즈 조정
-         dpi = 300, bg = "white")
+         width = 8, height = 3.5, dpi = 300, bg = "white")
   message("📦 Saved → figures/global_measures_boxstrip_2.png")
 }
 
